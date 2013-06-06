@@ -1,0 +1,172 @@
+\hypertarget{class_rad_xml_1_1_xml_file}{\section{Rad\-Xml\-:\-:Xml\-File Class Reference}
+\label{class_rad_xml_1_1_xml_file}\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}}
+}
+
+
+{\ttfamily \#include $<$Rad\-Xml\-Xml\-File.\-h$>$}
+
+Inheritance diagram for Rad\-Xml\-:\-:Xml\-File\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_rad_xml_1_1_xml_file}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_rad_xml_1_1_xml_file_a89c4c345df487667373ec29956f6a4b5}{Xml\-File} ()
+\item 
+\hyperlink{class_rad_xml_1_1_xml_file_ad0871ea594bb172a623cc1e48d9b41e4}{$\sim$\-Xml\-File} ()
+\item 
+bool \hyperlink{class_rad_xml_1_1_xml_file_a8212ccd069b0ebfe4c5fbfd867a089d2}{load\-File} (std\-::string file)
+\item 
+void \hyperlink{class_rad_xml_1_1_xml_file_a9e962caf6cc93ed6e52e7a87575dd188}{parse\-X\-M\-L\-File} (\hyperlink{class_x_m_l_parser}{X\-M\-L\-Parser} $\ast$xml\-File)
+\item 
+bool \hyperlink{class_rad_xml_1_1_xml_file_aec8385b3ac1ff04f51c6d61a9a15aabc}{load\-External} (std\-::string \hyperlink{class_rad_xml_1_1_level_abc776669bbb0f37a6eed054b3708807b}{name}, std\-::string \hyperlink{class_rad_xml_1_1_xml_file_ab9f8fed4cd65ae694630e081b17c68b6}{filename})
+\item 
+void \hyperlink{class_rad_xml_1_1_xml_file_a0ad3dadda812845b99e278136e516e13}{execute\-External\-Function} (std\-::string \hyperlink{class_rad_xml_1_1_level_abc776669bbb0f37a6eed054b3708807b}{name}, std\-::string function)
+\item 
+bool \hyperlink{class_rad_xml_1_1_xml_file_af5b3c7bf1eed2ded19d901572216f35e}{unload\-External} (std\-::string \hyperlink{class_rad_xml_1_1_level_abc776669bbb0f37a6eed054b3708807b}{name})
+\item 
+void \hyperlink{class_rad_xml_1_1_xml_file_ad7fe1f308b809b9cb0dcadad170e8e29}{process\-Delete\-Objects} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_xml_file_ac0c6bab8c10e5395a5480cffbb9d1ba3}{set\-Filename} (std\-::string path)
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_xml_file_aff179d34509d495abf7b26742401d7de}{get\-Filename} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_xml_file_aa9b16a74fcda772626d42eff829c855a}{set\-Directory\-Path} (std\-::string path)
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_xml_file_a514282f33662a7e339a2eaeae58cc2c2}{get\-Directory\-Path} ()
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_xml_file_a2027f7a2c00857f24e2ac030edbb22bf}{get\-Dir\-Path} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_rad_xml_1_1_xml_file_a6242900d28a2af14f3abc34b36a94c3a}{d\-Rad\-Xml\-Version}
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_xml_file_ab9f8fed4cd65ae694630e081b17c68b6}{filename}
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_xml_file_a4c864ff74c563f379e3d5a5de44f1074}{dir\-Path}
+\item 
+\hyperlink{_rad_xml_xml_file_8h_a850417c8db77ee8afd12a38071844035}{H\-A\-S\-H\-M\-A\-P}$<$ unsigned long, int $>$ \hyperlink{class_rad_xml_1_1_xml_file_ad36527c7a674a1dffaa94ff0c6ad7e15}{hsh\-D\-L\-Ls}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_rad_xml_1_1_xml_file_a89c4c345df487667373ec29956f6a4b5}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!Xml\-File@{Xml\-File}}
+\index{Xml\-File@{Xml\-File}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{Xml\-File}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Xml\-File\-::\-Xml\-File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_xml_file_a89c4c345df487667373ec29956f6a4b5}
+\hypertarget{class_rad_xml_1_1_xml_file_ad0871ea594bb172a623cc1e48d9b41e4}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!$\sim$\-Xml\-File@{$\sim$\-Xml\-File}}
+\index{$\sim$\-Xml\-File@{$\sim$\-Xml\-File}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{$\sim$\-Xml\-File}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Xml\-File\-::$\sim$\-Xml\-File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_xml_file_ad0871ea594bb172a623cc1e48d9b41e4}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_rad_xml_1_1_xml_file_a0ad3dadda812845b99e278136e516e13}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!execute\-External\-Function@{execute\-External\-Function}}
+\index{execute\-External\-Function@{execute\-External\-Function}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{execute\-External\-Function}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Xml\-File\-::execute\-External\-Function (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{name, }
+\item[{std\-::string}]{function}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_xml_file_a0ad3dadda812845b99e278136e516e13}
+\hypertarget{class_rad_xml_1_1_xml_file_a514282f33662a7e339a2eaeae58cc2c2}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!get\-Directory\-Path@{get\-Directory\-Path}}
+\index{get\-Directory\-Path@{get\-Directory\-Path}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{get\-Directory\-Path}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Xml\-File\-::get\-Directory\-Path (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_xml_file_a514282f33662a7e339a2eaeae58cc2c2}
+\hypertarget{class_rad_xml_1_1_xml_file_a2027f7a2c00857f24e2ac030edbb22bf}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!get\-Dir\-Path@{get\-Dir\-Path}}
+\index{get\-Dir\-Path@{get\-Dir\-Path}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{get\-Dir\-Path}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Xml\-File\-::get\-Dir\-Path (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_xml_file_a2027f7a2c00857f24e2ac030edbb22bf}
+\hypertarget{class_rad_xml_1_1_xml_file_aff179d34509d495abf7b26742401d7de}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!get\-Filename@{get\-Filename}}
+\index{get\-Filename@{get\-Filename}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{get\-Filename}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Xml\-File\-::get\-Filename (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_xml_file_aff179d34509d495abf7b26742401d7de}
+\hypertarget{class_rad_xml_1_1_xml_file_aec8385b3ac1ff04f51c6d61a9a15aabc}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!load\-External@{load\-External}}
+\index{load\-External@{load\-External}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{load\-External}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Xml\-File\-::load\-External (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{name, }
+\item[{std\-::string}]{filename}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_xml_file_aec8385b3ac1ff04f51c6d61a9a15aabc}
+\hypertarget{class_rad_xml_1_1_xml_file_a8212ccd069b0ebfe4c5fbfd867a089d2}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!load\-File@{load\-File}}
+\index{load\-File@{load\-File}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{load\-File}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Xml\-File\-::load\-File (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_xml_file_a8212ccd069b0ebfe4c5fbfd867a089d2}
+\hypertarget{class_rad_xml_1_1_xml_file_a9e962caf6cc93ed6e52e7a87575dd188}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!parse\-X\-M\-L\-File@{parse\-X\-M\-L\-File}}
+\index{parse\-X\-M\-L\-File@{parse\-X\-M\-L\-File}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{parse\-X\-M\-L\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Xml\-File\-::parse\-X\-M\-L\-File (
+\begin{DoxyParamCaption}
+\item[{{\bf X\-M\-L\-Parser} $\ast$}]{xml\-File}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_xml_file_a9e962caf6cc93ed6e52e7a87575dd188}
+\hypertarget{class_rad_xml_1_1_xml_file_ad7fe1f308b809b9cb0dcadad170e8e29}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!process\-Delete\-Objects@{process\-Delete\-Objects}}
+\index{process\-Delete\-Objects@{process\-Delete\-Objects}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{process\-Delete\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Xml\-File\-::process\-Delete\-Objects (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_xml_file_ad7fe1f308b809b9cb0dcadad170e8e29}
+\hypertarget{class_rad_xml_1_1_xml_file_aa9b16a74fcda772626d42eff829c855a}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!set\-Directory\-Path@{set\-Directory\-Path}}
+\index{set\-Directory\-Path@{set\-Directory\-Path}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{set\-Directory\-Path}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Xml\-File\-::set\-Directory\-Path (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{path}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_xml_file_aa9b16a74fcda772626d42eff829c855a}
+\hypertarget{class_rad_xml_1_1_xml_file_ac0c6bab8c10e5395a5480cffbb9d1ba3}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!set\-Filename@{set\-Filename}}
+\index{set\-Filename@{set\-Filename}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{set\-Filename}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Xml\-File\-::set\-Filename (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{path}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_xml_file_ac0c6bab8c10e5395a5480cffbb9d1ba3}
+\hypertarget{class_rad_xml_1_1_xml_file_af5b3c7bf1eed2ded19d901572216f35e}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!unload\-External@{unload\-External}}
+\index{unload\-External@{unload\-External}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{unload\-External}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Xml\-File\-::unload\-External (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_xml_file_af5b3c7bf1eed2ded19d901572216f35e}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_rad_xml_1_1_xml_file_a4c864ff74c563f379e3d5a5de44f1074}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!dir\-Path@{dir\-Path}}
+\index{dir\-Path@{dir\-Path}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{dir\-Path}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Xml\-File\-::dir\-Path\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_xml_file_a4c864ff74c563f379e3d5a5de44f1074}
+\hypertarget{class_rad_xml_1_1_xml_file_a6242900d28a2af14f3abc34b36a94c3a}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!d\-Rad\-Xml\-Version@{d\-Rad\-Xml\-Version}}
+\index{d\-Rad\-Xml\-Version@{d\-Rad\-Xml\-Version}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{d\-Rad\-Xml\-Version}]{\setlength{\rightskip}{0pt plus 5cm}double Rad\-Xml\-::\-Xml\-File\-::d\-Rad\-Xml\-Version\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_xml_file_a6242900d28a2af14f3abc34b36a94c3a}
+\hypertarget{class_rad_xml_1_1_xml_file_ab9f8fed4cd65ae694630e081b17c68b6}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!filename@{filename}}
+\index{filename@{filename}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{filename}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Xml\-File\-::filename\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_xml_file_ab9f8fed4cd65ae694630e081b17c68b6}
+\hypertarget{class_rad_xml_1_1_xml_file_ad36527c7a674a1dffaa94ff0c6ad7e15}{\index{Rad\-Xml\-::\-Xml\-File@{Rad\-Xml\-::\-Xml\-File}!hsh\-D\-L\-Ls@{hsh\-D\-L\-Ls}}
+\index{hsh\-D\-L\-Ls@{hsh\-D\-L\-Ls}!RadXml::XmlFile@{Rad\-Xml\-::\-Xml\-File}}
+\subsubsection[{hsh\-D\-L\-Ls}]{\setlength{\rightskip}{0pt plus 5cm}{\bf H\-A\-S\-H\-M\-A\-P}$<$unsigned long, int$>$ Rad\-Xml\-::\-Xml\-File\-::hsh\-D\-L\-Ls\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_xml_file_ad36527c7a674a1dffaa94ff0c6ad7e15}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/\hyperlink{_rad_xml_xml_file_8h}{Rad\-Xml\-Xml\-File.\-h}\end{DoxyCompactItemize}

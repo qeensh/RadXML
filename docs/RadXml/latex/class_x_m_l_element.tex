@@ -1,0 +1,110 @@
+\hypertarget{class_x_m_l_element}{\section{X\-M\-L\-Element Class Reference}
+\label{class_x_m_l_element}\index{X\-M\-L\-Element@{X\-M\-L\-Element}}
+}
+
+
+{\ttfamily \#include $<$xml.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_x_m_l_element_ae6e0c3440c60484c1fa97e06efdae280}{X\-M\-L\-Element} ()
+\item 
+\hyperlink{class_x_m_l_element_a6c0b01c341ebdcc3be892eb34023faa9}{$\sim$\-X\-M\-L\-Element} ()
+\item 
+\hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$ \hyperlink{class_x_m_l_element_aa022ff51872cd499e943d22fd5f52bbc}{find\-Tag} (std\-::string tag\-To\-Find, \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$in\-Element=0)
+\item 
+std\-::vector$<$ \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$ $>$ \hyperlink{class_x_m_l_element_aa92b88f887c16bed4f72d21e32d27789}{find\-All\-Tags} (std\-::string tag\-To\-Find, \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$in\-Element=0, bool traverse\-Down=true)
+\item 
+std\-::string \hyperlink{class_x_m_l_element_af7e7c8a201337dacffad639153a4dd1c}{get\-Attribute\-Value} (std\-::string attribute\-Name)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$ \hyperlink{class_x_m_l_element_a6a1caf750f2b2d2b7c6d763b626517cb}{parent}
+\item 
+std\-::vector$<$ \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$ $>$ $\ast$ \hyperlink{class_x_m_l_element_a09644540f5dd8aeb16544332698ea940}{children}
+\item 
+std\-::string \hyperlink{class_x_m_l_element_a4f41640885a8b5dc7996f4828a129f59}{tag}
+\item 
+std\-::vector$<$ std\-::string $>$ \hyperlink{class_x_m_l_element_a6c39511e160c6e92a44f047de0609003}{ary\-Attribute\-Names}
+\item 
+std\-::vector$<$ std\-::string $>$ \hyperlink{class_x_m_l_element_aa3bb2a1409e55967e75299ef1c19279e}{ary\-Attribute\-Values}
+\item 
+std\-::string \hyperlink{class_x_m_l_element_ac2951cb6eff86940278169d76f7c4ef6}{content}
+\item 
+\hyperlink{class_x_m_l_parser}{X\-M\-L\-Parser} $\ast$ \hyperlink{class_x_m_l_element_a016e6b0f8fb87e7dae94e5d3aa08755c}{parent\-Parser}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_x_m_l_element_ae6e0c3440c60484c1fa97e06efdae280}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!X\-M\-L\-Element@{X\-M\-L\-Element}}
+\index{X\-M\-L\-Element@{X\-M\-L\-Element}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{X\-M\-L\-Element}]{\setlength{\rightskip}{0pt plus 5cm}X\-M\-L\-Element\-::\-X\-M\-L\-Element (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_element_ae6e0c3440c60484c1fa97e06efdae280}
+\hypertarget{class_x_m_l_element_a6c0b01c341ebdcc3be892eb34023faa9}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!$\sim$\-X\-M\-L\-Element@{$\sim$\-X\-M\-L\-Element}}
+\index{$\sim$\-X\-M\-L\-Element@{$\sim$\-X\-M\-L\-Element}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{$\sim$\-X\-M\-L\-Element}]{\setlength{\rightskip}{0pt plus 5cm}X\-M\-L\-Element\-::$\sim$\-X\-M\-L\-Element (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_element_a6c0b01c341ebdcc3be892eb34023faa9}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_x_m_l_element_aa92b88f887c16bed4f72d21e32d27789}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!find\-All\-Tags@{find\-All\-Tags}}
+\index{find\-All\-Tags@{find\-All\-Tags}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{find\-All\-Tags}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf X\-M\-L\-Element} $\ast$$>$ X\-M\-L\-Element\-::find\-All\-Tags (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{tag\-To\-Find, }
+\item[{{\bf X\-M\-L\-Element} $\ast$}]{in\-Element = {\ttfamily 0}, }
+\item[{bool}]{traverse\-Down = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_element_aa92b88f887c16bed4f72d21e32d27789}
+\hypertarget{class_x_m_l_element_aa022ff51872cd499e943d22fd5f52bbc}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!find\-Tag@{find\-Tag}}
+\index{find\-Tag@{find\-Tag}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{find\-Tag}]{\setlength{\rightskip}{0pt plus 5cm}{\bf X\-M\-L\-Element}$\ast$ X\-M\-L\-Element\-::find\-Tag (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{tag\-To\-Find, }
+\item[{{\bf X\-M\-L\-Element} $\ast$}]{in\-Element = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_element_aa022ff51872cd499e943d22fd5f52bbc}
+\hypertarget{class_x_m_l_element_af7e7c8a201337dacffad639153a4dd1c}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!get\-Attribute\-Value@{get\-Attribute\-Value}}
+\index{get\-Attribute\-Value@{get\-Attribute\-Value}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{get\-Attribute\-Value}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string X\-M\-L\-Element\-::get\-Attribute\-Value (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{attribute\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_element_af7e7c8a201337dacffad639153a4dd1c}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_x_m_l_element_a6c39511e160c6e92a44f047de0609003}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!ary\-Attribute\-Names@{ary\-Attribute\-Names}}
+\index{ary\-Attribute\-Names@{ary\-Attribute\-Names}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{ary\-Attribute\-Names}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$std\-::string$>$ X\-M\-L\-Element\-::ary\-Attribute\-Names}}\label{class_x_m_l_element_a6c39511e160c6e92a44f047de0609003}
+\hypertarget{class_x_m_l_element_aa3bb2a1409e55967e75299ef1c19279e}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!ary\-Attribute\-Values@{ary\-Attribute\-Values}}
+\index{ary\-Attribute\-Values@{ary\-Attribute\-Values}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{ary\-Attribute\-Values}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$std\-::string$>$ X\-M\-L\-Element\-::ary\-Attribute\-Values}}\label{class_x_m_l_element_aa3bb2a1409e55967e75299ef1c19279e}
+\hypertarget{class_x_m_l_element_a09644540f5dd8aeb16544332698ea940}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!children@{children}}
+\index{children@{children}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{children}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf X\-M\-L\-Element} $\ast$$>$$\ast$ X\-M\-L\-Element\-::children}}\label{class_x_m_l_element_a09644540f5dd8aeb16544332698ea940}
+\hypertarget{class_x_m_l_element_ac2951cb6eff86940278169d76f7c4ef6}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!content@{content}}
+\index{content@{content}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{content}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string X\-M\-L\-Element\-::content}}\label{class_x_m_l_element_ac2951cb6eff86940278169d76f7c4ef6}
+\hypertarget{class_x_m_l_element_a6a1caf750f2b2d2b7c6d763b626517cb}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!parent@{parent}}
+\index{parent@{parent}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{parent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf X\-M\-L\-Element}$\ast$ X\-M\-L\-Element\-::parent}}\label{class_x_m_l_element_a6a1caf750f2b2d2b7c6d763b626517cb}
+\hypertarget{class_x_m_l_element_a016e6b0f8fb87e7dae94e5d3aa08755c}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!parent\-Parser@{parent\-Parser}}
+\index{parent\-Parser@{parent\-Parser}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{parent\-Parser}]{\setlength{\rightskip}{0pt plus 5cm}{\bf X\-M\-L\-Parser}$\ast$ X\-M\-L\-Element\-::parent\-Parser}}\label{class_x_m_l_element_a016e6b0f8fb87e7dae94e5d3aa08755c}
+\hypertarget{class_x_m_l_element_a4f41640885a8b5dc7996f4828a129f59}{\index{X\-M\-L\-Element@{X\-M\-L\-Element}!tag@{tag}}
+\index{tag@{tag}!XMLElement@{X\-M\-L\-Element}}
+\subsubsection[{tag}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string X\-M\-L\-Element\-::tag}}\label{class_x_m_l_element_a4f41640885a8b5dc7996f4828a129f59}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/xml/\hyperlink{xml_8h}{xml.\-h}\end{DoxyCompactItemize}

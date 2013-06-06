@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "radxml", "radxml.vcproj", "{B871A753-0C71-47DD-836E-C96C54D61B08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug DLL|Win32 = Debug DLL|Win32
+		Debug Static|Win32 = Debug Static|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B871A753-0C71-47DD-836E-C96C54D61B08}.Debug DLL|Win32.ActiveCfg = Debug DLL|Win32
+		{B871A753-0C71-47DD-836E-C96C54D61B08}.Debug DLL|Win32.Build.0 = Debug DLL|Win32
+		{B871A753-0C71-47DD-836E-C96C54D61B08}.Debug Static|Win32.ActiveCfg = Debug|Win32
+		{B871A753-0C71-47DD-836E-C96C54D61B08}.Debug Static|Win32.Build.0 = Debug|Win32
+		{B871A753-0C71-47DD-836E-C96C54D61B08}.Release|Win32.ActiveCfg = Release|Win32
+		{B871A753-0C71-47DD-836E-C96C54D61B08}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

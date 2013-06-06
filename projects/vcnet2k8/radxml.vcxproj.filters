@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Languages">
+      <UniqueIdentifier>{6bb09f17-2224-4a2f-9cb4-5ac9f6e4e576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{45716311-1727-4310-9eca-13492af1a1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Main">
+      <UniqueIdentifier>{ef9ad290-79bd-4cf9-ae17-3cb18c8c6f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Main\Headers">
+      <UniqueIdentifier>{3e140729-c8f6-4bf5-aa41-21823e164051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Main\Sources">
+      <UniqueIdentifier>{a5138953-dd12-4c1c-a0a9-1a67c2402802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{00251df7-35c7-4d87-8a48-ef17f7b54429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\TinyXML">
+      <UniqueIdentifier>{bcbd2936-a7f8-4bbe-8187-14c7970d375c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\TinyXML\Headers">
+      <UniqueIdentifier>{7d77dbbf-a5f0-4edf-b572-140d5a7284d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\TinyXML\Sources">
+      <UniqueIdentifier>{e069dd41-5a6e-4f12-b4f1-dfa9acf1ca1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Main">
+      <UniqueIdentifier>{ec08a9b8-a740-4497-8a42-302fcf9f18af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Main\Headers">
+      <UniqueIdentifier>{1faaf0fa-f41a-42be-960d-7b677a387ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Main\Sources">
+      <UniqueIdentifier>{3d7fb992-7dcc-4715-b989-bd53d2058cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML">
+      <UniqueIdentifier>{deb207e8-dce8-41b5-8b9c-86ddd736103c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Game">
+      <UniqueIdentifier>{e5e040d3-0017-4a7a-aba1-7a56c554f3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Game\Elements">
+      <UniqueIdentifier>{117246d1-8186-4a3f-b512-7d2469542090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Game\Elements\Headers">
+      <UniqueIdentifier>{758d24da-b87e-4ef0-9db2-d981345fc0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Game\Elements\Sources">
+      <UniqueIdentifier>{5a7222bf-b90a-4a54-bf29-861dce3c5325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Game\Main">
+      <UniqueIdentifier>{f0458640-212b-429f-9b21-68ec975c8bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Game\Main\Headers">
+      <UniqueIdentifier>{c221b3dc-a518-4d4d-9d2f-1bbbd2169a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Game\Main\Sources">
+      <UniqueIdentifier>{b6df5ca5-63e7-464c-99a0-903b272a5e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\App">
+      <UniqueIdentifier>{d3b469e9-86a3-48d5-b218-4c23c7472371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\App\Elements">
+      <UniqueIdentifier>{e662c3bc-89cc-4bf8-aa9d-26600c795d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\App\Elements\Headers">
+      <UniqueIdentifier>{f4cc1a2d-ffe9-4e1c-a9f4-38a4e79e8c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\App\Elements\Sources">
+      <UniqueIdentifier>{d1417cae-ea26-4f2c-9cd6-2a7ec3de04e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\App\Main">
+      <UniqueIdentifier>{d64c328f-ab88-4b05-bbcc-0411932a425e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\App\Main\Sources">
+      <UniqueIdentifier>{6b20e17e-bf22-4401-800d-26dc5fa0af77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\App\Main\Headers">
+      <UniqueIdentifier>{b2199958-7a9b-4dba-8bc1-4d149020f828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Main">
+      <UniqueIdentifier>{a9ed8d84-8f79-4d44-8ef8-6f2ef6345ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Main\Sources">
+      <UniqueIdentifier>{1b089769-3e01-4c25-849a-d28afbbe31ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Main\Headers">
+      <UniqueIdentifier>{48fea1a6-37f8-4759-a8af-501ee1d585f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Math">
+      <UniqueIdentifier>{9daa2599-0e94-47e0-9307-3cf00121e514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Math\Headers">
+      <UniqueIdentifier>{b8a6402b-2f1f-45ca-ba52-b67a56c78f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Math\Sources">
+      <UniqueIdentifier>{14a957ef-ecaa-4f51-a726-1d0ad594b65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Global">
+      <UniqueIdentifier>{b3ad8cc9-7e73-4299-8afb-a4492590d190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Global\Headers">
+      <UniqueIdentifier>{e4f008ec-5b07-44d3-b664-6fbf4c2a171b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Global\Sources">
+      <UniqueIdentifier>{6905a99d-0372-48ce-b8ff-8a0bafafd934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Native">
+      <UniqueIdentifier>{648d6b26-0d18-45c4-b32a-9067abc58fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Native\Headers">
+      <UniqueIdentifier>{988f9dda-08d8-48cc-a5e7-25bdc7e3508d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Native\Sources">
+      <UniqueIdentifier>{7049c348-5b8d-44b0-ab31-bc9815fe6ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Input">
+      <UniqueIdentifier>{8b0489d0-afd5-41c1-b270-4b6ab166ca9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Input\Headers">
+      <UniqueIdentifier>{2181b1ff-b07b-406f-86bc-0797061e25b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Input\Sources">
+      <UniqueIdentifier>{c3ee05e2-e981-412f-80ac-cf6ed9b84274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Networking">
+      <UniqueIdentifier>{aa9d7232-a756-4cd8-b295-1cdb6c2bfc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Networking\Headers">
+      <UniqueIdentifier>{414e9527-59fd-426f-bf8f-98fd95b10bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Networking\Sources">
+      <UniqueIdentifier>{0cc9047d-b7a7-4cef-b533-bf127539eddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Javascript Engine">
+      <UniqueIdentifier>{92b33776-9f58-4b5b-a4f5-ab757746bd16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Javascript Engine\V8">
+      <UniqueIdentifier>{8431c360-434c-4fcf-b04e-cee727fe53eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Javascript Engine\V8\Headers">
+      <UniqueIdentifier>{8a153d08-0911-4252-8156-a8ce87cb7df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Javascript Engine\V8\Sources">
+      <UniqueIdentifier>{e628884f-53f6-4b37-8d47-211bbfa72be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Javascript Engine\Main">
+      <UniqueIdentifier>{09616fb2-5d24-42ef-8b76-ca95af098ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Javascript Engine\Main\Headers">
+      <UniqueIdentifier>{1a444a8f-2ed9-410c-ae8d-29f59d79133c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RADXML\Javascript Engine\Main\Sources">
+      <UniqueIdentifier>{75db5c59-c1e2-44f4-9dae-1306f5f41d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxWidgets">
+      <UniqueIdentifier>{8a6552c1-ad84-4b46-ba04-371c9a5302e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxWidgets\Main">
+      <UniqueIdentifier>{aaa54aaa-250f-4289-b573-384280ee59c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxWidgets\Main\Headers">
+      <UniqueIdentifier>{19371586-ff26-4723-8a96-825f54d731c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxWidgets\Main\Sources">
+      <UniqueIdentifier>{d31f289c-39f4-4f8a-ab04-9b8d0e591030}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\RadXml\languages\en_us.h">
+      <Filter>Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\languages\language.h">
+      <Filter>Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\common\com_radxml_algorithms.h">
+      <Filter>Common\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\common\com_radxml_array.h">
+      <Filter>Common\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\common\com_radxml_sound.h">
+      <Filter>Common\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\common\com_radxml_strconv.h">
+      <Filter>Common\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\common\mai_radxml_system.h">
+      <Filter>Common\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk\tinyxml\tinystr.h">
+      <Filter>XML\TinyXML\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk\tinyxml\tinyxml.h">
+      <Filter>XML\TinyXML\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\xml\xml.h">
+      <Filter>XML\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlAnimationTrack.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlAudioListener.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlCamera.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlEntity.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlLevel.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlLight.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlMovable.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlOverlay.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlOverlayElement.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlParticleSystem.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlSound.h">
+      <Filter>RADXML\Game\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlGame.h">
+      <Filter>RADXML\Game\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlAppObject.h">
+      <Filter>RADXML\App\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlButton.h">
+      <Filter>RADXML\App\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlComboBox.h">
+      <Filter>RADXML\App\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlLabel.h">
+      <Filter>RADXML\App\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlMenu.h">
+      <Filter>RADXML\App\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlMenuItem.h">
+      <Filter>RADXML\App\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlTextbox.h">
+      <Filter>RADXML\App\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlWindow.h">
+      <Filter>RADXML\App\Elements\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlApp.h">
+      <Filter>RADXML\App\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXml.h">
+      <Filter>RADXML\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlDatatypes.h">
+      <Filter>RADXML\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlPreprocessor.h">
+      <Filter>RADXML\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlSingleton.h">
+      <Filter>RADXML\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlXmlFile.h">
+      <Filter>RADXML\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlQuaternion.h">
+      <Filter>RADXML\Math\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlVector2.h">
+      <Filter>RADXML\Math\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlVector3.h">
+      <Filter>RADXML\Math\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlVector4.h">
+      <Filter>RADXML\Math\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlEvents.h">
+      <Filter>RADXML\Global\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlGlobal.h">
+      <Filter>RADXML\Global\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlSerialIO.h">
+      <Filter>RADXML\Global\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlSystem.h">
+      <Filter>RADXML\Global\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlTextFile.h">
+      <Filter>RADXML\Global\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlTimer.h">
+      <Filter>RADXML\Global\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlNative.h">
+      <Filter>RADXML\Native\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlInput.h">
+      <Filter>RADXML\Input\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlNetworking.h">
+      <Filter>RADXML\Networking\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlV8JavascriptEngine.h">
+      <Filter>RADXML\Javascript Engine\V8\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlV8JavascriptTypes.h">
+      <Filter>RADXML\Javascript Engine\V8\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\RadXmlJavascriptEngine.h">
+      <Filter>RADXML\Javascript Engine\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\wxwidgets\RadXmlWxWidgets.h">
+      <Filter>wxWidgets\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\wxwidgets\RadXmlWxWidgetsNetworking.h">
+      <Filter>wxWidgets\Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\networking\net_global.h">
+      <Filter>RADXML\Networking\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RadXml\networking\net_netclass.h">
+      <Filter>RADXML\Networking\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\RadXml\common\com_radxml_algorithms.cpp">
+      <Filter>Common\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\common\com_radxml_array.cpp">
+      <Filter>Common\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\common\com_radxml_sound.cpp">
+      <Filter>Common\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\common\com_radxml_strconv.cpp">
+      <Filter>Common\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\common\mai_radxml_system.cpp">
+      <Filter>Common\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\sdk\tinyxml\tinystr.cpp">
+      <Filter>XML\TinyXML\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\sdk\tinyxml\tinyxml.cpp">
+      <Filter>XML\TinyXML\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\sdk\tinyxml\tinyxmlerror.cpp">
+      <Filter>XML\TinyXML\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\sdk\tinyxml\tinyxmlparser.cpp">
+      <Filter>XML\TinyXML\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\xml\xml.cpp">
+      <Filter>XML\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlAnimationTrack.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlAudioListener.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlCamera.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlEntity.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlLevel.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlLight.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlMovable.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlOverlay.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlOverlayElement.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlParticleSystem.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlSound.cpp">
+      <Filter>RADXML\Game\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlGame.cpp">
+      <Filter>RADXML\Game\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlAppObject.cpp">
+      <Filter>RADXML\App\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlButton.cpp">
+      <Filter>RADXML\App\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlComboBox.cpp">
+      <Filter>RADXML\App\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlLabel.cpp">
+      <Filter>RADXML\App\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlMenu.cpp">
+      <Filter>RADXML\App\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlMenuItem.cpp">
+      <Filter>RADXML\App\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlTextbox.cpp">
+      <Filter>RADXML\App\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlWindow.cpp">
+      <Filter>RADXML\App\Elements\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlApp.cpp">
+      <Filter>RADXML\App\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXml.cpp">
+      <Filter>RADXML\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlXmlFile.cpp">
+      <Filter>RADXML\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\RadXmlQuaternion.cpp">
+      <Filter>RADXML\Math\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\RadXmlVector2.cpp">
+      <Filter>RADXML\Math\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlVector3.cpp">
+      <Filter>RADXML\Math\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\RadXmlVector4.cpp">
+      <Filter>RADXML\Math\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlEvents.cpp">
+      <Filter>RADXML\Global\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlGlobal.cpp">
+      <Filter>RADXML\Global\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\RadXmlSerialIO.cpp">
+      <Filter>RADXML\Global\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlSystem.cpp">
+      <Filter>RADXML\Global\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\RadXmlTextFile.cpp">
+      <Filter>RADXML\Global\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlTimer.cpp">
+      <Filter>RADXML\Global\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\RadXmlNative.cpp">
+      <Filter>RADXML\Native\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radxml\RadXmlInput.cpp">
+      <Filter>RADXML\Input\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\RadXmlNetworking.cpp">
+      <Filter>RADXML\Networking\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\RadXmlV8JavascriptEngine.cpp">
+      <Filter>RADXML\Javascript Engine\V8\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\RadXmlJavascriptEngine.cpp">
+      <Filter>RADXML\Javascript Engine\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\wxwidgets\RadXmlWxWidgets.cpp">
+      <Filter>wxWidgets\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\wxwidgets\RadXmlWxWidgetsNetworking.cpp">
+      <Filter>wxWidgets\Main\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RadXml\networking\net_main.cpp">
+      <Filter>RADXML\Networking\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

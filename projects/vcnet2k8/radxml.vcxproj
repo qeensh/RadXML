@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="AppUp Debug|Win32">
+      <Configuration>AppUp Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="AppUp Release|Win32">
+      <Configuration>AppUp Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="AppUp WebMobLink Ads Debug|Win32">
+      <Configuration>AppUp WebMobLink Ads Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug DLL|Win32">
+      <Configuration>Debug DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Embed Java Debug|Win32">
+      <Configuration>Embed Java Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Embed Java Release|Win32">
+      <Configuration>Embed Java Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Free Debug|Win32">
+      <Configuration>Free Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Free Release|Win32">
+      <Configuration>Free Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="JNI Debug|Win32">
+      <Configuration>JNI Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="JNI Release|Win32">
+      <Configuration>JNI Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ScreenSaver Debug|Win32">
+      <Configuration>ScreenSaver Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ScreenSaver Release|Win32">
+      <Configuration>ScreenSaver Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Video Ads Debug|Win32">
+      <Configuration>Video Ads Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Video Ads Release|Win32">
+      <Configuration>Video Ads Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E837D707-6E0F-4B15-A972-CDABF3C80B6E}</ProjectGuid>
+    <RootNamespace>zelda</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Video Ads Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Video Ads Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ScreenSaver Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ScreenSaver Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='AppUp WebMobLink Ads Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='JNI Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='JNI Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Embed Java Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Embed Java Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='AppUp Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='AppUp Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Video Ads Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Video Ads Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ScreenSaver Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ScreenSaver Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='AppUp WebMobLink Ads Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='JNI Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='JNI Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Embed Java Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Embed Java Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='AppUp Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='AppUp Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)../../objects_d/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)../../objects/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='AppUp Debug|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='AppUp Debug|Win32'">$(SolutionDir)../../appup_objects_d/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='AppUp Release|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='AppUp Release|Win32'">$(SolutionDir)../../appup_objects/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'">$(SolutionDir)../../free_objects_d/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'">$(SolutionDir)../../free_objects/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Embed Java Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Embed Java Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Embed Java Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Embed Java Release|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='JNI Debug|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='JNI Debug|Win32'">$(SolutionDir)../../objects_d/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='JNI Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='JNI Release|Win32'">$(SolutionDir)../../objects/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='AppUp WebMobLink Ads Debug|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='AppUp WebMobLink Ads Debug|Win32'">$(SolutionDir)../../appup_webmoblink_objects_d/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ScreenSaver Debug|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ScreenSaver Debug|Win32'">$(SolutionDir)../../scrnsvr_objects_d/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ScreenSaver Release|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ScreenSaver Release|Win32'">$(SolutionDir)../../scrnsvr_objects/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Video Ads Debug|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Video Ads Debug|Win32'">$(SolutionDir)../../vads_objects_d/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Video Ads Release|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Video Ads Release|Win32'">$(SolutionDir)../../vads_objects/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(SolutionDir)../../executable/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(SolutionDir)../../objects_d/\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\include;C:\editing\c\sdk\ogre_src_v1-7-3\OgreMain\include;C:\editing\c\sdk\wgois\ois\branches\v1-3\includes;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\include;C:\editing\c\sdk\tinyxml;C:\editing\c\sdk\v8\include;C:\editing\c\sdk\CEGUI-0.7.5\cegui\include;C:\editing\c\sdk\openal\include;C:\editing\c\sdk\libogg-1.2.2\include;C:\editing\c\sdk\libvorbis-1.3.2\include;C:\editing\c\projects\radxml\include\RadXml;C:\editing\c\sdk\wxPack\include\msvc;C:\editing\c\sdk\wxPack\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defENABLE_FRAME_RATE_LIMITER;defAPI_JAVASCRIPT_V8;defAPI_TINY_XML;defLANG_EN_US;defAPI_OGRE3D;defAPI_CEGUI;NOMINMAX;defLIB_STATIC;defAPI_WXWIDGETS;defNET_ON;wxUSE_GUI=1;__WXDEBUG__;WINVER=0x0400;WXDEBUG=1;wxUSE_DYNLIB_CLASS=1;WXUSINGDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>wxbase28d.lib;wxmsw28d_core.lib;WSock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_static_d.lib</OutputFile>
+      <AdditionalLibraryDirectories>C:\editing\c\sdk\wxPack\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\include;C:\editing\c\sdk\ogre_src_v1-7-3\OgreMain\include;C:\editing\c\sdk\wgois\ois\branches\v1-3\includes;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\include;C:\editing\c\sdk\tinyxml;C:\editing\c\sdk\v8\include;C:\editing\c\sdk\CEGUI-0.7.5\cegui\include;C:\editing\c\sdk\openal\include;C:\editing\c\sdk\libogg-1.2.2\include;C:\editing\c\sdk\libvorbis-1.3.2\include;C:\editing\c\projects\radxml\include\RadXml;C:\editing\c\sdk\wxPack\include\msvc;C:\editing\c\sdk\wxPack\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defENABLE_FRAME_RATE_LIMITER;defAPI_JAVASCRIPT_V8;defAPI_TINY_XML;defLANG_EN_US;defAPI_OGRE3D;defAPI_CEGUI;NOMINMAX;defLIB_STATIC;defNET_ON;defAPI_WXWIDGETS;NDEBUG;__WXMSW__;wxUSE_GUI=1;WINVER=0x0400;WXUSINGDLL;NOPCH;wxUSE_DYNLIB_CLASS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>wxbase28.lib;wxmsw28_core.lib;WSock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_static.lib</OutputFile>
+      <AdditionalLibraryDirectories>C:\editing\c\sdk\wxPack\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='AppUp Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(IADP_SDK_DIR)\Cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OPENAL;defAPI_OPENAL_NOT_IN_DIRECTORY;defAPI_OIS;defAPI_VORBIS_FILE;defAPI_APPUP;defENABLE_FRAME_RATE_LIMITER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;OpenAL32.lib;libvorbisfile.lib;Iphlpapi.lib;adpcored.lib;adpcppfd.lib;psapi.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)appup_$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(IADP_SDK_DIR)\Cpp\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='AppUp Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(IADP_SDK_DIR)\Cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OPENAL;defAPI_OPENAL_NOT_IN_DIRECTORY;defAPI_OIS;defAPI_VORBIS_FILE;defAPI_APPUP;defENABLE_FRAME_RATE_LIMITER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;OpenAL32.lib;libvorbisfile.lib;Iphlpapi.lib;adpcore.lib;adpcppf.lib;psapi.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)appup_$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(IADP_SDK_DIR)\Cpp\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\include;C:\editing\c\sdk\ogre_src_v1-7-3\OgreMain\include;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\include;C:\editing\c\sdk\wgois\ois\branches\v1-3\includes;C:\editing\c\sdk\mOceanIntelCPPSDK\Include;C:\editing\c\sdk\mOceanIntelCPPSDK\WTL\Include;$(IADP_SDK_DIR)\Cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OGRE3D_17_OR_HIGHER;defAPI_OPENAL;defAPI_OPENAL_NOT_IN_DIRECTORY;defAPI_OIS;defAPI_VORBIS_FILE;defENABLE_FRAME_RATE_LIMITER;defAPI_APPUP;defADS_ON;defAPI_MOCEAN_WIN32_INTEL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;OpenAL32.lib;libvorbisfile.lib;mOceanCore.lib;Iphlpapi.lib;adpcored.lib;adpcppfd.lib;psapi.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\lib\Debug;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\lib\Debug;C:\editing\c\sdk\wgois\ois\branches\v1-3\dll;C:\editing\c\sdk\mOceanIntelCPPSDK\Lib\Debug;$(IADP_SDK_DIR)\Cpp\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OPENAL;defAPI_OPENAL_NOT_IN_DIRECTORY;defAPI_OIS;defAPI_VORBIS_FILE;defENABLE_FRAME_RATE_LIMITER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;OpenAL32.lib;libvorbisfile.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(IADP_SDK_DIR)\Cpp\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Embed Java Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OPENAL;defAPI_OPENAL_NOT_IN_DIRECTORY;defAPI_OIS;defAPI_VORBIS_FILE;defAPI_JAVA;defAPI_EMBED_IN_JAVA_JAR;defENABLE_FRAME_RATE_LIMITER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;OpenAL32.lib;libvorbisfile.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ManifestResourceCompile>
+      <ResourceOutputFileName>$(SolutionDir)../../source/win32/resources/manifest.xml</ResourceOutputFileName>
+    </ManifestResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Embed Java Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OPENAL;defAPI_OPENAL_NOT_IN_DIRECTORY;defAPI_OIS;defAPI_OGG_VORBIS;defAPI_VORBIS_FILE;defAPI_JAVA;defAPI_EMBED_IN_JAVA_JAR;defENABLE_FRAME_RATE_LIMITER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;OpenAL32.lib;libvorbisfile.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ManifestResourceCompile>
+      <ResourceOutputFileName>$(SolutionDir)../../source/win32/resources/manifest.xml</ResourceOutputFileName>
+    </ManifestResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='JNI Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8\include;C:\editing\c\sdk\ogre_src_v1-7-3\OgreMain\include;C:\editing\c\sdk\ogre_src_v1-7-3\PlugIns\ParticleFX\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\Direct3D9\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\Direct3D10\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\Direct3D11\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\GL\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\GL\src\GLSL\include;C:\editing\c\sdk\wgois\ois\branches\v1-3\includes;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defLINK_DYNAMIC;defAPI_OGRE3D;defAPI_OGRE3D_17_OR_HIGHER;defAPI_OIS;defAPI_JAVA;defAPI_EMBED_IN_JAVA_JAR;defAPI_OGRE3D_USE_STATIC_PLUGINS;OGRE_STATIC_GL;OGRE_STATIC_Direct3D9;OGRE_STATIC_ParticleFX;defAPI_OGRE_INCLUDE_OGRE_LOGO;defENABLE_FRAME_RATE_LIMITER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMainStatic_d.lib;RenderSystem_Direct3D9Static_d.lib;d3d9.lib;d3dx9d.lib;dxguid.lib;DxErr.lib;RenderSystem_GLStatic_d.lib;opengl32.lib;Glu32.lib;Plugin_ParticleFXStatic_d.lib;FreeImaged.lib;freetype2311_D.lib;zlibd.lib;zziplibd.lib;OgreWin32Resources.res;jvm.lib;OIS_static_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.dll</OutputFile>
+      <AdditionalLibraryDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8\lib\Debug;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\lib\Debug;C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8\OgreMain\OgreMain.dir\Debug;C:\editing\c\sdk\wgois\ois\branches\v1-3\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='JNI Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OPENAL;defAPI_OPENAL_NOT_IN_DIRECTORY;defAPI_OIS;defAPI_VORBIS_FILE;defAPI_JAVA;defAPI_EMBED_IN_JAVA_JAR;defENABLE_FRAME_RATE_LIMITER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;OpenAL32.lib;libvorbisfile.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(IADP_SDK_DIR)\Cpp\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='AppUp WebMobLink Ads Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\include;C:\editing\c\sdk\ogre_src_v1-7-3\OgreMain\include;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\include;C:\editing\c\sdk\wgois\ois\branches\v1-3\includes;C:\editing\c\sdk\webmoblink\debug;$(IADP_SDK_DIR)\Cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OGRE3D_17_OR_HIGHER;defAPI_OPENAL;defAPI_OPENAL_NOT_IN_DIRECTORY;defAPI_OIS;defAPI_VORBIS_FILE;defENABLE_FRAME_RATE_LIMITER;defAPI_APPUP;defADS_ON;defAPI_WEBMOBLINK_WIN32_INTEL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;OpenAL32.lib;libvorbisfile.lib;webmoblink_intel_appup_sdk.lib;Iphlpapi.lib;adpcored.lib;adpcppfd.lib;psapi.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\lib\Debug;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\lib\Debug;C:\editing\c\sdk\wgois\ois\branches\v1-3\dll;C:\editing\c\sdk\webmoblink\debug;$(IADP_SDK_DIR)\Cpp\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ScreenSaver Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8\include;C:\editing\c\sdk\ogre_src_v1-7-3\OgreMain\include;C:\editing\c\sdk\ogre_src_v1-7-3\PlugIns\ParticleFX\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\Direct3D9\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\Direct3D10\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\Direct3D11\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\GL\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\GL\src\GLSL\include;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OGRE3D_17_OR_HIGHER;defENABLE_FRAME_RATE_LIMITER;defLINK_SCREENSAVER;defAPI_OGRE3D_USE_STATIC_PLUGINS;OGRE_STATIC_GL;OGRE_STATIC_Direct3D9;OGRE_STATIC_ParticleFX;defAPI_OGRE_INCLUDE_OGRE_LOGO;defEMBEDDED_RESOURCES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMainStatic_d.lib;RenderSystem_Direct3D9Static_d.lib;d3d9.lib;d3dx9d.lib;dxguid.lib;DxErr.lib;RenderSystem_GLStatic_d.lib;opengl32.lib;Glu32.lib;Plugin_ParticleFXStatic_d.lib;FreeImaged.lib;freetype2311_D.lib;zlibd.lib;zziplibd.lib;scrnsave.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.scr</OutputFile>
+      <AdditionalLibraryDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8\lib\Debug;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\lib\Debug;C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8\OgreMain\OgreMain.dir\Debug;C:\editing\c\sdk\wgois\ois\branches\v1-3\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ManifestResourceCompile>
+      <ResourceOutputFileName>$(SolutionDir)../../source/win32/resources/manifest.xml</ResourceOutputFileName>
+    </ManifestResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ScreenSaver Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8\include;C:\editing\c\sdk\ogre_src_v1-7-3\OgreMain\include;C:\editing\c\sdk\ogre_src_v1-7-3\PlugIns\ParticleFX\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\Direct3D9\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\Direct3D10\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\Direct3D11\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\GL\include;C:\editing\c\sdk\ogre_src_v1-7-3\RenderSystems\GL\src\GLSL\include;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OGRE3D_17_OR_HIGHER;defENABLE_FRAME_RATE_LIMITER;defLINK_SCREENSAVER;defAPI_OGRE3D_USE_STATIC_PLUGINS;OGRE_STATIC_GL;OGRE_STATIC_Direct3D9;OGRE_STATIC_ParticleFX;defAPI_OGRE_INCLUDE_OGRE_LOGO;defEMBEDDED_RESOURCES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMainStatic.lib;RenderSystem_Direct3D9Static.lib;d3d9.lib;d3dx9.lib;dxguid.lib;DxErr.lib;RenderSystem_GLStatic.lib;opengl32.lib;Glu32.lib;Plugin_ParticleFXStatic.lib;FreeImage.lib;freetype2311.lib;zlib.lib;zziplib.lib;scrnsave.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).scr</OutputFile>
+      <AdditionalLibraryDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8\lib\MinSizeRel;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\lib\Release;C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8\OgreMain\OgreMain.dir\MinSizeRel;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ManifestResourceCompile>
+      <ResourceOutputFileName>$(SolutionDir)../../source/win32/resources/manifest.xml</ResourceOutputFileName>
+    </ManifestResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Video Ads Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\include;C:\editing\c\sdk\ogre_src_v1-7-3\OgreMain\include;C:\editing\c\sdk\wgois\ois\branches\v1-3\includes;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OGRE3D_17_OR_HIGHER;defAPI_OPENAL;defAPI_OPENAL_NOT_IN_DIRECTORY;defAPI_OIS;defAPI_VORBIS_FILE;defAPI_OGRE3D_VIDEO_PLUGIN;defENABLE_FRAME_RATE_LIMITER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;OpenAL32.lib;libvorbisfile.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\lib\Debug;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\lib\Debug;C:\editing\c\sdk\wgois\ois\branches\v1-3\dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ManifestResourceCompile>
+      <ResourceOutputFileName>$(SolutionDir)../../source/win32/resources/manifest.xml</ResourceOutputFileName>
+    </ManifestResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Video Ads Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\include;C:\editing\c\sdk\ogre_src_v1-7-3\OgreMain\include;C:\editing\c\sdk\wgois\ois\branches\v1-3\includes;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defAPI_OGRE3D;defAPI_OGRE3D_17_OR_HIGHER;defAPI_OPENAL;defAPI_OPENAL_NOT_IN_DIRECTORY;defAPI_OIS;defAPI_OGG_VORBIS;defAPI_VORBIS_FILE;defAPI_OGRE3D_VIDEO_PLUGIN;defENABLE_FRAME_RATE_LIMITER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;OpenAL32.lib;libvorbisfile.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\lib\MinSizeRel;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\lib\Release;C:\editing\c\sdk\wgois\ois\branches\v1-3\dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ManifestResourceCompile>
+      <ResourceOutputFileName>$(SolutionDir)../../source/win32/resources/manifest.xml</ResourceOutputFileName>
+    </ManifestResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\include;C:\editing\c\sdk\ogre_src_v1-7-3\OgreMain\include;C:\editing\c\sdk\wgois\ois\branches\v1-3\includes;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\include;C:\editing\c\sdk\tinyxml;C:\editing\c\sdk\v8\include;C:\editing\c\sdk\CEGUI-0.7.5\cegui\include;C:\editing\c\sdk\openal\include;C:\editing\c\sdk\libogg-1.2.2\include;C:\editing\c\sdk\libvorbis-1.3.2\include;C:\editing\c\projects\radxml\include\RadXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;defARCH_X86;defVCNET2K8;defSYS_WIN32;defENABLE_FRAME_RATE_LIMITER;defAPI_JAVASCRIPT_V8;defAPI_TINY_XML;defLANG_EN_US;defAPI_OGRE3D;NOMINMAX;defLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;OpenAL32.lib;libvorbisfile.lib;CEGUIBase_d.lib;CEGUIOgreRenderer_d.lib;Winmm.lib;WSock32.lib;ws2_32.lib;v8_g.lib;v8preparser_g.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.dll</OutputFile>
+      <AdditionalLibraryDirectories>C:\editing\c\sdk\ogre_src_v1-7-3\vcnet2k8dynlib\lib\Debug;C:\editing\c\sdk\ogre_src_v1-7-3\Dependencies\lib\Debug;C:\editing\c\sdk\wgois\ois\branches\v1-3\dll;C:\editing\c\sdk\v8;C:\editing\c\sdk\CEGUI-0.7.5\lib;C:\editing\c\sdk\openal\libs\Win32;C:\editing\c\sdk\libogg-1.2.2\win32\VS2008\Win32\Debug;C:\editing\c\sdk\libvorbis-1.3.2\win32\VS2008\Win32\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ManifestResourceCompile>
+      <ResourceOutputFileName>$(SolutionDir)../../source/win32/resources/manifest.xml</ResourceOutputFileName>
+    </ManifestResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\RadXml\languages\en_us.h" />
+    <ClInclude Include="..\..\include\RadXml\languages\language.h" />
+    <ClInclude Include="..\..\include\RadXml\common\com_radxml_algorithms.h" />
+    <ClInclude Include="..\..\include\RadXml\common\com_radxml_array.h" />
+    <ClInclude Include="..\..\include\RadXml\common\com_radxml_sound.h" />
+    <ClInclude Include="..\..\include\RadXml\common\com_radxml_strconv.h" />
+    <ClInclude Include="..\..\include\RadXml\common\mai_radxml_system.h" />
+    <ClInclude Include="..\..\..\..\sdk\tinyxml\tinystr.h" />
+    <ClInclude Include="..\..\..\..\sdk\tinyxml\tinyxml.h" />
+    <ClInclude Include="..\..\include\RadXml\xml\xml.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlAnimationTrack.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlAudioListener.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlCamera.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlEntity.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlLevel.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlLight.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlMovable.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlOverlay.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlOverlayElement.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlParticleSystem.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlSound.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlGame.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlAppObject.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlButton.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlComboBox.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlLabel.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlMenu.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlMenuItem.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlTextbox.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlWindow.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlApp.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXml.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlDatatypes.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlPreprocessor.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlSingleton.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlXmlFile.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlQuaternion.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlVector2.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlVector3.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlVector4.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlEvents.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlGlobal.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlSerialIO.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlSystem.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlTextFile.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlTimer.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlNative.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlInput.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlNetworking.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlV8JavascriptEngine.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlV8JavascriptTypes.h" />
+    <ClInclude Include="..\..\include\RadXml\RadXmlJavascriptEngine.h" />
+    <ClInclude Include="..\..\include\RadXml\wxwidgets\RadXmlWxWidgets.h" />
+    <ClInclude Include="..\..\include\RadXml\wxwidgets\RadXmlWxWidgetsNetworking.h" />
+    <ClInclude Include="..\..\include\RadXml\networking\net_global.h" />
+    <ClInclude Include="..\..\include\RadXml\networking\net_netclass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\RadXml\common\com_radxml_algorithms.cpp" />
+    <ClCompile Include="..\..\source\RadXml\common\com_radxml_array.cpp" />
+    <ClCompile Include="..\..\source\RadXml\common\com_radxml_sound.cpp" />
+    <ClCompile Include="..\..\source\RadXml\common\com_radxml_strconv.cpp" />
+    <ClCompile Include="..\..\source\RadXml\common\mai_radxml_system.cpp" />
+    <ClCompile Include="..\..\..\..\sdk\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\..\..\..\sdk\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\..\..\..\sdk\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\..\sdk\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\source\radxml\xml\xml.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlAnimationTrack.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlAudioListener.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlCamera.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlEntity.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlLevel.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlLight.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlMovable.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlOverlay.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlOverlayElement.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlParticleSystem.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlSound.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlGame.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlAppObject.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlButton.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlComboBox.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlLabel.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlMenu.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlMenuItem.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlTextbox.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlWindow.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlApp.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXml.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlXmlFile.cpp" />
+    <ClCompile Include="..\..\source\RadXml\RadXmlQuaternion.cpp" />
+    <ClCompile Include="..\..\source\RadXml\RadXmlVector2.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlVector3.cpp" />
+    <ClCompile Include="..\..\source\RadXml\RadXmlVector4.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlEvents.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlGlobal.cpp" />
+    <ClCompile Include="..\..\source\RadXml\RadXmlSerialIO.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlSystem.cpp" />
+    <ClCompile Include="..\..\source\RadXml\RadXmlTextFile.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlTimer.cpp" />
+    <ClCompile Include="..\..\source\RadXml\RadXmlNative.cpp" />
+    <ClCompile Include="..\..\source\radxml\RadXmlInput.cpp" />
+    <ClCompile Include="..\..\source\RadXml\RadXmlNetworking.cpp" />
+    <ClCompile Include="..\..\source\RadXml\RadXmlV8JavascriptEngine.cpp" />
+    <ClCompile Include="..\..\source\RadXml\RadXmlJavascriptEngine.cpp" />
+    <ClCompile Include="..\..\source\RadXml\wxwidgets\RadXmlWxWidgets.cpp" />
+    <ClCompile Include="..\..\source\RadXml\wxwidgets\RadXmlWxWidgetsNetworking.cpp" />
+    <ClCompile Include="..\..\source\RadXml\networking\net_main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

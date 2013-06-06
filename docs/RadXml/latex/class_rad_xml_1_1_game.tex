@@ -1,0 +1,142 @@
+\hypertarget{class_rad_xml_1_1_game}{\section{Rad\-Xml\-:\-:Game Class Reference}
+\label{class_rad_xml_1_1_game}\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}}
+}
+
+
+{\ttfamily \#include $<$Rad\-Xml\-Game.\-h$>$}
+
+Inheritance diagram for Rad\-Xml\-:\-:Game\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_rad_xml_1_1_game}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_rad_xml_1_1_game_ad128bd70c1b5192043c265cb02daf188}{Game\-::\-Game} (std\-::string new\-Name)
+\item 
+\hyperlink{class_rad_xml_1_1_game_a672c06cb1bbad3da1c6f89c83cce46ef}{$\sim$\-Game} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_game_ae4191ebc6092a4041d4a1c96b95a1e3c}{destroy\-All\-Game\-Objects} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_game_a41e38a48bac32c76e19614f6ee908bdd}{set\-Name} (std\-::string new\-Name)
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_game_a3dc609b2e608a141472a2509e6e39d51}{get\-Name} ()
+\item 
+unsigned long \hyperlink{class_rad_xml_1_1_game_a1bdee17dc5f4ac9f66786f2b170b4183}{get\-Hash} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_game_adb846e54106c1b19fbb43e072cf84309}{parse} (\hyperlink{class_rad_xml_1_1_xml_file}{Xml\-File} $\ast$file, \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$element)
+\item 
+void \hyperlink{class_rad_xml_1_1_game_ae2bec8d6b22ec8c0155171e3a28ad549}{add\-Movable\-For\-Deletion} (\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$object)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_game_acfa184f816c42afb462e985c0c6791e6}{game\-Name}
+\item 
+unsigned long \hyperlink{class_rad_xml_1_1_game_afbd8616a2f0521361a742eb3cd69e76c}{game\-Hash}
+\item 
+std\-::vector$<$ \hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$ $>$ \hyperlink{class_rad_xml_1_1_game_a7186c002bcf30641657bd3b92fac6557}{ary\-Movables\-To\-Delete}
+\item 
+\hyperlink{_rad_xml_xml_file_8h_a850417c8db77ee8afd12a38071844035}{H\-A\-S\-H\-M\-A\-P}$<$ unsigned long, \hyperlink{class_rad_xml_1_1_level}{Level} $\ast$ $>$ \hyperlink{class_rad_xml_1_1_game_aea067e9ef6053bce626d3a41459619e5}{hsh\-Levels}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_rad_xml_1_1_game_a672c06cb1bbad3da1c6f89c83cce46ef}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!$\sim$\-Game@{$\sim$\-Game}}
+\index{$\sim$\-Game@{$\sim$\-Game}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{$\sim$\-Game}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Game\-::$\sim$\-Game (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_game_a672c06cb1bbad3da1c6f89c83cce46ef}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_rad_xml_1_1_game_ae2bec8d6b22ec8c0155171e3a28ad549}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!add\-Movable\-For\-Deletion@{add\-Movable\-For\-Deletion}}
+\index{add\-Movable\-For\-Deletion@{add\-Movable\-For\-Deletion}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{add\-Movable\-For\-Deletion}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Game\-::add\-Movable\-For\-Deletion (
+\begin{DoxyParamCaption}
+\item[{{\bf Movable} $\ast$}]{object}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_game_ae2bec8d6b22ec8c0155171e3a28ad549}
+\hypertarget{class_rad_xml_1_1_game_ae4191ebc6092a4041d4a1c96b95a1e3c}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!destroy\-All\-Game\-Objects@{destroy\-All\-Game\-Objects}}
+\index{destroy\-All\-Game\-Objects@{destroy\-All\-Game\-Objects}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{destroy\-All\-Game\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Game\-::destroy\-All\-Game\-Objects (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_game_ae4191ebc6092a4041d4a1c96b95a1e3c}
+\hypertarget{class_rad_xml_1_1_game_ad128bd70c1b5192043c265cb02daf188}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!Game\-::\-Game@{Game\-::\-Game}}
+\index{Game\-::\-Game@{Game\-::\-Game}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{Game\-::\-Game}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Game\-::\-Game\-::\-Game (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_game_ad128bd70c1b5192043c265cb02daf188}
+\hypertarget{class_rad_xml_1_1_game_a1bdee17dc5f4ac9f66786f2b170b4183}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!get\-Hash@{get\-Hash}}
+\index{get\-Hash@{get\-Hash}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{get\-Hash}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Rad\-Xml\-::\-Game\-::get\-Hash (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_game_a1bdee17dc5f4ac9f66786f2b170b4183}
+
+
+Reimplemented from \hyperlink{class_rad_xml_1_1_level_a48ff3193aec92d0c7cad922d52a6e4e0}{Rad\-Xml\-::\-Level}.
+
+\hypertarget{class_rad_xml_1_1_game_a3dc609b2e608a141472a2509e6e39d51}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!get\-Name@{get\-Name}}
+\index{get\-Name@{get\-Name}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{get\-Name}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Game\-::get\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_game_a3dc609b2e608a141472a2509e6e39d51}
+
+
+Reimplemented from \hyperlink{class_rad_xml_1_1_level_a12a8c3a6a9ac38dc57cccb8f0273a542}{Rad\-Xml\-::\-Level}.
+
+\hypertarget{class_rad_xml_1_1_game_adb846e54106c1b19fbb43e072cf84309}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!parse@{parse}}
+\index{parse@{parse}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Game\-::parse (
+\begin{DoxyParamCaption}
+\item[{{\bf Xml\-File} $\ast$}]{file, }
+\item[{{\bf X\-M\-L\-Element} $\ast$}]{element}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_game_adb846e54106c1b19fbb43e072cf84309}
+
+
+Reimplemented from \hyperlink{class_rad_xml_1_1_level_a64745c6a7e0753b15a67fd907ed0ba90}{Rad\-Xml\-::\-Level}.
+
+\hypertarget{class_rad_xml_1_1_game_a41e38a48bac32c76e19614f6ee908bdd}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!set\-Name@{set\-Name}}
+\index{set\-Name@{set\-Name}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{set\-Name}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Game\-::set\-Name (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_game_a41e38a48bac32c76e19614f6ee908bdd}
+
+
+Reimplemented from \hyperlink{class_rad_xml_1_1_level_ac7845bc40a2077c0c9da6b19ba5e82a5}{Rad\-Xml\-::\-Level}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_rad_xml_1_1_game_a7186c002bcf30641657bd3b92fac6557}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!ary\-Movables\-To\-Delete@{ary\-Movables\-To\-Delete}}
+\index{ary\-Movables\-To\-Delete@{ary\-Movables\-To\-Delete}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{ary\-Movables\-To\-Delete}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Movable} $\ast$$>$ Rad\-Xml\-::\-Game\-::ary\-Movables\-To\-Delete\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_game_a7186c002bcf30641657bd3b92fac6557}
+\hypertarget{class_rad_xml_1_1_game_afbd8616a2f0521361a742eb3cd69e76c}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!game\-Hash@{game\-Hash}}
+\index{game\-Hash@{game\-Hash}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{game\-Hash}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Rad\-Xml\-::\-Game\-::game\-Hash\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_game_afbd8616a2f0521361a742eb3cd69e76c}
+\hypertarget{class_rad_xml_1_1_game_acfa184f816c42afb462e985c0c6791e6}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!game\-Name@{game\-Name}}
+\index{game\-Name@{game\-Name}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{game\-Name}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Game\-::game\-Name\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_game_acfa184f816c42afb462e985c0c6791e6}
+\hypertarget{class_rad_xml_1_1_game_aea067e9ef6053bce626d3a41459619e5}{\index{Rad\-Xml\-::\-Game@{Rad\-Xml\-::\-Game}!hsh\-Levels@{hsh\-Levels}}
+\index{hsh\-Levels@{hsh\-Levels}!RadXml::Game@{Rad\-Xml\-::\-Game}}
+\subsubsection[{hsh\-Levels}]{\setlength{\rightskip}{0pt plus 5cm}{\bf H\-A\-S\-H\-M\-A\-P}$<$unsigned long, {\bf Level} $\ast$$>$ Rad\-Xml\-::\-Game\-::hsh\-Levels\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_game_aea067e9ef6053bce626d3a41459619e5}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/\hyperlink{_rad_xml_game_8h}{Rad\-Xml\-Game.\-h}\end{DoxyCompactItemize}

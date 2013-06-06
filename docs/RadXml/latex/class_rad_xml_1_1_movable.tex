@@ -1,0 +1,731 @@
+\hypertarget{class_rad_xml_1_1_movable}{\section{Rad\-Xml\-:\-:Movable Class Reference}
+\label{class_rad_xml_1_1_movable}\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}}
+}
+
+
+{\ttfamily \#include $<$Rad\-Xml\-Movable.\-h$>$}
+
+Inheritance diagram for Rad\-Xml\-:\-:Movable\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=11.000000cm]{class_rad_xml_1_1_movable}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_rad_xml_1_1_movable_a77fb6a99effa2d728b743035803bf5e7}{Movable} (std\-::string new\-Name)
+\item 
+\hyperlink{class_rad_xml_1_1_movable_a186ba3cb69a83f984d5780d418d36368}{$\sim$\-Movable} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a0ec1273070085006bd8eae6702c9c6d1}{init} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a38de43c5c67c417eb528c2b842eb1505}{set\-Name} (std\-::string new\-Name)
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_movable_a2eba187824e9c5b07f9a94221ffacdf5}{get\-Name} ()
+\item 
+unsigned long \hyperlink{class_rad_xml_1_1_movable_a18bbb0515dc8144b58b19319bc877373}{get\-Hash} ()
+\item 
+virtual void \hyperlink{class_rad_xml_1_1_movable_af8911805b88cf189231d8beed68e4018}{set\-Visible} (bool visible)=0
+\item 
+virtual bool \hyperlink{class_rad_xml_1_1_movable_a9dfae163267b8152017c9531fb74343f}{get\-Visible} ()=0
+\item 
+virtual \hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$ \hyperlink{class_rad_xml_1_1_movable_ac6a4bed9cfb97803f982201be0f70caa}{clone} (std\-::string new\-Name, \hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$parent=0)=0
+\item 
+virtual void \hyperlink{class_rad_xml_1_1_movable_a3bfa50630cbc5b287f5b54262744ac63}{parse\-X\-M\-L} (\hyperlink{class_rad_xml_1_1_xml_file}{Xml\-File} $\ast$level, \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$element, \hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$parent=0)=0
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a4ead93cfd127298003b6d235a9d8e264}{create\-Scene\-Node} (Ogre\-::\-Movable\-Object $\ast$object, \hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$parent=0)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a7e4741fde083b750fad8898319a442ea}{destroy\-Scene\-Node} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a17a0acd7863ffdd29b43dd54562780f7}{parse\-Movable\-X\-M\-L} (\hyperlink{class_rad_xml_1_1_xml_file}{Xml\-File} $\ast$level, \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$element, \hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$parent=0)
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_movable_ad503030b7802dc348f047383d1c261d7}{get\-Movable\-X\-M\-L} ()
+\item 
+Ogre\-::\-Scene\-Node $\ast$ \hyperlink{class_rad_xml_1_1_movable_a49ab6bdee1afafdb05c12961bfaa7e2c}{get\-Scene\-Node} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_ae256f0b78c1a8f03370f3d549bd48bb6}{set\-Position} (Ogre\-::\-Vector3 new\-Data)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a3d9d9507a90255d230b01e9f0f0b62d9}{set\-Position} (double x, double y, double z)
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_ab69347d861e351b88f317621b54b8e4e}{Movable\-::get\-Position} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a97ced6b112dc3adb6bb65a96d6ec6541}{translate} (double x, double y, double z)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a19859333de2fb83a3a587ad170e4d6b2}{set\-Scale} (Ogre\-::\-Vector3 new\-Data)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a4d695254ab62abbc4c87644a5ed14e1b}{set\-Scale} (double x, double y, double z)
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a352cfa186aaf137037f5b2ab34e83675}{get\-Scale} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_afd672527bbc7b6d6f2ee12a4c66bffef}{set\-Rotation} (Ogre\-::\-Vector3 new\-Data)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_aa316c744d7576472284f91ddee191bf0}{set\-Rotation} (double yaw, double pitch, double roll)
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_ab5cb621d9b1b333222eec4fb5fe19731}{get\-Rotation} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_aef3d5d3004921baaf715ef5e8934df16}{set\-Yaw} (double yaw)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_accfcc53830f8eee0d471a3fd2bf2e891}{set\-Pitch} (double pitch)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a0b55bb5f2eaa28fafbd0fbdba0ade493}{set\-Roll} (double roll)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_aa6c2e8c8291325c41177c2dedce6307c}{set\-Velocity} (Ogre\-::\-Vector3 new\-Data)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_ad71ae5b248b38a93ad99a7f824a74a19}{set\-Velocity} (double x, double y, double z)
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_aeccf663ffc43f47f310dca34f4693844}{get\-Velocity} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_aae58f1fc4aaa90cf7d10784e508c74db}{set\-Acceleration} (Ogre\-::\-Vector3 new\-Data)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a0acd18b2e9166e104b5a6c52d14ced96}{set\-Acceleration} (double x, double y, double z)
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a306b17ef1a30f37ac5b5e7b1eb1bdcb5}{get\-Acceleration} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a4c3b16c72ae91ae49759056f8d497c35}{set\-Max\-Velocity} (Ogre\-::\-Vector3 new\-Data)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_aae6d83b64a2bc5b7c5fee36c1d7578d2}{set\-Max\-Velocity} (double x, double y, double z)
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a882e0c59107b0eb7d394129eac66100a}{get\-Max\-Velocity} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_afe0b9b99290454963eb20b504033579c}{set\-Friction} (Ogre\-::\-Vector3 new\-Data)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a4fd2a01d0323682b86e9268272d18d76}{set\-Friction} (double x, double y, double z)
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a1a1ec82d75b5cbed77ab01315dff597d}{get\-Friction} ()
+\item 
+Ogre\-::\-Quaternion \hyperlink{class_rad_xml_1_1_movable_afa9b2f8bb1e0eeb6f7992e2a73d24d6a}{get\-Orientation} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a0dfd632dd159425d2c6c1447a8ee4fdc}{move\-Entity} (Ogre\-::\-Frame\-Event evt\-Event)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_ae8e3f0777c50764ba2aeef9080e51f59}{set\-Bounding\-Box\-Visible} (bool value)
+\item 
+bool \hyperlink{class_rad_xml_1_1_movable_ac1660599e097d8fa759759dce9f6a58d}{get\-Bounding\-Box\-Visible} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a4bca04b2055fb61297d572ef3a0082bd}{set\-Immovable} (bool is\-Immovable)
+\item 
+bool \hyperlink{class_rad_xml_1_1_movable_a9c3a2c3ccce67462b43ca7bf9d8ba53f}{get\-Immovable} ()
+\item 
+int \hyperlink{class_rad_xml_1_1_movable_acda306c7c857069bae1eff519ccd65c7}{get\-Type} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a58c1cd1d17fc619db5d1b753108b314c}{set\-Collides} (bool value)
+\item 
+bool \hyperlink{class_rad_xml_1_1_movable_a76f2d5016a49fe2414aa11d538aa1f6b}{get\-Collides} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a3ef12d2561cb90c61466c2da2946152e}{set\-Parent} (\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$parent)
+\item 
+\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$ \hyperlink{class_rad_xml_1_1_movable_a60fdb43cc0ffd18ced685b936a33ba07}{get\-Parent} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_af14b657fa5a04bfa541fa1b873a60e89}{add\-Child} (\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$child)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_af51a6d86e3958c36e3bb945f067fc044}{remove\-Child} (\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$child)
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_aa29244d007c7a24d6250b83c8593aa3a}{remove\-All\-Children} ()
+\item 
+\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$ \hyperlink{class_rad_xml_1_1_movable_aafdf585d768ae11a6aab0e1e29609c6d}{get\-Child} (unsigned int index)
+\item 
+unsigned int \hyperlink{class_rad_xml_1_1_movable_a792ea0d34b0516fd683695933dbc8564}{get\-Num\-Children} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a2446fe34b6fd5460b16b61d87df7ac60}{set\-Look\-At} (Ogre\-::\-Vector3 target, int transform\-Space, Ogre\-::\-Vector3 local\-Dir\-Vector)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a3de3093817a316ee72d98287685e88fe}{scale}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a47fdedc6734fda7e25a22e4527f56cc4}{rotation}
+\item 
+\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$ \hyperlink{class_rad_xml_1_1_movable_a624600f78a33a6b6a49c9352948f57a7}{collided\-With\-Object}
+\item 
+bool \hyperlink{class_rad_xml_1_1_movable_ad48b86b6ae47d1eb8b617f261e1e78a9}{collides}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_rad_xml_1_1_movable_a0fc376b64aacdc97140b1e9d1ff4345f}{set\-Type} (int new\-Type)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_movable_aaea33a220c19157231ac3fae2b0c5134}{name}
+\item 
+unsigned long \hyperlink{class_rad_xml_1_1_movable_afb9f3fb58df7f80ca1ed3a17e776e84b}{hash\-Name}
+\item 
+int \hyperlink{class_rad_xml_1_1_movable_a4a71bc0ac95b2e359c73e8d6b96d1c6e}{i\-Type}
+\item 
+Ogre\-::\-Scene\-Node $\ast$ \hyperlink{class_rad_xml_1_1_movable_a459ee5de83b72757d2081cac98f25bb2}{sn\-Node}
+\item 
+\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$ \hyperlink{class_rad_xml_1_1_movable_a65a2f76dbee86d45e73e73843b1c54be}{m\-Parent}
+\item 
+std\-::vector$<$ \hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$ $>$ \hyperlink{class_rad_xml_1_1_movable_ade16ade0ce2baf111d16c42769dfacfe}{ary\-Children}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a0557c828c38faf3447a6910c038e7673}{position}
+\item 
+bool \hyperlink{class_rad_xml_1_1_movable_a7b881ba1af3ee32fdea11e61de73a1ca}{b\-Visible}
+\item 
+bool \hyperlink{class_rad_xml_1_1_movable_abe3d4c7ad61050d4d6a70214b81fff80}{b\-Immovable}
+\item 
+Ogre\-::\-Real \hyperlink{class_rad_xml_1_1_movable_a22912427f0f1858679577c419f93aef7}{r\-Angle}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a422ba28989b1a0399b4067b2eebe8432}{v3d\-Max\-Vel}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a705a1bdbe95de19350ebf6771c70c3b2}{v3d\-Speed}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a27f177f005596f6a75188ecc6f3b1d97}{v3d\-Accel}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a975227c1e4dde55483a0873c551a10d2}{v3d\-Move\-Scale}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a7ca94e1eff62de64de8bef98c839b51e}{v3d\-Velocity}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a60a747fa3271f6c8b9d59ebafe29ffdc}{v3d\-Friction}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_aabf19ae13c350a23b0f904e69c89eb65}{v3d\-Original\-Pos}
+\item 
+bool \hyperlink{class_rad_xml_1_1_movable_a5b99344718f5aa2c1bc557757e9a9b20}{b\-Set\-Original\-Pos}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_ae8ce0442f6e574174bf8907109e2444d}{v3d\-Original\-Scale}
+\item 
+bool \hyperlink{class_rad_xml_1_1_movable_ac216a78afeeecab1de67488f08c197f1}{b\-Set\-Original\-Scale}
+\item 
+Ogre\-::\-Vector3 \hyperlink{class_rad_xml_1_1_movable_a879ffd4158759d835665cd52b0cceed7}{v3d\-Original\-Rotation}
+\item 
+bool \hyperlink{class_rad_xml_1_1_movable_ae69b59a54075a9a64e6865e482e7cef0}{b\-Set\-Original\-Rotation}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_rad_xml_1_1_movable_a77fb6a99effa2d728b743035803bf5e7}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!Movable@{Movable}}
+\index{Movable@{Movable}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{Movable}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Movable\-::\-Movable (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a77fb6a99effa2d728b743035803bf5e7}
+\hypertarget{class_rad_xml_1_1_movable_a186ba3cb69a83f984d5780d418d36368}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!$\sim$\-Movable@{$\sim$\-Movable}}
+\index{$\sim$\-Movable@{$\sim$\-Movable}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{$\sim$\-Movable}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Movable\-::$\sim$\-Movable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a186ba3cb69a83f984d5780d418d36368}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_rad_xml_1_1_movable_af14b657fa5a04bfa541fa1b873a60e89}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!add\-Child@{add\-Child}}
+\index{add\-Child@{add\-Child}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{add\-Child}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::add\-Child (
+\begin{DoxyParamCaption}
+\item[{{\bf Movable} $\ast$}]{child}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_af14b657fa5a04bfa541fa1b873a60e89}
+\hypertarget{class_rad_xml_1_1_movable_ac6a4bed9cfb97803f982201be0f70caa}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!clone@{clone}}
+\index{clone@{clone}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{clone}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Movable}$\ast$ Rad\-Xml\-::\-Movable\-::clone (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name, }
+\item[{{\bf Movable} $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_rad_xml_1_1_movable_ac6a4bed9cfb97803f982201be0f70caa}
+
+
+Implemented in \hyperlink{class_rad_xml_1_1_animation_track_object_a3aa936852262622e2b838c62ada5a441}{Rad\-Xml\-::\-Animation\-Track\-Object}, \hyperlink{class_rad_xml_1_1_overlay_element_ab355d456118ab15e212d0057c615df61}{Rad\-Xml\-::\-Overlay\-Element}, \hyperlink{class_rad_xml_1_1_light_a194a454ee3585d334db5cbf9d41e2793}{Rad\-Xml\-::\-Light}, \hyperlink{class_rad_xml_1_1_overlay_aa5fb1b414b9553f91acbdfb21cb9eb7e}{Rad\-Xml\-::\-Overlay}, \hyperlink{class_rad_xml_1_1_entity_aae568dc63022b3195e625bc4533f4aa2}{Rad\-Xml\-::\-Entity}, \hyperlink{class_rad_xml_1_1_camera_a8a97ff4d9995ee2299f80ce870e0d45c}{Rad\-Xml\-::\-Camera}, \hyperlink{class_rad_xml_1_1_particle_system_acb8ccf54b1c21dba934e0778e039da56}{Rad\-Xml\-::\-Particle\-System}, \hyperlink{class_rad_xml_1_1_sound_a30d322cbd418e9ebabbbb83825e272fb}{Rad\-Xml\-::\-Sound}, and \hyperlink{class_rad_xml_1_1_audio_listener_a885eed8e9e2b5ef41c1cefef996ba301}{Rad\-Xml\-::\-Audio\-Listener}.
+
+\hypertarget{class_rad_xml_1_1_movable_a4ead93cfd127298003b6d235a9d8e264}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!create\-Scene\-Node@{create\-Scene\-Node}}
+\index{create\-Scene\-Node@{create\-Scene\-Node}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{create\-Scene\-Node}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::create\-Scene\-Node (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Movable\-Object $\ast$}]{object, }
+\item[{{\bf Movable} $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a4ead93cfd127298003b6d235a9d8e264}
+\hypertarget{class_rad_xml_1_1_movable_a7e4741fde083b750fad8898319a442ea}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!destroy\-Scene\-Node@{destroy\-Scene\-Node}}
+\index{destroy\-Scene\-Node@{destroy\-Scene\-Node}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{destroy\-Scene\-Node}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::destroy\-Scene\-Node (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a7e4741fde083b750fad8898319a442ea}
+\hypertarget{class_rad_xml_1_1_movable_a306b17ef1a30f37ac5b5e7b1eb1bdcb5}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Acceleration@{get\-Acceleration}}
+\index{get\-Acceleration@{get\-Acceleration}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Acceleration}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::get\-Acceleration (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a306b17ef1a30f37ac5b5e7b1eb1bdcb5}
+\hypertarget{class_rad_xml_1_1_movable_ac1660599e097d8fa759759dce9f6a58d}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Bounding\-Box\-Visible@{get\-Bounding\-Box\-Visible}}
+\index{get\-Bounding\-Box\-Visible@{get\-Bounding\-Box\-Visible}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Bounding\-Box\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Movable\-::get\-Bounding\-Box\-Visible (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_ac1660599e097d8fa759759dce9f6a58d}
+\hypertarget{class_rad_xml_1_1_movable_aafdf585d768ae11a6aab0e1e29609c6d}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Child@{get\-Child}}
+\index{get\-Child@{get\-Child}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Child}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Movable}$\ast$ Rad\-Xml\-::\-Movable\-::get\-Child (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_aafdf585d768ae11a6aab0e1e29609c6d}
+\hypertarget{class_rad_xml_1_1_movable_a76f2d5016a49fe2414aa11d538aa1f6b}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Collides@{get\-Collides}}
+\index{get\-Collides@{get\-Collides}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Collides}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Movable\-::get\-Collides (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a76f2d5016a49fe2414aa11d538aa1f6b}
+\hypertarget{class_rad_xml_1_1_movable_a1a1ec82d75b5cbed77ab01315dff597d}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Friction@{get\-Friction}}
+\index{get\-Friction@{get\-Friction}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Friction}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::get\-Friction (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a1a1ec82d75b5cbed77ab01315dff597d}
+\hypertarget{class_rad_xml_1_1_movable_a18bbb0515dc8144b58b19319bc877373}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Hash@{get\-Hash}}
+\index{get\-Hash@{get\-Hash}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Hash}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Rad\-Xml\-::\-Movable\-::get\-Hash (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a18bbb0515dc8144b58b19319bc877373}
+\hypertarget{class_rad_xml_1_1_movable_a9c3a2c3ccce67462b43ca7bf9d8ba53f}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Immovable@{get\-Immovable}}
+\index{get\-Immovable@{get\-Immovable}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Immovable}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Movable\-::get\-Immovable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a9c3a2c3ccce67462b43ca7bf9d8ba53f}
+\hypertarget{class_rad_xml_1_1_movable_a882e0c59107b0eb7d394129eac66100a}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Max\-Velocity@{get\-Max\-Velocity}}
+\index{get\-Max\-Velocity@{get\-Max\-Velocity}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Max\-Velocity}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::get\-Max\-Velocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a882e0c59107b0eb7d394129eac66100a}
+\hypertarget{class_rad_xml_1_1_movable_ad503030b7802dc348f047383d1c261d7}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Movable\-X\-M\-L@{get\-Movable\-X\-M\-L}}
+\index{get\-Movable\-X\-M\-L@{get\-Movable\-X\-M\-L}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Movable\-X\-M\-L}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Movable\-::get\-Movable\-X\-M\-L (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_ad503030b7802dc348f047383d1c261d7}
+\hypertarget{class_rad_xml_1_1_movable_a2eba187824e9c5b07f9a94221ffacdf5}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Name@{get\-Name}}
+\index{get\-Name@{get\-Name}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Name}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Movable\-::get\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a2eba187824e9c5b07f9a94221ffacdf5}
+\hypertarget{class_rad_xml_1_1_movable_a792ea0d34b0516fd683695933dbc8564}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Num\-Children@{get\-Num\-Children}}
+\index{get\-Num\-Children@{get\-Num\-Children}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Num\-Children}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Rad\-Xml\-::\-Movable\-::get\-Num\-Children (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a792ea0d34b0516fd683695933dbc8564}
+\hypertarget{class_rad_xml_1_1_movable_afa9b2f8bb1e0eeb6f7992e2a73d24d6a}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Orientation@{get\-Orientation}}
+\index{get\-Orientation@{get\-Orientation}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Orientation}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Quaternion Rad\-Xml\-::\-Movable\-::get\-Orientation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_afa9b2f8bb1e0eeb6f7992e2a73d24d6a}
+\hypertarget{class_rad_xml_1_1_movable_a60fdb43cc0ffd18ced685b936a33ba07}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Parent@{get\-Parent}}
+\index{get\-Parent@{get\-Parent}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Parent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Movable}$\ast$ Rad\-Xml\-::\-Movable\-::get\-Parent (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a60fdb43cc0ffd18ced685b936a33ba07}
+\hypertarget{class_rad_xml_1_1_movable_ab5cb621d9b1b333222eec4fb5fe19731}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Rotation@{get\-Rotation}}
+\index{get\-Rotation@{get\-Rotation}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::get\-Rotation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_ab5cb621d9b1b333222eec4fb5fe19731}
+\hypertarget{class_rad_xml_1_1_movable_a352cfa186aaf137037f5b2ab34e83675}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Scale@{get\-Scale}}
+\index{get\-Scale@{get\-Scale}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::get\-Scale (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a352cfa186aaf137037f5b2ab34e83675}
+\hypertarget{class_rad_xml_1_1_movable_a49ab6bdee1afafdb05c12961bfaa7e2c}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Scene\-Node@{get\-Scene\-Node}}
+\index{get\-Scene\-Node@{get\-Scene\-Node}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Scene\-Node}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Scene\-Node$\ast$ Rad\-Xml\-::\-Movable\-::get\-Scene\-Node (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a49ab6bdee1afafdb05c12961bfaa7e2c}
+\hypertarget{class_rad_xml_1_1_movable_acda306c7c857069bae1eff519ccd65c7}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Type@{get\-Type}}
+\index{get\-Type@{get\-Type}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Type}]{\setlength{\rightskip}{0pt plus 5cm}int Rad\-Xml\-::\-Movable\-::get\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_acda306c7c857069bae1eff519ccd65c7}
+\hypertarget{class_rad_xml_1_1_movable_aeccf663ffc43f47f310dca34f4693844}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Velocity@{get\-Velocity}}
+\index{get\-Velocity@{get\-Velocity}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Velocity}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::get\-Velocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_aeccf663ffc43f47f310dca34f4693844}
+\hypertarget{class_rad_xml_1_1_movable_a9dfae163267b8152017c9531fb74343f}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!get\-Visible@{get\-Visible}}
+\index{get\-Visible@{get\-Visible}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{get\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Rad\-Xml\-::\-Movable\-::get\-Visible (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_rad_xml_1_1_movable_a9dfae163267b8152017c9531fb74343f}
+
+
+Implemented in \hyperlink{class_rad_xml_1_1_animation_track_object_a23a30a01439521665ad5e9dd5e78af3d}{Rad\-Xml\-::\-Animation\-Track\-Object}, \hyperlink{class_rad_xml_1_1_overlay_element_a845ff1011eb3ac2feb3ec213714e9ac2}{Rad\-Xml\-::\-Overlay\-Element}, \hyperlink{class_rad_xml_1_1_light_a464dcc2cbc84c6277bd6244edc0f5623}{Rad\-Xml\-::\-Light}, \hyperlink{class_rad_xml_1_1_overlay_a20b4caaaeb17729b634ae8646c3288da}{Rad\-Xml\-::\-Overlay}, \hyperlink{class_rad_xml_1_1_entity_a5c171ff77585813b812c803278fae042}{Rad\-Xml\-::\-Entity}, \hyperlink{class_rad_xml_1_1_camera_a23b65d0e998a3dc08e7327dab5c980ef}{Rad\-Xml\-::\-Camera}, \hyperlink{class_rad_xml_1_1_particle_system_a75e758fdcbdf15dc4991acd04430a550}{Rad\-Xml\-::\-Particle\-System}, \hyperlink{class_rad_xml_1_1_sound_a5f20320c423a348182c460c83087665d}{Rad\-Xml\-::\-Sound}, and \hyperlink{class_rad_xml_1_1_audio_listener_ac5686288f4e2777ef4c9ec02fadab3de}{Rad\-Xml\-::\-Audio\-Listener}.
+
+\hypertarget{class_rad_xml_1_1_movable_a0ec1273070085006bd8eae6702c9c6d1}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!init@{init}}
+\index{init@{init}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a0ec1273070085006bd8eae6702c9c6d1}
+\hypertarget{class_rad_xml_1_1_movable_ab69347d861e351b88f317621b54b8e4e}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!Movable\-::get\-Position@{Movable\-::get\-Position}}
+\index{Movable\-::get\-Position@{Movable\-::get\-Position}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{Movable\-::get\-Position}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::\-Movable\-::get\-Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_ab69347d861e351b88f317621b54b8e4e}
+\hypertarget{class_rad_xml_1_1_movable_a0dfd632dd159425d2c6c1447a8ee4fdc}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!move\-Entity@{move\-Entity}}
+\index{move\-Entity@{move\-Entity}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{move\-Entity}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::move\-Entity (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Frame\-Event}]{evt\-Event}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a0dfd632dd159425d2c6c1447a8ee4fdc}
+\hypertarget{class_rad_xml_1_1_movable_a17a0acd7863ffdd29b43dd54562780f7}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!parse\-Movable\-X\-M\-L@{parse\-Movable\-X\-M\-L}}
+\index{parse\-Movable\-X\-M\-L@{parse\-Movable\-X\-M\-L}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{parse\-Movable\-X\-M\-L}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::parse\-Movable\-X\-M\-L (
+\begin{DoxyParamCaption}
+\item[{{\bf Xml\-File} $\ast$}]{level, }
+\item[{{\bf X\-M\-L\-Element} $\ast$}]{element, }
+\item[{{\bf Movable} $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a17a0acd7863ffdd29b43dd54562780f7}
+\hypertarget{class_rad_xml_1_1_movable_a3bfa50630cbc5b287f5b54262744ac63}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!parse\-X\-M\-L@{parse\-X\-M\-L}}
+\index{parse\-X\-M\-L@{parse\-X\-M\-L}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{parse\-X\-M\-L}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Rad\-Xml\-::\-Movable\-::parse\-X\-M\-L (
+\begin{DoxyParamCaption}
+\item[{{\bf Xml\-File} $\ast$}]{level, }
+\item[{{\bf X\-M\-L\-Element} $\ast$}]{element, }
+\item[{{\bf Movable} $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_rad_xml_1_1_movable_a3bfa50630cbc5b287f5b54262744ac63}
+
+
+Implemented in \hyperlink{class_rad_xml_1_1_animation_track_object_ae66e1e5f60ed365b6aaef87a4de2936b}{Rad\-Xml\-::\-Animation\-Track\-Object}, \hyperlink{class_rad_xml_1_1_entity_a0c1871cedc67abcdad8bd7759272050c}{Rad\-Xml\-::\-Entity}, \hyperlink{class_rad_xml_1_1_overlay_element_aedf82660f54fd19d15b4f4e4cb90f6cd}{Rad\-Xml\-::\-Overlay\-Element}, \hyperlink{class_rad_xml_1_1_light_a12b067c2eb22dabbaa8d7098dbf82c8b}{Rad\-Xml\-::\-Light}, \hyperlink{class_rad_xml_1_1_overlay_aa2ad668b16aa1842d6a7fa1731f4c080}{Rad\-Xml\-::\-Overlay}, \hyperlink{class_rad_xml_1_1_camera_a788b01c69c1375f9e45c0f4ef4ce19dc}{Rad\-Xml\-::\-Camera}, \hyperlink{class_rad_xml_1_1_particle_system_a5eb53e3853ad43c352bba103f36d37e1}{Rad\-Xml\-::\-Particle\-System}, \hyperlink{class_rad_xml_1_1_sound_a0ba611df675d341f4e13288318faddf8}{Rad\-Xml\-::\-Sound}, and \hyperlink{class_rad_xml_1_1_audio_listener_ae5d8f9f424dd9ae96250e1d3c7a1ce19}{Rad\-Xml\-::\-Audio\-Listener}.
+
+\hypertarget{class_rad_xml_1_1_movable_aa29244d007c7a24d6250b83c8593aa3a}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!remove\-All\-Children@{remove\-All\-Children}}
+\index{remove\-All\-Children@{remove\-All\-Children}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{remove\-All\-Children}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::remove\-All\-Children (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_aa29244d007c7a24d6250b83c8593aa3a}
+\hypertarget{class_rad_xml_1_1_movable_af51a6d86e3958c36e3bb945f067fc044}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!remove\-Child@{remove\-Child}}
+\index{remove\-Child@{remove\-Child}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{remove\-Child}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::remove\-Child (
+\begin{DoxyParamCaption}
+\item[{{\bf Movable} $\ast$}]{child}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_af51a6d86e3958c36e3bb945f067fc044}
+\hypertarget{class_rad_xml_1_1_movable_aae58f1fc4aaa90cf7d10784e508c74db}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Acceleration@{set\-Acceleration}}
+\index{set\-Acceleration@{set\-Acceleration}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Acceleration}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Acceleration (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector3}]{new\-Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_aae58f1fc4aaa90cf7d10784e508c74db}
+\hypertarget{class_rad_xml_1_1_movable_a0acd18b2e9166e104b5a6c52d14ced96}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Acceleration@{set\-Acceleration}}
+\index{set\-Acceleration@{set\-Acceleration}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Acceleration}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Acceleration (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a0acd18b2e9166e104b5a6c52d14ced96}
+\hypertarget{class_rad_xml_1_1_movable_ae8e3f0777c50764ba2aeef9080e51f59}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Bounding\-Box\-Visible@{set\-Bounding\-Box\-Visible}}
+\index{set\-Bounding\-Box\-Visible@{set\-Bounding\-Box\-Visible}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Bounding\-Box\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Bounding\-Box\-Visible (
+\begin{DoxyParamCaption}
+\item[{bool}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_ae8e3f0777c50764ba2aeef9080e51f59}
+\hypertarget{class_rad_xml_1_1_movable_a58c1cd1d17fc619db5d1b753108b314c}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Collides@{set\-Collides}}
+\index{set\-Collides@{set\-Collides}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Collides}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Collides (
+\begin{DoxyParamCaption}
+\item[{bool}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a58c1cd1d17fc619db5d1b753108b314c}
+\hypertarget{class_rad_xml_1_1_movable_afe0b9b99290454963eb20b504033579c}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Friction@{set\-Friction}}
+\index{set\-Friction@{set\-Friction}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Friction}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Friction (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector3}]{new\-Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_afe0b9b99290454963eb20b504033579c}
+\hypertarget{class_rad_xml_1_1_movable_a4fd2a01d0323682b86e9268272d18d76}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Friction@{set\-Friction}}
+\index{set\-Friction@{set\-Friction}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Friction}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Friction (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a4fd2a01d0323682b86e9268272d18d76}
+\hypertarget{class_rad_xml_1_1_movable_a4bca04b2055fb61297d572ef3a0082bd}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Immovable@{set\-Immovable}}
+\index{set\-Immovable@{set\-Immovable}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Immovable}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Immovable (
+\begin{DoxyParamCaption}
+\item[{bool}]{is\-Immovable}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a4bca04b2055fb61297d572ef3a0082bd}
+\hypertarget{class_rad_xml_1_1_movable_a2446fe34b6fd5460b16b61d87df7ac60}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Look\-At@{set\-Look\-At}}
+\index{set\-Look\-At@{set\-Look\-At}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Look\-At}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Look\-At (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector3}]{target, }
+\item[{int}]{transform\-Space, }
+\item[{Ogre\-::\-Vector3}]{local\-Dir\-Vector}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a2446fe34b6fd5460b16b61d87df7ac60}
+\hypertarget{class_rad_xml_1_1_movable_a4c3b16c72ae91ae49759056f8d497c35}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Max\-Velocity@{set\-Max\-Velocity}}
+\index{set\-Max\-Velocity@{set\-Max\-Velocity}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Max\-Velocity}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Max\-Velocity (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector3}]{new\-Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a4c3b16c72ae91ae49759056f8d497c35}
+\hypertarget{class_rad_xml_1_1_movable_aae6d83b64a2bc5b7c5fee36c1d7578d2}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Max\-Velocity@{set\-Max\-Velocity}}
+\index{set\-Max\-Velocity@{set\-Max\-Velocity}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Max\-Velocity}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Max\-Velocity (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_aae6d83b64a2bc5b7c5fee36c1d7578d2}
+\hypertarget{class_rad_xml_1_1_movable_a38de43c5c67c417eb528c2b842eb1505}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Name@{set\-Name}}
+\index{set\-Name@{set\-Name}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Name}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Name (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a38de43c5c67c417eb528c2b842eb1505}
+\hypertarget{class_rad_xml_1_1_movable_a3ef12d2561cb90c61466c2da2946152e}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Parent@{set\-Parent}}
+\index{set\-Parent@{set\-Parent}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Parent}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Parent (
+\begin{DoxyParamCaption}
+\item[{{\bf Movable} $\ast$}]{parent}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a3ef12d2561cb90c61466c2da2946152e}
+\hypertarget{class_rad_xml_1_1_movable_accfcc53830f8eee0d471a3fd2bf2e891}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Pitch@{set\-Pitch}}
+\index{set\-Pitch@{set\-Pitch}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Pitch}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Pitch (
+\begin{DoxyParamCaption}
+\item[{double}]{pitch}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_accfcc53830f8eee0d471a3fd2bf2e891}
+\hypertarget{class_rad_xml_1_1_movable_ae256f0b78c1a8f03370f3d549bd48bb6}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Position@{set\-Position}}
+\index{set\-Position@{set\-Position}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Position}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Position (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector3}]{new\-Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_ae256f0b78c1a8f03370f3d549bd48bb6}
+\hypertarget{class_rad_xml_1_1_movable_a3d9d9507a90255d230b01e9f0f0b62d9}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Position@{set\-Position}}
+\index{set\-Position@{set\-Position}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Position}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Position (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a3d9d9507a90255d230b01e9f0f0b62d9}
+\hypertarget{class_rad_xml_1_1_movable_a0b55bb5f2eaa28fafbd0fbdba0ade493}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Roll@{set\-Roll}}
+\index{set\-Roll@{set\-Roll}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Roll}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Roll (
+\begin{DoxyParamCaption}
+\item[{double}]{roll}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a0b55bb5f2eaa28fafbd0fbdba0ade493}
+\hypertarget{class_rad_xml_1_1_movable_afd672527bbc7b6d6f2ee12a4c66bffef}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Rotation@{set\-Rotation}}
+\index{set\-Rotation@{set\-Rotation}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Rotation (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector3}]{new\-Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_afd672527bbc7b6d6f2ee12a4c66bffef}
+\hypertarget{class_rad_xml_1_1_movable_aa316c744d7576472284f91ddee191bf0}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Rotation@{set\-Rotation}}
+\index{set\-Rotation@{set\-Rotation}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Rotation (
+\begin{DoxyParamCaption}
+\item[{double}]{yaw, }
+\item[{double}]{pitch, }
+\item[{double}]{roll}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_aa316c744d7576472284f91ddee191bf0}
+\hypertarget{class_rad_xml_1_1_movable_a19859333de2fb83a3a587ad170e4d6b2}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Scale@{set\-Scale}}
+\index{set\-Scale@{set\-Scale}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Scale (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector3}]{new\-Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_a19859333de2fb83a3a587ad170e4d6b2}
+\hypertarget{class_rad_xml_1_1_movable_a4d695254ab62abbc4c87644a5ed14e1b}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Scale@{set\-Scale}}
+\index{set\-Scale@{set\-Scale}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Scale (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a4d695254ab62abbc4c87644a5ed14e1b}
+\hypertarget{class_rad_xml_1_1_movable_a0fc376b64aacdc97140b1e9d1ff4345f}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Type@{set\-Type}}
+\index{set\-Type@{set\-Type}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Type}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Type (
+\begin{DoxyParamCaption}
+\item[{int}]{new\-Type}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a0fc376b64aacdc97140b1e9d1ff4345f}
+\hypertarget{class_rad_xml_1_1_movable_aa6c2e8c8291325c41177c2dedce6307c}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Velocity@{set\-Velocity}}
+\index{set\-Velocity@{set\-Velocity}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Velocity}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Velocity (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector3}]{new\-Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_movable_aa6c2e8c8291325c41177c2dedce6307c}
+\hypertarget{class_rad_xml_1_1_movable_ad71ae5b248b38a93ad99a7f824a74a19}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Velocity@{set\-Velocity}}
+\index{set\-Velocity@{set\-Velocity}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Velocity}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Velocity (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_ad71ae5b248b38a93ad99a7f824a74a19}
+\hypertarget{class_rad_xml_1_1_movable_af8911805b88cf189231d8beed68e4018}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Visible@{set\-Visible}}
+\index{set\-Visible@{set\-Visible}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Rad\-Xml\-::\-Movable\-::set\-Visible (
+\begin{DoxyParamCaption}
+\item[{bool}]{visible}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_rad_xml_1_1_movable_af8911805b88cf189231d8beed68e4018}
+
+
+Implemented in \hyperlink{class_rad_xml_1_1_animation_track_object_a8e9a6c3db226268874c2d73e17173717}{Rad\-Xml\-::\-Animation\-Track\-Object}, \hyperlink{class_rad_xml_1_1_overlay_element_a12b2724a470e6c9852f59c14354c3779}{Rad\-Xml\-::\-Overlay\-Element}, \hyperlink{class_rad_xml_1_1_light_a8baa98e6b3359fee051cfb8fbf6ae634}{Rad\-Xml\-::\-Light}, \hyperlink{class_rad_xml_1_1_overlay_aaa1e2699f00d3877b1bc6558bfe13b45}{Rad\-Xml\-::\-Overlay}, \hyperlink{class_rad_xml_1_1_entity_a7e331dda6014328ada034880278ba55c}{Rad\-Xml\-::\-Entity}, \hyperlink{class_rad_xml_1_1_camera_a9f023dcd2c8718eafa160740da4ec770}{Rad\-Xml\-::\-Camera}, \hyperlink{class_rad_xml_1_1_particle_system_a504da30d0dff6decbc6e4d6b096a9664}{Rad\-Xml\-::\-Particle\-System}, \hyperlink{class_rad_xml_1_1_sound_a33e46132e40dbae813e2aff8290d5610}{Rad\-Xml\-::\-Sound}, and \hyperlink{class_rad_xml_1_1_audio_listener_ae77ed5f444abab71d5c6dc8dbecd3fac}{Rad\-Xml\-::\-Audio\-Listener}.
+
+\hypertarget{class_rad_xml_1_1_movable_aef3d5d3004921baaf715ef5e8934df16}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!set\-Yaw@{set\-Yaw}}
+\index{set\-Yaw@{set\-Yaw}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{set\-Yaw}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::set\-Yaw (
+\begin{DoxyParamCaption}
+\item[{double}]{yaw}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_aef3d5d3004921baaf715ef5e8934df16}
+\hypertarget{class_rad_xml_1_1_movable_a97ced6b112dc3adb6bb65a96d6ec6541}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!translate@{translate}}
+\index{translate@{translate}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{translate}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Movable\-::translate (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_movable_a97ced6b112dc3adb6bb65a96d6ec6541}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_rad_xml_1_1_movable_ade16ade0ce2baf111d16c42769dfacfe}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!ary\-Children@{ary\-Children}}
+\index{ary\-Children@{ary\-Children}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{ary\-Children}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Movable} $\ast$$>$ Rad\-Xml\-::\-Movable\-::ary\-Children\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_ade16ade0ce2baf111d16c42769dfacfe}
+\hypertarget{class_rad_xml_1_1_movable_abe3d4c7ad61050d4d6a70214b81fff80}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!b\-Immovable@{b\-Immovable}}
+\index{b\-Immovable@{b\-Immovable}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{b\-Immovable}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Movable\-::b\-Immovable\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_abe3d4c7ad61050d4d6a70214b81fff80}
+\hypertarget{class_rad_xml_1_1_movable_a5b99344718f5aa2c1bc557757e9a9b20}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!b\-Set\-Original\-Pos@{b\-Set\-Original\-Pos}}
+\index{b\-Set\-Original\-Pos@{b\-Set\-Original\-Pos}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{b\-Set\-Original\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Movable\-::b\-Set\-Original\-Pos\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a5b99344718f5aa2c1bc557757e9a9b20}
+\hypertarget{class_rad_xml_1_1_movable_ae69b59a54075a9a64e6865e482e7cef0}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!b\-Set\-Original\-Rotation@{b\-Set\-Original\-Rotation}}
+\index{b\-Set\-Original\-Rotation@{b\-Set\-Original\-Rotation}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{b\-Set\-Original\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Movable\-::b\-Set\-Original\-Rotation\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_ae69b59a54075a9a64e6865e482e7cef0}
+\hypertarget{class_rad_xml_1_1_movable_ac216a78afeeecab1de67488f08c197f1}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!b\-Set\-Original\-Scale@{b\-Set\-Original\-Scale}}
+\index{b\-Set\-Original\-Scale@{b\-Set\-Original\-Scale}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{b\-Set\-Original\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Movable\-::b\-Set\-Original\-Scale\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_ac216a78afeeecab1de67488f08c197f1}
+\hypertarget{class_rad_xml_1_1_movable_a7b881ba1af3ee32fdea11e61de73a1ca}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!b\-Visible@{b\-Visible}}
+\index{b\-Visible@{b\-Visible}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{b\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Movable\-::b\-Visible\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a7b881ba1af3ee32fdea11e61de73a1ca}
+\hypertarget{class_rad_xml_1_1_movable_a624600f78a33a6b6a49c9352948f57a7}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!collided\-With\-Object@{collided\-With\-Object}}
+\index{collided\-With\-Object@{collided\-With\-Object}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{collided\-With\-Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Movable}$\ast$ Rad\-Xml\-::\-Movable\-::collided\-With\-Object}}\label{class_rad_xml_1_1_movable_a624600f78a33a6b6a49c9352948f57a7}
+\hypertarget{class_rad_xml_1_1_movable_ad48b86b6ae47d1eb8b617f261e1e78a9}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!collides@{collides}}
+\index{collides@{collides}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{collides}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Movable\-::collides}}\label{class_rad_xml_1_1_movable_ad48b86b6ae47d1eb8b617f261e1e78a9}
+\hypertarget{class_rad_xml_1_1_movable_afb9f3fb58df7f80ca1ed3a17e776e84b}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!hash\-Name@{hash\-Name}}
+\index{hash\-Name@{hash\-Name}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{hash\-Name}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Rad\-Xml\-::\-Movable\-::hash\-Name\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_afb9f3fb58df7f80ca1ed3a17e776e84b}
+\hypertarget{class_rad_xml_1_1_movable_a4a71bc0ac95b2e359c73e8d6b96d1c6e}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!i\-Type@{i\-Type}}
+\index{i\-Type@{i\-Type}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{i\-Type}]{\setlength{\rightskip}{0pt plus 5cm}int Rad\-Xml\-::\-Movable\-::i\-Type\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a4a71bc0ac95b2e359c73e8d6b96d1c6e}
+\hypertarget{class_rad_xml_1_1_movable_a65a2f76dbee86d45e73e73843b1c54be}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!m\-Parent@{m\-Parent}}
+\index{m\-Parent@{m\-Parent}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{m\-Parent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Movable}$\ast$ Rad\-Xml\-::\-Movable\-::m\-Parent\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a65a2f76dbee86d45e73e73843b1c54be}
+\hypertarget{class_rad_xml_1_1_movable_aaea33a220c19157231ac3fae2b0c5134}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!name@{name}}
+\index{name@{name}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Movable\-::name\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_aaea33a220c19157231ac3fae2b0c5134}
+\hypertarget{class_rad_xml_1_1_movable_a0557c828c38faf3447a6910c038e7673}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!position@{position}}
+\index{position@{position}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{position}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::position\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a0557c828c38faf3447a6910c038e7673}
+\hypertarget{class_rad_xml_1_1_movable_a22912427f0f1858679577c419f93aef7}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!r\-Angle@{r\-Angle}}
+\index{r\-Angle@{r\-Angle}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{r\-Angle}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Real Rad\-Xml\-::\-Movable\-::r\-Angle\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a22912427f0f1858679577c419f93aef7}
+\hypertarget{class_rad_xml_1_1_movable_a47fdedc6734fda7e25a22e4527f56cc4}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!rotation@{rotation}}
+\index{rotation@{rotation}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{rotation}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::rotation}}\label{class_rad_xml_1_1_movable_a47fdedc6734fda7e25a22e4527f56cc4}
+\hypertarget{class_rad_xml_1_1_movable_a3de3093817a316ee72d98287685e88fe}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!scale@{scale}}
+\index{scale@{scale}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{scale}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::scale}}\label{class_rad_xml_1_1_movable_a3de3093817a316ee72d98287685e88fe}
+\hypertarget{class_rad_xml_1_1_movable_a459ee5de83b72757d2081cac98f25bb2}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!sn\-Node@{sn\-Node}}
+\index{sn\-Node@{sn\-Node}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{sn\-Node}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Scene\-Node$\ast$ Rad\-Xml\-::\-Movable\-::sn\-Node\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a459ee5de83b72757d2081cac98f25bb2}
+\hypertarget{class_rad_xml_1_1_movable_a27f177f005596f6a75188ecc6f3b1d97}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!v3d\-Accel@{v3d\-Accel}}
+\index{v3d\-Accel@{v3d\-Accel}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{v3d\-Accel}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::v3d\-Accel\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a27f177f005596f6a75188ecc6f3b1d97}
+\hypertarget{class_rad_xml_1_1_movable_a60a747fa3271f6c8b9d59ebafe29ffdc}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!v3d\-Friction@{v3d\-Friction}}
+\index{v3d\-Friction@{v3d\-Friction}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{v3d\-Friction}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::v3d\-Friction\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a60a747fa3271f6c8b9d59ebafe29ffdc}
+\hypertarget{class_rad_xml_1_1_movable_a422ba28989b1a0399b4067b2eebe8432}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!v3d\-Max\-Vel@{v3d\-Max\-Vel}}
+\index{v3d\-Max\-Vel@{v3d\-Max\-Vel}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{v3d\-Max\-Vel}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::v3d\-Max\-Vel\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a422ba28989b1a0399b4067b2eebe8432}
+\hypertarget{class_rad_xml_1_1_movable_a975227c1e4dde55483a0873c551a10d2}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!v3d\-Move\-Scale@{v3d\-Move\-Scale}}
+\index{v3d\-Move\-Scale@{v3d\-Move\-Scale}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{v3d\-Move\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::v3d\-Move\-Scale\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a975227c1e4dde55483a0873c551a10d2}
+\hypertarget{class_rad_xml_1_1_movable_aabf19ae13c350a23b0f904e69c89eb65}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!v3d\-Original\-Pos@{v3d\-Original\-Pos}}
+\index{v3d\-Original\-Pos@{v3d\-Original\-Pos}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{v3d\-Original\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::v3d\-Original\-Pos\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_aabf19ae13c350a23b0f904e69c89eb65}
+\hypertarget{class_rad_xml_1_1_movable_a879ffd4158759d835665cd52b0cceed7}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!v3d\-Original\-Rotation@{v3d\-Original\-Rotation}}
+\index{v3d\-Original\-Rotation@{v3d\-Original\-Rotation}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{v3d\-Original\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::v3d\-Original\-Rotation\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a879ffd4158759d835665cd52b0cceed7}
+\hypertarget{class_rad_xml_1_1_movable_ae8ce0442f6e574174bf8907109e2444d}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!v3d\-Original\-Scale@{v3d\-Original\-Scale}}
+\index{v3d\-Original\-Scale@{v3d\-Original\-Scale}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{v3d\-Original\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::v3d\-Original\-Scale\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_ae8ce0442f6e574174bf8907109e2444d}
+\hypertarget{class_rad_xml_1_1_movable_a705a1bdbe95de19350ebf6771c70c3b2}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!v3d\-Speed@{v3d\-Speed}}
+\index{v3d\-Speed@{v3d\-Speed}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{v3d\-Speed}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::v3d\-Speed\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a705a1bdbe95de19350ebf6771c70c3b2}
+\hypertarget{class_rad_xml_1_1_movable_a7ca94e1eff62de64de8bef98c839b51e}{\index{Rad\-Xml\-::\-Movable@{Rad\-Xml\-::\-Movable}!v3d\-Velocity@{v3d\-Velocity}}
+\index{v3d\-Velocity@{v3d\-Velocity}!RadXml::Movable@{Rad\-Xml\-::\-Movable}}
+\subsubsection[{v3d\-Velocity}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Vector3 Rad\-Xml\-::\-Movable\-::v3d\-Velocity\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_movable_a7ca94e1eff62de64de8bef98c839b51e}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/\hyperlink{_rad_xml_movable_8h}{Rad\-Xml\-Movable.\-h}\end{DoxyCompactItemize}

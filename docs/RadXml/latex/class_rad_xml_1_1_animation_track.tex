@@ -1,0 +1,346 @@
+\hypertarget{class_rad_xml_1_1_animation_track}{\section{Rad\-Xml\-:\-:Animation\-Track Class Reference}
+\label{class_rad_xml_1_1_animation_track}\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}}
+}
+
+
+{\ttfamily \#include $<$Rad\-Xml\-Animation\-Track.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_rad_xml_1_1_animation_track_a2d8a8b2007c25c59977b8cbdcab59fe9}{Animation\-Track} ()
+\item 
+\hyperlink{class_rad_xml_1_1_animation_track_a2f9ad28781b56c86a3d147b0f591531e}{$\sim$\-Animation\-Track} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_ae4aa589dd2c07b92f95f57d2b6d949ae}{create\-Animation\-Track} (std\-::string new\-Name, Ogre\-::\-Scene\-Manager $\ast$m\-Scene\-Mgr, Ogre\-::\-Scene\-Node $\ast$parent=0, bool b\-Create\-New\-Scene\-Node=true)
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_a2fa7e0a08935b31e4e3dfa9f16850f5d}{destroy\-Animation\-Track} (Ogre\-::\-Scene\-Manager $\ast$m\-Scene\-Mgr)
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_a98f89dd36c200452b4e785b2d5ad0bb2}{set\-Attach} (Ogre\-::\-Scene\-Node $\ast$node)
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_a1e8daeb4b3781cd4aa05485bea1e1a80}{set\-Interpolation\-Mode} (int imode)
+\item 
+int \hyperlink{class_rad_xml_1_1_animation_track_aaaea5cc0de2a55eb26797b1246626162}{get\-Interpolation\-Mode} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_a283f5589564df2e4140a63386cdc8782}{set\-Start} (Ogre\-::\-Real start)
+\item 
+double \hyperlink{class_rad_xml_1_1_animation_track_aee5ea61e071221b49b302c3834f84414}{get\-Start} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_a46d85649bf7e9d0b2dc1e036eaccbdf0}{set\-Length} (Ogre\-::\-Real length)
+\item 
+double \hyperlink{class_rad_xml_1_1_animation_track_aa9bcc77cbd0055cd6aa9ba5107ab1948}{get\-Length} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_a01219a57021878f116b9cec25e6f252d}{set\-Enabled} (bool enabled)
+\item 
+bool \hyperlink{class_rad_xml_1_1_animation_track_ae5f2b5767b8f3bb06f3187ffe7dbec45}{is\-Enabled} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_a8b04a09bd2255501a311dbecc16e6050}{set\-Looping} (bool loop)
+\item 
+bool \hyperlink{class_rad_xml_1_1_animation_track_a6faa51e87664ae6f0b995ace180b8035}{is\-Looping} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_afeea908c0d45fa620ee078688746dc99}{add\-Position} (Ogre\-::\-Vector4 position)
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_a16b0f36b3f042782d933d65f817b74f7}{add\-Scale} (Ogre\-::\-Vector4 scale)
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_ab67353a570dfb3ba866d3de6898e96b9}{add\-Rotation} (Ogre\-::\-Vector4 rotation)
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_ab098ce49198ec50d543788890bd31159}{set\-Positions} (std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$positions)
+\item 
+std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_a2b786600d7718428d8160e420c83d939}{get\-Positions} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_aa4f80c7b9786cee8f4cd14fc46701f82}{set\-Scalings} (std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$scalings)
+\item 
+std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_a391b78171f1d8466c08208e794cb12ab}{get\-Scalings} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_a11d9cdbd50bb8fa6342a2f9036f66ca7}{set\-Rotations} (std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$rotations)
+\item 
+std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_afb7de5b0fa85d681146dfecf5f97bfbb}{get\-Rotations} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_animation_track_a6df47cd2a803bc753b2359d8f28a6768}{set\-Fades} (std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$fades)
+\item 
+std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_a90be4e8508c5770c839ef390715b3438}{get\-Fades} ()
+\item 
+Ogre\-::\-Animation $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_a3ec0d432a6ac56704181e6d7902046bd}{get\-Animation} ()
+\item 
+Ogre\-::\-Animation\-State $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_a65f18fd84f40a81ff08863551c6b0138}{get\-Animation\-State} ()
+\item 
+\hyperlink{class_rad_xml_1_1_animation_track}{Animation\-Track} $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_a143dde96d14f23d8c87fca244947491f}{clone\-Animation\-Track} (std\-::string new\-Name)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ogre\-::\-Scene\-Node $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_ab33a825510229a825ee70e04e98394b4}{sn\-Attached\-Node}
+\item 
+Ogre\-::\-Animation $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_aedaca3ab10e43a4cc34ca8db0d071c9a}{a\-Anim}
+\item 
+Ogre\-::\-Animation\-State $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_aa6d8252cfb633be1b27bf9771d7e93d0}{as\-Anim\-State}
+\item 
+Ogre\-::\-Real \hyperlink{class_rad_xml_1_1_animation_track_acba15b201ccc5d3df7e418528b3f6bec}{r\-Start}
+\item 
+Ogre\-::\-Real \hyperlink{class_rad_xml_1_1_animation_track_a1f9d1c712054f85cba20dd4567c15dc4}{r\-Length}
+\item 
+int \hyperlink{class_rad_xml_1_1_animation_track_ad0cd379f4b57a720ff0e9d0690668b86}{im\-Mode}
+\item 
+bool \hyperlink{class_rad_xml_1_1_animation_track_a425fbf5b2d1b2987ae9a6ef87d0dfc73}{b\-Loop}
+\item 
+bool \hyperlink{class_rad_xml_1_1_animation_track_adfaaa24505acea2fba79af09e0ec5822}{b\-Enabled}
+\item 
+std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_aa34dee8a974a09f509eb31073d435160}{lst\-Positions}
+\item 
+std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_ad53819a43c900a2a84b4d9e6e80ee608}{lst\-Scalings}
+\item 
+std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$ \hyperlink{class_rad_xml_1_1_animation_track_a3c0d1a6814e4fbacd9683d5bef849307}{lst\-Rotations}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_rad_xml_1_1_animation_track_a2d8a8b2007c25c59977b8cbdcab59fe9}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!Animation\-Track@{Animation\-Track}}
+\index{Animation\-Track@{Animation\-Track}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{Animation\-Track}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Animation\-Track\-::\-Animation\-Track (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_a2d8a8b2007c25c59977b8cbdcab59fe9}
+\hypertarget{class_rad_xml_1_1_animation_track_a2f9ad28781b56c86a3d147b0f591531e}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!$\sim$\-Animation\-Track@{$\sim$\-Animation\-Track}}
+\index{$\sim$\-Animation\-Track@{$\sim$\-Animation\-Track}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{$\sim$\-Animation\-Track}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Animation\-Track\-::$\sim$\-Animation\-Track (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_a2f9ad28781b56c86a3d147b0f591531e}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_rad_xml_1_1_animation_track_afeea908c0d45fa620ee078688746dc99}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!add\-Position@{add\-Position}}
+\index{add\-Position@{add\-Position}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{add\-Position}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::add\-Position (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector4}]{position}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_afeea908c0d45fa620ee078688746dc99}
+\hypertarget{class_rad_xml_1_1_animation_track_ab67353a570dfb3ba866d3de6898e96b9}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!add\-Rotation@{add\-Rotation}}
+\index{add\-Rotation@{add\-Rotation}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{add\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::add\-Rotation (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector4}]{rotation}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_ab67353a570dfb3ba866d3de6898e96b9}
+\hypertarget{class_rad_xml_1_1_animation_track_a16b0f36b3f042782d933d65f817b74f7}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!add\-Scale@{add\-Scale}}
+\index{add\-Scale@{add\-Scale}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{add\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::add\-Scale (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Vector4}]{scale}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_a16b0f36b3f042782d933d65f817b74f7}
+\hypertarget{class_rad_xml_1_1_animation_track_a143dde96d14f23d8c87fca244947491f}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!clone\-Animation\-Track@{clone\-Animation\-Track}}
+\index{clone\-Animation\-Track@{clone\-Animation\-Track}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{clone\-Animation\-Track}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Animation\-Track}$\ast$ Rad\-Xml\-::\-Animation\-Track\-::clone\-Animation\-Track (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_a143dde96d14f23d8c87fca244947491f}
+\hypertarget{class_rad_xml_1_1_animation_track_ae4aa589dd2c07b92f95f57d2b6d949ae}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!create\-Animation\-Track@{create\-Animation\-Track}}
+\index{create\-Animation\-Track@{create\-Animation\-Track}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{create\-Animation\-Track}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::create\-Animation\-Track (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name, }
+\item[{Ogre\-::\-Scene\-Manager $\ast$}]{m\-Scene\-Mgr, }
+\item[{Ogre\-::\-Scene\-Node $\ast$}]{parent = {\ttfamily 0}, }
+\item[{bool}]{b\-Create\-New\-Scene\-Node = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_ae4aa589dd2c07b92f95f57d2b6d949ae}
+\hypertarget{class_rad_xml_1_1_animation_track_a2fa7e0a08935b31e4e3dfa9f16850f5d}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!destroy\-Animation\-Track@{destroy\-Animation\-Track}}
+\index{destroy\-Animation\-Track@{destroy\-Animation\-Track}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{destroy\-Animation\-Track}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::destroy\-Animation\-Track (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Scene\-Manager $\ast$}]{m\-Scene\-Mgr}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_a2fa7e0a08935b31e4e3dfa9f16850f5d}
+\hypertarget{class_rad_xml_1_1_animation_track_a3ec0d432a6ac56704181e6d7902046bd}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!get\-Animation@{get\-Animation}}
+\index{get\-Animation@{get\-Animation}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{get\-Animation}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Animation$\ast$ Rad\-Xml\-::\-Animation\-Track\-::get\-Animation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a3ec0d432a6ac56704181e6d7902046bd}
+\hypertarget{class_rad_xml_1_1_animation_track_a65f18fd84f40a81ff08863551c6b0138}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!get\-Animation\-State@{get\-Animation\-State}}
+\index{get\-Animation\-State@{get\-Animation\-State}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{get\-Animation\-State}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Animation\-State$\ast$ Rad\-Xml\-::\-Animation\-Track\-::get\-Animation\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a65f18fd84f40a81ff08863551c6b0138}
+\hypertarget{class_rad_xml_1_1_animation_track_a90be4e8508c5770c839ef390715b3438}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!get\-Fades@{get\-Fades}}
+\index{get\-Fades@{get\-Fades}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{get\-Fades}]{\setlength{\rightskip}{0pt plus 5cm}std\-::list$<$Ogre\-::\-Vector4$>$$\ast$ Rad\-Xml\-::\-Animation\-Track\-::get\-Fades (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a90be4e8508c5770c839ef390715b3438}
+\hypertarget{class_rad_xml_1_1_animation_track_aaaea5cc0de2a55eb26797b1246626162}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!get\-Interpolation\-Mode@{get\-Interpolation\-Mode}}
+\index{get\-Interpolation\-Mode@{get\-Interpolation\-Mode}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{get\-Interpolation\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}int Rad\-Xml\-::\-Animation\-Track\-::get\-Interpolation\-Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_aaaea5cc0de2a55eb26797b1246626162}
+\hypertarget{class_rad_xml_1_1_animation_track_aa9bcc77cbd0055cd6aa9ba5107ab1948}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!get\-Length@{get\-Length}}
+\index{get\-Length@{get\-Length}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{get\-Length}]{\setlength{\rightskip}{0pt plus 5cm}double Rad\-Xml\-::\-Animation\-Track\-::get\-Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_aa9bcc77cbd0055cd6aa9ba5107ab1948}
+\hypertarget{class_rad_xml_1_1_animation_track_a2b786600d7718428d8160e420c83d939}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!get\-Positions@{get\-Positions}}
+\index{get\-Positions@{get\-Positions}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{get\-Positions}]{\setlength{\rightskip}{0pt plus 5cm}std\-::list$<$Ogre\-::\-Vector4$>$$\ast$ Rad\-Xml\-::\-Animation\-Track\-::get\-Positions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a2b786600d7718428d8160e420c83d939}
+\hypertarget{class_rad_xml_1_1_animation_track_afb7de5b0fa85d681146dfecf5f97bfbb}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!get\-Rotations@{get\-Rotations}}
+\index{get\-Rotations@{get\-Rotations}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{get\-Rotations}]{\setlength{\rightskip}{0pt plus 5cm}std\-::list$<$Ogre\-::\-Vector4$>$$\ast$ Rad\-Xml\-::\-Animation\-Track\-::get\-Rotations (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_afb7de5b0fa85d681146dfecf5f97bfbb}
+\hypertarget{class_rad_xml_1_1_animation_track_a391b78171f1d8466c08208e794cb12ab}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!get\-Scalings@{get\-Scalings}}
+\index{get\-Scalings@{get\-Scalings}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{get\-Scalings}]{\setlength{\rightskip}{0pt plus 5cm}std\-::list$<$Ogre\-::\-Vector4$>$$\ast$ Rad\-Xml\-::\-Animation\-Track\-::get\-Scalings (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a391b78171f1d8466c08208e794cb12ab}
+\hypertarget{class_rad_xml_1_1_animation_track_aee5ea61e071221b49b302c3834f84414}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!get\-Start@{get\-Start}}
+\index{get\-Start@{get\-Start}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{get\-Start}]{\setlength{\rightskip}{0pt plus 5cm}double Rad\-Xml\-::\-Animation\-Track\-::get\-Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_aee5ea61e071221b49b302c3834f84414}
+\hypertarget{class_rad_xml_1_1_animation_track_ae5f2b5767b8f3bb06f3187ffe7dbec45}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!is\-Enabled@{is\-Enabled}}
+\index{is\-Enabled@{is\-Enabled}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{is\-Enabled}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Animation\-Track\-::is\-Enabled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_ae5f2b5767b8f3bb06f3187ffe7dbec45}
+\hypertarget{class_rad_xml_1_1_animation_track_a6faa51e87664ae6f0b995ace180b8035}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!is\-Looping@{is\-Looping}}
+\index{is\-Looping@{is\-Looping}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{is\-Looping}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Animation\-Track\-::is\-Looping (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a6faa51e87664ae6f0b995ace180b8035}
+\hypertarget{class_rad_xml_1_1_animation_track_a98f89dd36c200452b4e785b2d5ad0bb2}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!set\-Attach@{set\-Attach}}
+\index{set\-Attach@{set\-Attach}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{set\-Attach}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::set\-Attach (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Scene\-Node $\ast$}]{node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a98f89dd36c200452b4e785b2d5ad0bb2}
+\hypertarget{class_rad_xml_1_1_animation_track_a01219a57021878f116b9cec25e6f252d}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!set\-Enabled@{set\-Enabled}}
+\index{set\-Enabled@{set\-Enabled}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{set\-Enabled}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::set\-Enabled (
+\begin{DoxyParamCaption}
+\item[{bool}]{enabled}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a01219a57021878f116b9cec25e6f252d}
+\hypertarget{class_rad_xml_1_1_animation_track_a6df47cd2a803bc753b2359d8f28a6768}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!set\-Fades@{set\-Fades}}
+\index{set\-Fades@{set\-Fades}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{set\-Fades}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::set\-Fades (
+\begin{DoxyParamCaption}
+\item[{std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$}]{fades}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_a6df47cd2a803bc753b2359d8f28a6768}
+\hypertarget{class_rad_xml_1_1_animation_track_a1e8daeb4b3781cd4aa05485bea1e1a80}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!set\-Interpolation\-Mode@{set\-Interpolation\-Mode}}
+\index{set\-Interpolation\-Mode@{set\-Interpolation\-Mode}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{set\-Interpolation\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::set\-Interpolation\-Mode (
+\begin{DoxyParamCaption}
+\item[{int}]{imode}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a1e8daeb4b3781cd4aa05485bea1e1a80}
+\hypertarget{class_rad_xml_1_1_animation_track_a46d85649bf7e9d0b2dc1e036eaccbdf0}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!set\-Length@{set\-Length}}
+\index{set\-Length@{set\-Length}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{set\-Length}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::set\-Length (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Real}]{length}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a46d85649bf7e9d0b2dc1e036eaccbdf0}
+\hypertarget{class_rad_xml_1_1_animation_track_a8b04a09bd2255501a311dbecc16e6050}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!set\-Looping@{set\-Looping}}
+\index{set\-Looping@{set\-Looping}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{set\-Looping}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::set\-Looping (
+\begin{DoxyParamCaption}
+\item[{bool}]{loop}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a8b04a09bd2255501a311dbecc16e6050}
+\hypertarget{class_rad_xml_1_1_animation_track_ab098ce49198ec50d543788890bd31159}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!set\-Positions@{set\-Positions}}
+\index{set\-Positions@{set\-Positions}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{set\-Positions}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::set\-Positions (
+\begin{DoxyParamCaption}
+\item[{std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$}]{positions}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_ab098ce49198ec50d543788890bd31159}
+\hypertarget{class_rad_xml_1_1_animation_track_a11d9cdbd50bb8fa6342a2f9036f66ca7}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!set\-Rotations@{set\-Rotations}}
+\index{set\-Rotations@{set\-Rotations}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{set\-Rotations}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::set\-Rotations (
+\begin{DoxyParamCaption}
+\item[{std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$}]{rotations}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_a11d9cdbd50bb8fa6342a2f9036f66ca7}
+\hypertarget{class_rad_xml_1_1_animation_track_aa4f80c7b9786cee8f4cd14fc46701f82}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!set\-Scalings@{set\-Scalings}}
+\index{set\-Scalings@{set\-Scalings}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{set\-Scalings}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::set\-Scalings (
+\begin{DoxyParamCaption}
+\item[{std\-::list$<$ Ogre\-::\-Vector4 $>$ $\ast$}]{scalings}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_animation_track_aa4f80c7b9786cee8f4cd14fc46701f82}
+\hypertarget{class_rad_xml_1_1_animation_track_a283f5589564df2e4140a63386cdc8782}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!set\-Start@{set\-Start}}
+\index{set\-Start@{set\-Start}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{set\-Start}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Animation\-Track\-::set\-Start (
+\begin{DoxyParamCaption}
+\item[{Ogre\-::\-Real}]{start}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_animation_track_a283f5589564df2e4140a63386cdc8782}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_rad_xml_1_1_animation_track_aedaca3ab10e43a4cc34ca8db0d071c9a}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!a\-Anim@{a\-Anim}}
+\index{a\-Anim@{a\-Anim}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{a\-Anim}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Animation$\ast$ Rad\-Xml\-::\-Animation\-Track\-::a\-Anim\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_aedaca3ab10e43a4cc34ca8db0d071c9a}
+\hypertarget{class_rad_xml_1_1_animation_track_aa6d8252cfb633be1b27bf9771d7e93d0}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!as\-Anim\-State@{as\-Anim\-State}}
+\index{as\-Anim\-State@{as\-Anim\-State}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{as\-Anim\-State}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Animation\-State$\ast$ Rad\-Xml\-::\-Animation\-Track\-::as\-Anim\-State\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_aa6d8252cfb633be1b27bf9771d7e93d0}
+\hypertarget{class_rad_xml_1_1_animation_track_adfaaa24505acea2fba79af09e0ec5822}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!b\-Enabled@{b\-Enabled}}
+\index{b\-Enabled@{b\-Enabled}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{b\-Enabled}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Animation\-Track\-::b\-Enabled\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_adfaaa24505acea2fba79af09e0ec5822}
+\hypertarget{class_rad_xml_1_1_animation_track_a425fbf5b2d1b2987ae9a6ef87d0dfc73}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!b\-Loop@{b\-Loop}}
+\index{b\-Loop@{b\-Loop}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{b\-Loop}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Animation\-Track\-::b\-Loop\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_a425fbf5b2d1b2987ae9a6ef87d0dfc73}
+\hypertarget{class_rad_xml_1_1_animation_track_ad0cd379f4b57a720ff0e9d0690668b86}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!im\-Mode@{im\-Mode}}
+\index{im\-Mode@{im\-Mode}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{im\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}int Rad\-Xml\-::\-Animation\-Track\-::im\-Mode\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_ad0cd379f4b57a720ff0e9d0690668b86}
+\hypertarget{class_rad_xml_1_1_animation_track_aa34dee8a974a09f509eb31073d435160}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!lst\-Positions@{lst\-Positions}}
+\index{lst\-Positions@{lst\-Positions}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{lst\-Positions}]{\setlength{\rightskip}{0pt plus 5cm}std\-::list$<$Ogre\-::\-Vector4$>$$\ast$ Rad\-Xml\-::\-Animation\-Track\-::lst\-Positions\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_aa34dee8a974a09f509eb31073d435160}
+\hypertarget{class_rad_xml_1_1_animation_track_a3c0d1a6814e4fbacd9683d5bef849307}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!lst\-Rotations@{lst\-Rotations}}
+\index{lst\-Rotations@{lst\-Rotations}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{lst\-Rotations}]{\setlength{\rightskip}{0pt plus 5cm}std\-::list$<$Ogre\-::\-Vector4$>$$\ast$ Rad\-Xml\-::\-Animation\-Track\-::lst\-Rotations\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_a3c0d1a6814e4fbacd9683d5bef849307}
+\hypertarget{class_rad_xml_1_1_animation_track_ad53819a43c900a2a84b4d9e6e80ee608}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!lst\-Scalings@{lst\-Scalings}}
+\index{lst\-Scalings@{lst\-Scalings}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{lst\-Scalings}]{\setlength{\rightskip}{0pt plus 5cm}std\-::list$<$Ogre\-::\-Vector4$>$$\ast$ Rad\-Xml\-::\-Animation\-Track\-::lst\-Scalings\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_ad53819a43c900a2a84b4d9e6e80ee608}
+\hypertarget{class_rad_xml_1_1_animation_track_a1f9d1c712054f85cba20dd4567c15dc4}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!r\-Length@{r\-Length}}
+\index{r\-Length@{r\-Length}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{r\-Length}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Real Rad\-Xml\-::\-Animation\-Track\-::r\-Length\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_a1f9d1c712054f85cba20dd4567c15dc4}
+\hypertarget{class_rad_xml_1_1_animation_track_acba15b201ccc5d3df7e418528b3f6bec}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!r\-Start@{r\-Start}}
+\index{r\-Start@{r\-Start}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{r\-Start}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Real Rad\-Xml\-::\-Animation\-Track\-::r\-Start\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_acba15b201ccc5d3df7e418528b3f6bec}
+\hypertarget{class_rad_xml_1_1_animation_track_ab33a825510229a825ee70e04e98394b4}{\index{Rad\-Xml\-::\-Animation\-Track@{Rad\-Xml\-::\-Animation\-Track}!sn\-Attached\-Node@{sn\-Attached\-Node}}
+\index{sn\-Attached\-Node@{sn\-Attached\-Node}!RadXml::AnimationTrack@{Rad\-Xml\-::\-Animation\-Track}}
+\subsubsection[{sn\-Attached\-Node}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Scene\-Node$\ast$ Rad\-Xml\-::\-Animation\-Track\-::sn\-Attached\-Node\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_animation_track_ab33a825510229a825ee70e04e98394b4}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/\hyperlink{_rad_xml_animation_track_8h}{Rad\-Xml\-Animation\-Track.\-h}\end{DoxyCompactItemize}

@@ -1,0 +1,189 @@
+cmake_minimum_required (VERSION 2.6)
+project (RADXML)
+
+message (STATUS "Configuring RadXML...")
+message (STATUS "Version 0.1")
+
+set (CMAKE_MODULE_PATH "${RADXML_SOURCE_DIR}/CMake"
+			"${RADXML_SOURCE_DIR}/CMake/dependencies"
+			"${RADXML_SOURCE_DIR}/include"
+			"${RADXML_SOURCE_DIR}/source")
+
+set (RADXML_INCLUDE_APP_API TRUE CACHE BOOL "Include the App API?")
+set (RADXML_INCLUDE_GAME_API TRUE CACHE BOOL "Include the Game API?")
+set (RADXML_DEPENDENCIES "" CACHE PATH "RadXML Dependencies path")
+set (RADXML_LANGUAGE "en_us" CACHE STRING "Select language to compile with")
+set (RADXML_STATIC false CACHE BOOL "Static build of RadXML")
+
+set (RADXML_LANGUAGE_UPPER)
+string (TOUPPER ${RADXML_LANGUAGE} RADXML_LANGUAGE_UPPER)
+
+message (STATUS "Using language ${RADXML_LANGUAGE_UPPER}")
+
+if (RADXML_INCLUDE_APP_API)
+	message (STATUS "App API is going to be included in this build.")
+else ()
+	message (STATUS "App API will NOT be included in this build.")
+endif ()
+
+if (RADXML_INCLUDE_GAME_API)
+	message (STATUS "Game API is going to be included in this build.")
+	set (OGRE_FIND_REQUIRED TRUE)
+else ()
+	message (STATUS "Game API will NOT be included in this build.")
+endif ()
+
+if (NOT RADXML_DEPENDENCIES STREQUAL "")
+	message (STATUS "RadXML Dependencies path set to: ${RADXML_DEPENDENCIES}")
+endif ()
+
+set (V8_FIND_REQUIRED true)
+set (TINYXML_FIND_REQUIRED true)
+
+include (FindOgre)
+include (FindCEGUI)
+include (FindV8)
+include (FindwxWidgets)
+include (FindOpenAL)
+include (FindOgg)
+include (FindVorbis)
+include (FindTinyXML)
+
+set (CMAKE_DEBUG_POSTFIX "_d")
+
+set (RADXML_SOURCE_LANGUAGE_FILE)
+
+set (SOURCES_files_Languages
+	"${RADXML_SOURCE_DIR}/include/RadXml/languages/${RADXML_LANGUAGE}.h"
+	"${RADXML_SOURCE_DIR}/include/RadXml/languages/language.h")
+source_group ("Languages" FILES ${SOURCES_files_Languages})
+
+set (SOURCES ${SOURCES_files_Languages} ${SOURCES})
+
+include (includes)
+include (sources)
+
+set (RADXML_CPP_DEFS)
+
+set (RADXML_CPP_DEFS "defLANG_${RADXML_LANGUAGE_UPPER}" ${RADXML_CPP_DEFS})
+
+if (RADXML_STATIC)
+	set (RADXML_CPP_DEFS defLIB_STATIC ${RADXML_CPP_DEFS})
+else ()
+	set (RADXML_CPP_DEFS defLIB_DLL ${RADXML_CPP_DEFS})
+endif ()
+
+if (WIN32)
+	set (RADXML_CPP_DEFS WIN32 ${RADXML_CPP_DEFS})
+	set (RADXML_CPP_DEFS _WINDOWS ${RADXML_CPP_DEFS})
+	set (RADXML_CPP_DEFS defSYS_WIN32 ${RADXML_CPP_DEFS})
+	set (RADXML_CPP_DEFS defARCH_X86 ${RADXML_CPP_DEFS})
+
+	if (MSVC)
+		set (RADXML_CPP_DEFS NOMINMAX ${RADXML_CPP_DEFS})
+	endif ()
+
+	if (MSVC_VERSION EQUAL 1400)
+		set (RADXML_CPP_DEFS defVCNET2K5 ${RADXML_CPP_DEFS})
+	endif ()
+
+	if (MSVC_VERSION EQUAL 1500)
+		set (RADXML_CPP_DEFS defVCNET2K8 ${RADXML_CPP_DEFS})
+	endif ()
+
+	if (MSVC_VERSION EQUAL 1600)
+		set (RADXML_CPP_DEFS defVCNET2K10 ${RADXML_CPP_DEFS})
+	endif ()
+endif ()
+
+include_directories (${RADXML_SOURCE_DIR}/include/RadXml)
+
+if (CEGUI_FOUND)
+	include_directories (${CEGUI_INCLUDE_DIRS})
+	set (RADXML_LINK_LIBRARIES ${CEGUI_LIBRARIES} ${RADXML_LINK_LIBRARIES})
+	set (RADXML_CPP_DEFS defAPI_CEGUI ${RADXML_CPP_DEFS})
+endif ()
+
+if (OGG_FOUND)
+	include_directories (${OGG_INCLUDE_DIRS})
+	set (RADXML_LINK_LIBRARIES ${OGG_LIBRARIES} ${RADXML_LINK_LIBRARIES})
+endif ()
+
+if (VORBIS_FOUND)
+	include_directories (${VORBIS_INCLUDE_DIRS})
+	set (RADXML_LINK_LIBRARIES ${VORBIS_LIBRARIES} ${RADXML_LINK_LIBRARIES})
+	set (RADXML_CPP_DEFS defAPI_VORBIS_FILE ${RADXML_CPP_DEFS})
+endif ()
+
+if (OGRE_FOUND)
+	include_directories (${OGRE_INCLUDE_DIRS})
+	set (RADXML_LINK_LIBRARIES ${OGRE_LIBRARIES} ${RADXML_LINK_LIBRARIES})
+	set (RADXML_CPP_DEFS defAPI_OGRE3D ${RADXML_CPP_DEFS})
+
+	if ((OGRE_VERSION GREATER 1.7) OR (OGRE_VERSION EQUAL 1.7))
+		set (RADXML_CPP_DEFS defAPI_OGRE3D_17_OR_HIGHER ${RADXML_CPP_DEFS})
+	endif ()
+
+	if ((OGRE_VERSION GREATER 1.8) OR (OGRE_VERSION EQUAL 1.8))
+		set (RADXML_CPP_DEFS defAPI_OGRE3D_18_OR_HIGHER ${RADXML_CPP_DEFS})
+	endif ()
+endif ()
+
+if (OPENAL_FOUND)
+	include_directories (${OPENAL_INCLUDE_DIRS})
+	set (RADXML_LINK_LIBRARIES ${OPENAL_LIBRARIES} ${RADXML_LINK_LIBRARIES})
+	set (RADXML_CPP_DEFS defAPI_OPENAL ${RADXML_CPP_DEFS})
+endif ()
+
+if (TINYXML_FOUND)
+	include_directories (${TINYXML_INCLUDE_DIRS})
+	set (RADXML_LINK_LIBRARIES ${TINYXML_LIBRARIES} ${RADXML_LINK_LIBRARIES})
+	set (RADXML_CPP_DEFS defAPI_TINY_XML ${RADXML_CPP_DEFS})
+endif ()
+
+if (V8_FOUND)
+	include_directories (${V8_INCLUDE_DIRS})
+	set (RADXML_LINK_LIBRARIES ${V8_LIBRARIES} ${RADXML_LINK_LIBRARIES})
+	set (RADXML_CPP_DEFS defAPI_JAVASCRIPT_V8 ${RADXML_CPP_DEFS})
+endif ()
+
+if (WX_FOUND)
+	include_directories (${WX_INCLUDE_DIRS})
+	set (RADXML_LINK_LIBRARIES ${WX_LIBRARIES} ${RADXML_LINK_LIBRARIES})
+	set (RADXML_CPP_DEFS defAPI_WXWIDGETS ${RADXML_CPP_DEFS})
+	set (RADXML_CPP_DEFS defAPI_WXWIDGETS ${RADXML_CPP_DEFS})
+	set (RADXML_CPP_DEFS wxUSE_DYNLIB_CLASS=1 ${RADXML_CPP_DEFS})
+
+	set (RADXML_CPP_DEFS WXUSINGDLL ${RADXML_CPP_DEFS})
+	set (RADXML_CPP_DEFS wxUSE_GUI=1 ${RADXML_CPP_DEFS})
+
+	if (WIN32)
+		set (RADXML_CPP_DEFS WINVER=0x0400 ${RADXML_CPP_DEFS})
+		set (RADXML_CPP_DEFS NOPCH ${RADXML_CPP_DEFS})
+		set (RADXML_CPP_DEFS __WXMSW__ ${RADXML_CPP_DEFS})
+	endif ()
+endif ()
+
+set (RADXML_LINK_LIBRARIES)
+set (RADXML_CPP_DEFS_DEBUG)
+
+set (RADXML_CPP_DEFS_DEBUG _DEBUG ${RADXML_CPP_DEFS_DEBUG})
+
+if (WX_FOUND)
+	set (RADXML_CPP_DEFS_DEBUG WXDEBUG=1 ${RADXML_CPP_DEFS_DEBUG})
+	set (RADXML_CPP_DEFS_DEBUG __WXDEBUG__ ${RADXML_CPP_DEFS_DEBUG})
+endif ()
+
+if (RADXML_STATIC)
+	add_library (RADXML STATIC ${SOURCES})
+else ()
+	add_library (RADXML SHARED ${SOURCES})
+endif ()
+
+target_link_libraries (RADXML ${RADXML_LINK_LIBRARIES})
+
+set_property (TARGET RADXML APPEND PROPERTY COMPILE_DEFINITIONS ${RADXML_CPP_DEFS})
+set_property (TARGET RADXML APPEND PROPERTY COMPILE_DEFINITIONS_DEBUG ${RADXML_CPP_DEFS} ${RADXML_CPP_DEFS_DEBUG})
+
+set_property (TARGET RADXML PROPERTY PROJECT_LABEL "RadXML")
+

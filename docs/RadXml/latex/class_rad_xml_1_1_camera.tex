@@ -1,0 +1,161 @@
+\hypertarget{class_rad_xml_1_1_camera}{\section{Rad\-Xml\-:\-:Camera Class Reference}
+\label{class_rad_xml_1_1_camera}\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}}
+}
+
+
+{\ttfamily \#include $<$Rad\-Xml\-Camera.\-h$>$}
+
+Inheritance diagram for Rad\-Xml\-:\-:Camera\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_rad_xml_1_1_camera}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_rad_xml_1_1_camera_a3e82e569e1f6e5b48bb68d9624f9ba3f}{Camera} (std\-::string new\-Name)
+\item 
+\hyperlink{class_rad_xml_1_1_camera_ac7d3b520adefb9cc600282719623b881}{$\sim$\-Camera} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_camera_a788b01c69c1375f9e45c0f4ef4ce19dc}{parse\-X\-M\-L} (\hyperlink{class_rad_xml_1_1_xml_file}{Xml\-File} $\ast$level, \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$element, \hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$parent=0)
+\item 
+void \hyperlink{class_rad_xml_1_1_camera_aa77ef056a3a5af0b5e6ed435a7d84ac9}{create} (int i\-Window=0, \hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$parent=0)
+\item 
+void \hyperlink{class_rad_xml_1_1_camera_a3e1c56430851395dfe48ca685ee11452}{destroy} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_camera_a9f023dcd2c8718eafa160740da4ec770}{set\-Visible} (bool visible)
+\item 
+bool \hyperlink{class_rad_xml_1_1_camera_a23b65d0e998a3dc08e7327dab5c980ef}{get\-Visible} ()
+\item 
+\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$ \hyperlink{class_rad_xml_1_1_camera_a8a97ff4d9995ee2299f80ce870e0d45c}{clone} (std\-::string new\-Name, \hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$parent=0)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ogre\-::\-Camera $\ast$ \hyperlink{class_rad_xml_1_1_camera_ac0035bf46e68a723f00900c54b1eefc2}{cam\-Camera}
+\item 
+bool \hyperlink{class_rad_xml_1_1_camera_afdffce1a8c2271c28b298c6b2d753d36}{enabled}
+\item 
+Ogre\-::\-Colour\-Value \hyperlink{class_rad_xml_1_1_camera_ac0099d6db699d1359f147de69de2ae7e}{bg\-Color}
+\item 
+Ogre\-::\-Real \hyperlink{class_rad_xml_1_1_camera_a97c0af25c9ba6e1e7af7235e1e4ec994}{num\-Mip\-Maps}
+\item 
+Ogre\-::\-Real \hyperlink{class_rad_xml_1_1_camera_a374efdd1be6681c19cbeda4cead0cd75}{focal\-Length}
+\item 
+Ogre\-::\-Real \hyperlink{class_rad_xml_1_1_camera_abc9d35602d1b6b2325d527fa0d0e35cd}{near\-Clip\-Distance}
+\item 
+Ogre\-::\-Real \hyperlink{class_rad_xml_1_1_camera_a10b153eb52a5a23326b40ceabebd1c49}{far\-Clip\-Distance}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_rad_xml_1_1_camera_a3e82e569e1f6e5b48bb68d9624f9ba3f}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!Camera@{Camera}}
+\index{Camera@{Camera}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{Camera}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Camera\-::\-Camera (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_camera_a3e82e569e1f6e5b48bb68d9624f9ba3f}
+\hypertarget{class_rad_xml_1_1_camera_ac7d3b520adefb9cc600282719623b881}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!$\sim$\-Camera@{$\sim$\-Camera}}
+\index{$\sim$\-Camera@{$\sim$\-Camera}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{$\sim$\-Camera}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Camera\-::$\sim$\-Camera (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_camera_ac7d3b520adefb9cc600282719623b881}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_rad_xml_1_1_camera_a8a97ff4d9995ee2299f80ce870e0d45c}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!clone@{clone}}
+\index{clone@{clone}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{clone}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Movable}$\ast$ Rad\-Xml\-::\-Camera\-::clone (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name, }
+\item[{{\bf Movable} $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_rad_xml_1_1_camera_a8a97ff4d9995ee2299f80ce870e0d45c}
+
+
+Implements \hyperlink{class_rad_xml_1_1_movable_ac6a4bed9cfb97803f982201be0f70caa}{Rad\-Xml\-::\-Movable}.
+
+\hypertarget{class_rad_xml_1_1_camera_aa77ef056a3a5af0b5e6ed435a7d84ac9}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!create@{create}}
+\index{create@{create}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{create}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Camera\-::create (
+\begin{DoxyParamCaption}
+\item[{int}]{i\-Window = {\ttfamily 0}, }
+\item[{{\bf Movable} $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_camera_aa77ef056a3a5af0b5e6ed435a7d84ac9}
+\hypertarget{class_rad_xml_1_1_camera_a3e1c56430851395dfe48ca685ee11452}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!destroy@{destroy}}
+\index{destroy@{destroy}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{destroy}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Camera\-::destroy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_camera_a3e1c56430851395dfe48ca685ee11452}
+\hypertarget{class_rad_xml_1_1_camera_a23b65d0e998a3dc08e7327dab5c980ef}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!get\-Visible@{get\-Visible}}
+\index{get\-Visible@{get\-Visible}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{get\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Camera\-::get\-Visible (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_rad_xml_1_1_camera_a23b65d0e998a3dc08e7327dab5c980ef}
+
+
+Implements \hyperlink{class_rad_xml_1_1_movable_a9dfae163267b8152017c9531fb74343f}{Rad\-Xml\-::\-Movable}.
+
+\hypertarget{class_rad_xml_1_1_camera_a788b01c69c1375f9e45c0f4ef4ce19dc}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!parse\-X\-M\-L@{parse\-X\-M\-L}}
+\index{parse\-X\-M\-L@{parse\-X\-M\-L}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{parse\-X\-M\-L}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Camera\-::parse\-X\-M\-L (
+\begin{DoxyParamCaption}
+\item[{{\bf Xml\-File} $\ast$}]{level, }
+\item[{{\bf X\-M\-L\-Element} $\ast$}]{element, }
+\item[{{\bf Movable} $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_rad_xml_1_1_camera_a788b01c69c1375f9e45c0f4ef4ce19dc}
+
+
+Implements \hyperlink{class_rad_xml_1_1_movable_a3bfa50630cbc5b287f5b54262744ac63}{Rad\-Xml\-::\-Movable}.
+
+\hypertarget{class_rad_xml_1_1_camera_a9f023dcd2c8718eafa160740da4ec770}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!set\-Visible@{set\-Visible}}
+\index{set\-Visible@{set\-Visible}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{set\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Camera\-::set\-Visible (
+\begin{DoxyParamCaption}
+\item[{bool}]{visible}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_rad_xml_1_1_camera_a9f023dcd2c8718eafa160740da4ec770}
+
+
+Implements \hyperlink{class_rad_xml_1_1_movable_af8911805b88cf189231d8beed68e4018}{Rad\-Xml\-::\-Movable}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_rad_xml_1_1_camera_ac0099d6db699d1359f147de69de2ae7e}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!bg\-Color@{bg\-Color}}
+\index{bg\-Color@{bg\-Color}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{bg\-Color}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Colour\-Value Rad\-Xml\-::\-Camera\-::bg\-Color}}\label{class_rad_xml_1_1_camera_ac0099d6db699d1359f147de69de2ae7e}
+\hypertarget{class_rad_xml_1_1_camera_ac0035bf46e68a723f00900c54b1eefc2}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!cam\-Camera@{cam\-Camera}}
+\index{cam\-Camera@{cam\-Camera}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{cam\-Camera}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Camera$\ast$ Rad\-Xml\-::\-Camera\-::cam\-Camera}}\label{class_rad_xml_1_1_camera_ac0035bf46e68a723f00900c54b1eefc2}
+\hypertarget{class_rad_xml_1_1_camera_afdffce1a8c2271c28b298c6b2d753d36}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!enabled@{enabled}}
+\index{enabled@{enabled}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{enabled}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Camera\-::enabled}}\label{class_rad_xml_1_1_camera_afdffce1a8c2271c28b298c6b2d753d36}
+\hypertarget{class_rad_xml_1_1_camera_a10b153eb52a5a23326b40ceabebd1c49}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!far\-Clip\-Distance@{far\-Clip\-Distance}}
+\index{far\-Clip\-Distance@{far\-Clip\-Distance}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{far\-Clip\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Real Rad\-Xml\-::\-Camera\-::far\-Clip\-Distance}}\label{class_rad_xml_1_1_camera_a10b153eb52a5a23326b40ceabebd1c49}
+\hypertarget{class_rad_xml_1_1_camera_a374efdd1be6681c19cbeda4cead0cd75}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!focal\-Length@{focal\-Length}}
+\index{focal\-Length@{focal\-Length}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{focal\-Length}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Real Rad\-Xml\-::\-Camera\-::focal\-Length}}\label{class_rad_xml_1_1_camera_a374efdd1be6681c19cbeda4cead0cd75}
+\hypertarget{class_rad_xml_1_1_camera_abc9d35602d1b6b2325d527fa0d0e35cd}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!near\-Clip\-Distance@{near\-Clip\-Distance}}
+\index{near\-Clip\-Distance@{near\-Clip\-Distance}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{near\-Clip\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Real Rad\-Xml\-::\-Camera\-::near\-Clip\-Distance}}\label{class_rad_xml_1_1_camera_abc9d35602d1b6b2325d527fa0d0e35cd}
+\hypertarget{class_rad_xml_1_1_camera_a97c0af25c9ba6e1e7af7235e1e4ec994}{\index{Rad\-Xml\-::\-Camera@{Rad\-Xml\-::\-Camera}!num\-Mip\-Maps@{num\-Mip\-Maps}}
+\index{num\-Mip\-Maps@{num\-Mip\-Maps}!RadXml::Camera@{Rad\-Xml\-::\-Camera}}
+\subsubsection[{num\-Mip\-Maps}]{\setlength{\rightskip}{0pt plus 5cm}Ogre\-::\-Real Rad\-Xml\-::\-Camera\-::num\-Mip\-Maps}}\label{class_rad_xml_1_1_camera_a97c0af25c9ba6e1e7af7235e1e4ec994}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/\hyperlink{_rad_xml_camera_8h}{Rad\-Xml\-Camera.\-h}\end{DoxyCompactItemize}

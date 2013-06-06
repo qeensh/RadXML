@@ -1,0 +1,100 @@
+\hypertarget{class_x_m_l_parser}{\section{X\-M\-L\-Parser Class Reference}
+\label{class_x_m_l_parser}\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}}
+}
+
+
+{\ttfamily \#include $<$xml.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_x_m_l_parser_a60004d4b50ef242bbd191a494fd750f1}{X\-M\-L\-Parser} ()
+\item 
+\hyperlink{class_x_m_l_parser_a899905c7d9fb489cc16fb9c22ffd9651}{X\-M\-L\-Parser} (std\-::string file)
+\item 
+\hyperlink{class_x_m_l_parser_af833ecdb0e07ead08dfda925b4af86ad}{$\sim$\-X\-M\-L\-Parser} ()
+\item 
+bool \hyperlink{class_x_m_l_parser_a48e67e5924ed40b94c7ee21f3dea0bd3}{parse\-File} (std\-::string file)
+\item 
+\hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$ \hyperlink{class_x_m_l_parser_a3ee6b721229db445683f29726e05bdfc}{find\-Tag} (std\-::string tag\-To\-Find)
+\item 
+std\-::vector$<$ \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$ $>$ \hyperlink{class_x_m_l_parser_a3c38f0902d8729a7388fd748e7a3a247}{find\-All\-Tags} (std\-::string tag\-To\-Find)
+\item 
+std\-::string \hyperlink{class_x_m_l_parser_adb7595b44f97dbf9d1cf349550deedb0}{get\-Filename} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::string \hyperlink{class_x_m_l_parser_a7eb60e2a223b32c561bf5ca759ac3786}{str\-Filename}
+\item 
+std\-::vector$<$ \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$ $>$ $\ast$ \hyperlink{class_x_m_l_parser_a15b918c0da7ca92c9c6b1bc2942e06f1}{ary\-Elements}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_x_m_l_parser_a60004d4b50ef242bbd191a494fd750f1}{\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!X\-M\-L\-Parser@{X\-M\-L\-Parser}}
+\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!XMLParser@{X\-M\-L\-Parser}}
+\subsubsection[{X\-M\-L\-Parser}]{\setlength{\rightskip}{0pt plus 5cm}X\-M\-L\-Parser\-::\-X\-M\-L\-Parser (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_parser_a60004d4b50ef242bbd191a494fd750f1}
+\hypertarget{class_x_m_l_parser_a899905c7d9fb489cc16fb9c22ffd9651}{\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!X\-M\-L\-Parser@{X\-M\-L\-Parser}}
+\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!XMLParser@{X\-M\-L\-Parser}}
+\subsubsection[{X\-M\-L\-Parser}]{\setlength{\rightskip}{0pt plus 5cm}X\-M\-L\-Parser\-::\-X\-M\-L\-Parser (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_parser_a899905c7d9fb489cc16fb9c22ffd9651}
+\hypertarget{class_x_m_l_parser_af833ecdb0e07ead08dfda925b4af86ad}{\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!$\sim$\-X\-M\-L\-Parser@{$\sim$\-X\-M\-L\-Parser}}
+\index{$\sim$\-X\-M\-L\-Parser@{$\sim$\-X\-M\-L\-Parser}!XMLParser@{X\-M\-L\-Parser}}
+\subsubsection[{$\sim$\-X\-M\-L\-Parser}]{\setlength{\rightskip}{0pt plus 5cm}X\-M\-L\-Parser\-::$\sim$\-X\-M\-L\-Parser (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_parser_af833ecdb0e07ead08dfda925b4af86ad}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_x_m_l_parser_a3c38f0902d8729a7388fd748e7a3a247}{\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!find\-All\-Tags@{find\-All\-Tags}}
+\index{find\-All\-Tags@{find\-All\-Tags}!XMLParser@{X\-M\-L\-Parser}}
+\subsubsection[{find\-All\-Tags}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf X\-M\-L\-Element} $\ast$$>$ X\-M\-L\-Parser\-::find\-All\-Tags (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{tag\-To\-Find}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_parser_a3c38f0902d8729a7388fd748e7a3a247}
+\hypertarget{class_x_m_l_parser_a3ee6b721229db445683f29726e05bdfc}{\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!find\-Tag@{find\-Tag}}
+\index{find\-Tag@{find\-Tag}!XMLParser@{X\-M\-L\-Parser}}
+\subsubsection[{find\-Tag}]{\setlength{\rightskip}{0pt plus 5cm}{\bf X\-M\-L\-Element}$\ast$ X\-M\-L\-Parser\-::find\-Tag (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{tag\-To\-Find}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_parser_a3ee6b721229db445683f29726e05bdfc}
+\hypertarget{class_x_m_l_parser_adb7595b44f97dbf9d1cf349550deedb0}{\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!get\-Filename@{get\-Filename}}
+\index{get\-Filename@{get\-Filename}!XMLParser@{X\-M\-L\-Parser}}
+\subsubsection[{get\-Filename}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string X\-M\-L\-Parser\-::get\-Filename (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_x_m_l_parser_adb7595b44f97dbf9d1cf349550deedb0}
+\hypertarget{class_x_m_l_parser_a48e67e5924ed40b94c7ee21f3dea0bd3}{\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!parse\-File@{parse\-File}}
+\index{parse\-File@{parse\-File}!XMLParser@{X\-M\-L\-Parser}}
+\subsubsection[{parse\-File}]{\setlength{\rightskip}{0pt plus 5cm}bool X\-M\-L\-Parser\-::parse\-File (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_parser_a48e67e5924ed40b94c7ee21f3dea0bd3}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_x_m_l_parser_a15b918c0da7ca92c9c6b1bc2942e06f1}{\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!ary\-Elements@{ary\-Elements}}
+\index{ary\-Elements@{ary\-Elements}!XMLParser@{X\-M\-L\-Parser}}
+\subsubsection[{ary\-Elements}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf X\-M\-L\-Element} $\ast$$>$$\ast$ X\-M\-L\-Parser\-::ary\-Elements\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_x_m_l_parser_a15b918c0da7ca92c9c6b1bc2942e06f1}
+\hypertarget{class_x_m_l_parser_a7eb60e2a223b32c561bf5ca759ac3786}{\index{X\-M\-L\-Parser@{X\-M\-L\-Parser}!str\-Filename@{str\-Filename}}
+\index{str\-Filename@{str\-Filename}!XMLParser@{X\-M\-L\-Parser}}
+\subsubsection[{str\-Filename}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string X\-M\-L\-Parser\-::str\-Filename\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_x_m_l_parser_a7eb60e2a223b32c561bf5ca759ac3786}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/xml/\hyperlink{xml_8h}{xml.\-h}\end{DoxyCompactItemize}

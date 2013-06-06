@@ -1,0 +1,356 @@
+\hypertarget{class_rad_xml_1_1_rad_x_m_l}{\section{Rad\-Xml\-:\-:Rad\-X\-M\-L Class Reference}
+\label{class_rad_xml_1_1_rad_x_m_l}\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+}
+
+
+{\ttfamily \#include $<$Rad\-Xml.\-h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \hyperlink{class_rad_xml_1_1_variable}{Variable} $\ast$($\ast$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_ab812a58a3bf015e646979a83309db244}{Event\-Callback} )(\hyperlink{class_rad_xml_1_1_variable}{Variable} $\ast$arguments)
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_rad_xml_1_1_rad_x_m_l_a9bb48a0f8a2031778847dada3a541ff5}{compile\-And\-Run\-J\-S\-Script} (std\-::string file)
+\item 
+bool \hyperlink{class_rad_xml_1_1_rad_x_m_l_a27dd98dc1eace0195160091d116267f0}{compile\-And\-Run\-J\-S\-String} (std\-::string string)
+\item 
+\hyperlink{class_rad_xml_1_1_timer}{Timer} $\ast$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_a60fa16cf43e2fe71ba4a45a8c4e1587a}{create\-Timer} (std\-::string javascript, unsigned int milliseconds)
+\item 
+void \hyperlink{class_rad_xml_1_1_rad_x_m_l_a215870f9886ee55cf6f8512d70606f6c}{execute\-Timers} (double time\-Since\-Last\-Frame)
+\item 
+bool \hyperlink{class_rad_xml_1_1_rad_x_m_l_a15cb77df75e0006238d79396f9fb8807}{load\-Xml} (std\-::string file)
+\item 
+void \hyperlink{class_rad_xml_1_1_rad_x_m_l_ae7292264408379b2bc88612904db4cea}{add\-App\-Object\-J\-S\-Object} (\hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$object)
+\item 
+J\-S\-V\-A\-L\-U\-E \hyperlink{class_rad_xml_1_1_rad_x_m_l_a963da38ad88c88224560cc5f1cf27cf9}{get\-App\-Object\-J\-S\-Object} (\hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$object)
+\item 
+J\-S\-V\-A\-L\-U\-E \hyperlink{class_rad_xml_1_1_rad_x_m_l_a8a8da3532713b5ab1c03892c794dd1e3}{get\-App\-Object\-J\-S\-Object} (std\-::string object\-Name)
+\item 
+void \hyperlink{class_rad_xml_1_1_rad_x_m_l_a54e84daa3b0cad8d570f9bcdf20c566d}{remove\-App\-Object\-J\-S\-Object} (\hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$object)
+\item 
+void \hyperlink{class_rad_xml_1_1_rad_x_m_l_a5bdfc836108100403b93b1e73c6baff1}{add\-Movable\-J\-S\-Object} (\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$object)
+\item 
+v8\-::\-Local$<$ v8\-::\-Value $>$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_ac42fe8c75a15e4b28b4606eea1879263}{get\-Movable\-J\-S\-Object} (\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$object)
+\item 
+v8\-::\-Local$<$ v8\-::\-Value $>$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_afc596cfcdb3f8a50a4c0aee3819b337c}{get\-Movable\-J\-S\-Object} (std\-::string object\-Name)
+\item 
+void \hyperlink{class_rad_xml_1_1_rad_x_m_l_abf9e1e7a563a5c2e300145271bdb44b2}{remove\-Movable\-J\-S\-Object} (\hyperlink{class_rad_xml_1_1_movable}{Movable} $\ast$object)
+\item 
+void \hyperlink{class_rad_xml_1_1_rad_x_m_l_aebc4d95f1ff43cfbee5ea633b4b3ec94}{set\-Callback} (int js\-Event, \hyperlink{class_rad_xml_1_1_rad_x_m_l_ab812a58a3bf015e646979a83309db244}{Event\-Callback} event\-Callback)
+\item 
+void \hyperlink{class_rad_xml_1_1_rad_x_m_l_a68e3f128a846ef714f3c118abe1cb153}{call\-Callback} (int js\-Event)
+\item 
+int \hyperlink{class_rad_xml_1_1_rad_x_m_l_a8a335ffee89c8db74f71f23cf83af58b}{load\-Library} (std\-::string filename)
+\item 
+bool \hyperlink{class_rad_xml_1_1_rad_x_m_l_aeb5bf3a6bf753f894ab28b695ff6e1da}{unload\-Library} (int index)
+\item 
+void \hyperlink{class_rad_xml_1_1_rad_x_m_l_a9b56f0eae142dd1644a79391bc97a6d1}{set\-Current\-Script\-Directory} (std\-::string current)
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_rad_x_m_l_a39e648e4643404be3622247ada61d70a}{get\-Current\-Script\-Directory} ()
+\item 
+v8\-::\-Persistent$<$ v8\-::\-Context $>$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_afde22fd92b03c957d47fc30d8e1f26b0}{get\-Context} ()
+\item 
+\hyperlink{class_rad_xml_1_1_xml_file}{Xml\-File} $\ast$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_a8c7a0aacce23709faf0b5eeb219dbebd}{get\-Current\-X\-M\-L\-File} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_rad_xml_1_1_rad_x_m_l_a1c3fdc53fc12f0b0306e7fca3f4754ba}{initialise} ()
+\item 
+static void \hyperlink{class_rad_xml_1_1_rad_x_m_l_ac2a42f6f14acd52833b05343872add3a}{destroy} ()
+\item 
+static Ogre\-::\-Colour\-Value \hyperlink{class_rad_xml_1_1_rad_x_m_l_a7315c2bd1b0b113cdc4c541a683610a0}{parse\-Colour\-Value} (std\-::string color)
+\item 
+static \hyperlink{class_rad_xml_1_1_rad_x_m_l}{Rad\-X\-M\-L} \hyperlink{class_rad_xml_1_1_rad_x_m_l_aece004da354d8f75c38f6b3642005f90}{get\-Singleton} ()
+\item 
+static \hyperlink{class_rad_xml_1_1_rad_x_m_l}{Rad\-X\-M\-L} $\ast$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_af46149c0c6726a93fc875b38f85f702c}{get\-Singleton\-Ptr} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_rad_xml_1_1_rad_x_m_l_afe957957280ee9a555f8193774c42cb2}{Rad\-X\-M\-L} ()
+\item 
+\hyperlink{class_rad_xml_1_1_rad_x_m_l_a59a837219b90795017f6812349fae904}{Rad\-X\-M\-L} (const \hyperlink{class_rad_xml_1_1_rad_x_m_l}{Rad\-X\-M\-L} \&copy)
+\item 
+\hyperlink{class_rad_xml_1_1_rad_x_m_l_af5b7db7da7a75ab60e9efc9e6669e60f}{$\sim$\-Rad\-X\-M\-L} ()
+\item 
+bool \hyperlink{class_rad_xml_1_1_rad_x_m_l_a1f43a3b4d50dbccc286ccdff46d295ba}{setup\-Javascript} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_rad_xml_1_1_rad_x_m_l_a354ad241e433bcd3d65f02e918460b8b}{javascript\-Debugger} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_rad_xml_1_1_xml_file}{Xml\-File} $\ast$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_a9bac803bf540c58c98901d56d2892ed2}{xml\-Current}
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_rad_x_m_l_a4fbdf937209a1d2fea48931facbecc0a}{str\-Current\-Script\-Dir}
+\item 
+std\-::vector$<$ \hyperlink{class_rad_xml_1_1_timer}{Timer} $\ast$ $>$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_ac34a4e20b50d5d5388215497a4f8b498}{ary\-Timers}
+\item 
+\hyperlink{_rad_xml_xml_file_8h_a850417c8db77ee8afd12a38071844035}{H\-A\-S\-H\-M\-A\-P}$<$ int, \hyperlink{class_rad_xml_1_1_rad_x_m_l_ab812a58a3bf015e646979a83309db244}{Event\-Callback} $>$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_ab9b3487c4bf76e836f52c080b3b12665}{hsh\-Callbacks}
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_rad_xml_1_1_rad_x_m_l}{Rad\-X\-M\-L} $\ast$ \hyperlink{class_rad_xml_1_1_rad_x_m_l_af032b79665601e415b911c3d545383e2}{rx\-Singleton}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_ab812a58a3bf015e646979a83309db244}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!Event\-Callback@{Event\-Callback}}
+\index{Event\-Callback@{Event\-Callback}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{Event\-Callback}]{\setlength{\rightskip}{0pt plus 5cm}typedef {\bf Variable}$\ast$($\ast$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::\-Event\-Callback)({\bf Variable} $\ast$arguments)}}\label{class_rad_xml_1_1_rad_x_m_l_ab812a58a3bf015e646979a83309db244}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_afe957957280ee9a555f8193774c42cb2}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!Rad\-X\-M\-L@{Rad\-X\-M\-L}}
+\index{Rad\-X\-M\-L@{Rad\-X\-M\-L}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{Rad\-X\-M\-L}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Rad\-X\-M\-L\-::\-Rad\-X\-M\-L (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_rad_x_m_l_afe957957280ee9a555f8193774c42cb2}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a59a837219b90795017f6812349fae904}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!Rad\-X\-M\-L@{Rad\-X\-M\-L}}
+\index{Rad\-X\-M\-L@{Rad\-X\-M\-L}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{Rad\-X\-M\-L}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Rad\-X\-M\-L\-::\-Rad\-X\-M\-L (
+\begin{DoxyParamCaption}
+\item[{const {\bf Rad\-X\-M\-L} \&}]{copy}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_rad_x_m_l_a59a837219b90795017f6812349fae904}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_af5b7db7da7a75ab60e9efc9e6669e60f}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!$\sim$\-Rad\-X\-M\-L@{$\sim$\-Rad\-X\-M\-L}}
+\index{$\sim$\-Rad\-X\-M\-L@{$\sim$\-Rad\-X\-M\-L}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{$\sim$\-Rad\-X\-M\-L}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-Rad\-X\-M\-L\-::$\sim$\-Rad\-X\-M\-L (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_rad_x_m_l_af5b7db7da7a75ab60e9efc9e6669e60f}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_ae7292264408379b2bc88612904db4cea}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!add\-App\-Object\-J\-S\-Object@{add\-App\-Object\-J\-S\-Object}}
+\index{add\-App\-Object\-J\-S\-Object@{add\-App\-Object\-J\-S\-Object}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{add\-App\-Object\-J\-S\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Rad\-X\-M\-L\-::add\-App\-Object\-J\-S\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Object} $\ast$}]{object}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_ae7292264408379b2bc88612904db4cea}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a5bdfc836108100403b93b1e73c6baff1}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!add\-Movable\-J\-S\-Object@{add\-Movable\-J\-S\-Object}}
+\index{add\-Movable\-J\-S\-Object@{add\-Movable\-J\-S\-Object}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{add\-Movable\-J\-S\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Rad\-X\-M\-L\-::add\-Movable\-J\-S\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf Movable} $\ast$}]{object}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a5bdfc836108100403b93b1e73c6baff1}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a68e3f128a846ef714f3c118abe1cb153}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!call\-Callback@{call\-Callback}}
+\index{call\-Callback@{call\-Callback}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{call\-Callback}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Rad\-X\-M\-L\-::call\-Callback (
+\begin{DoxyParamCaption}
+\item[{int}]{js\-Event}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a68e3f128a846ef714f3c118abe1cb153}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a9bb48a0f8a2031778847dada3a541ff5}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!compile\-And\-Run\-J\-S\-Script@{compile\-And\-Run\-J\-S\-Script}}
+\index{compile\-And\-Run\-J\-S\-Script@{compile\-And\-Run\-J\-S\-Script}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{compile\-And\-Run\-J\-S\-Script}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Rad\-X\-M\-L\-::compile\-And\-Run\-J\-S\-Script (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a9bb48a0f8a2031778847dada3a541ff5}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a27dd98dc1eace0195160091d116267f0}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!compile\-And\-Run\-J\-S\-String@{compile\-And\-Run\-J\-S\-String}}
+\index{compile\-And\-Run\-J\-S\-String@{compile\-And\-Run\-J\-S\-String}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{compile\-And\-Run\-J\-S\-String}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Rad\-X\-M\-L\-::compile\-And\-Run\-J\-S\-String (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{string}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a27dd98dc1eace0195160091d116267f0}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a60fa16cf43e2fe71ba4a45a8c4e1587a}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!create\-Timer@{create\-Timer}}
+\index{create\-Timer@{create\-Timer}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{create\-Timer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Timer}$\ast$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::create\-Timer (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{javascript, }
+\item[{unsigned int}]{milliseconds}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a60fa16cf43e2fe71ba4a45a8c4e1587a}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_ac2a42f6f14acd52833b05343872add3a}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!destroy@{destroy}}
+\index{destroy@{destroy}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{destroy}]{\setlength{\rightskip}{0pt plus 5cm}static void Rad\-Xml\-::\-Rad\-X\-M\-L\-::destroy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_rad_xml_1_1_rad_x_m_l_ac2a42f6f14acd52833b05343872add3a}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a215870f9886ee55cf6f8512d70606f6c}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!execute\-Timers@{execute\-Timers}}
+\index{execute\-Timers@{execute\-Timers}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{execute\-Timers}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Rad\-X\-M\-L\-::execute\-Timers (
+\begin{DoxyParamCaption}
+\item[{double}]{time\-Since\-Last\-Frame}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a215870f9886ee55cf6f8512d70606f6c}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a963da38ad88c88224560cc5f1cf27cf9}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!get\-App\-Object\-J\-S\-Object@{get\-App\-Object\-J\-S\-Object}}
+\index{get\-App\-Object\-J\-S\-Object@{get\-App\-Object\-J\-S\-Object}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{get\-App\-Object\-J\-S\-Object}]{\setlength{\rightskip}{0pt plus 5cm}J\-S\-V\-A\-L\-U\-E Rad\-Xml\-::\-Rad\-X\-M\-L\-::get\-App\-Object\-J\-S\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Object} $\ast$}]{object}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a963da38ad88c88224560cc5f1cf27cf9}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a8a8da3532713b5ab1c03892c794dd1e3}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!get\-App\-Object\-J\-S\-Object@{get\-App\-Object\-J\-S\-Object}}
+\index{get\-App\-Object\-J\-S\-Object@{get\-App\-Object\-J\-S\-Object}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{get\-App\-Object\-J\-S\-Object}]{\setlength{\rightskip}{0pt plus 5cm}J\-S\-V\-A\-L\-U\-E Rad\-Xml\-::\-Rad\-X\-M\-L\-::get\-App\-Object\-J\-S\-Object (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{object\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a8a8da3532713b5ab1c03892c794dd1e3}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_afde22fd92b03c957d47fc30d8e1f26b0}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!get\-Context@{get\-Context}}
+\index{get\-Context@{get\-Context}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{get\-Context}]{\setlength{\rightskip}{0pt plus 5cm}v8\-::\-Persistent$<$v8\-::\-Context$>$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::get\-Context (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_rad_x_m_l_afde22fd92b03c957d47fc30d8e1f26b0}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a39e648e4643404be3622247ada61d70a}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!get\-Current\-Script\-Directory@{get\-Current\-Script\-Directory}}
+\index{get\-Current\-Script\-Directory@{get\-Current\-Script\-Directory}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{get\-Current\-Script\-Directory}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Rad\-X\-M\-L\-::get\-Current\-Script\-Directory (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_rad_x_m_l_a39e648e4643404be3622247ada61d70a}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a8c7a0aacce23709faf0b5eeb219dbebd}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!get\-Current\-X\-M\-L\-File@{get\-Current\-X\-M\-L\-File}}
+\index{get\-Current\-X\-M\-L\-File@{get\-Current\-X\-M\-L\-File}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{get\-Current\-X\-M\-L\-File}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Xml\-File}$\ast$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::get\-Current\-X\-M\-L\-File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_rad_x_m_l_a8c7a0aacce23709faf0b5eeb219dbebd}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_ac42fe8c75a15e4b28b4606eea1879263}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!get\-Movable\-J\-S\-Object@{get\-Movable\-J\-S\-Object}}
+\index{get\-Movable\-J\-S\-Object@{get\-Movable\-J\-S\-Object}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{get\-Movable\-J\-S\-Object}]{\setlength{\rightskip}{0pt plus 5cm}v8\-::\-Local$<$v8\-::\-Value$>$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::get\-Movable\-J\-S\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf Movable} $\ast$}]{object}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_ac42fe8c75a15e4b28b4606eea1879263}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_afc596cfcdb3f8a50a4c0aee3819b337c}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!get\-Movable\-J\-S\-Object@{get\-Movable\-J\-S\-Object}}
+\index{get\-Movable\-J\-S\-Object@{get\-Movable\-J\-S\-Object}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{get\-Movable\-J\-S\-Object}]{\setlength{\rightskip}{0pt plus 5cm}v8\-::\-Local$<$v8\-::\-Value$>$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::get\-Movable\-J\-S\-Object (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{object\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_afc596cfcdb3f8a50a4c0aee3819b337c}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_aece004da354d8f75c38f6b3642005f90}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!get\-Singleton@{get\-Singleton}}
+\index{get\-Singleton@{get\-Singleton}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{get\-Singleton}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Rad\-X\-M\-L} Rad\-Xml\-::\-Rad\-X\-M\-L\-::get\-Singleton (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_rad_xml_1_1_rad_x_m_l_aece004da354d8f75c38f6b3642005f90}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_af46149c0c6726a93fc875b38f85f702c}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!get\-Singleton\-Ptr@{get\-Singleton\-Ptr}}
+\index{get\-Singleton\-Ptr@{get\-Singleton\-Ptr}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{get\-Singleton\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Rad\-X\-M\-L}$\ast$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::get\-Singleton\-Ptr (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_rad_xml_1_1_rad_x_m_l_af46149c0c6726a93fc875b38f85f702c}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a1c3fdc53fc12f0b0306e7fca3f4754ba}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!initialise@{initialise}}
+\index{initialise@{initialise}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{initialise}]{\setlength{\rightskip}{0pt plus 5cm}static void Rad\-Xml\-::\-Rad\-X\-M\-L\-::initialise (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_rad_xml_1_1_rad_x_m_l_a1c3fdc53fc12f0b0306e7fca3f4754ba}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a354ad241e433bcd3d65f02e918460b8b}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!javascript\-Debugger@{javascript\-Debugger}}
+\index{javascript\-Debugger@{javascript\-Debugger}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{javascript\-Debugger}]{\setlength{\rightskip}{0pt plus 5cm}static void Rad\-Xml\-::\-Rad\-X\-M\-L\-::javascript\-Debugger (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}}\label{class_rad_xml_1_1_rad_x_m_l_a354ad241e433bcd3d65f02e918460b8b}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a8a335ffee89c8db74f71f23cf83af58b}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!load\-Library@{load\-Library}}
+\index{load\-Library@{load\-Library}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{load\-Library}]{\setlength{\rightskip}{0pt plus 5cm}int Rad\-Xml\-::\-Rad\-X\-M\-L\-::load\-Library (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{filename}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a8a335ffee89c8db74f71f23cf83af58b}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a15cb77df75e0006238d79396f9fb8807}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!load\-Xml@{load\-Xml}}
+\index{load\-Xml@{load\-Xml}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{load\-Xml}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Rad\-X\-M\-L\-::load\-Xml (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a15cb77df75e0006238d79396f9fb8807}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a7315c2bd1b0b113cdc4c541a683610a0}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!parse\-Colour\-Value@{parse\-Colour\-Value}}
+\index{parse\-Colour\-Value@{parse\-Colour\-Value}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{parse\-Colour\-Value}]{\setlength{\rightskip}{0pt plus 5cm}static Ogre\-::\-Colour\-Value Rad\-Xml\-::\-Rad\-X\-M\-L\-::parse\-Colour\-Value (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{color}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_rad_xml_1_1_rad_x_m_l_a7315c2bd1b0b113cdc4c541a683610a0}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a54e84daa3b0cad8d570f9bcdf20c566d}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!remove\-App\-Object\-J\-S\-Object@{remove\-App\-Object\-J\-S\-Object}}
+\index{remove\-App\-Object\-J\-S\-Object@{remove\-App\-Object\-J\-S\-Object}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{remove\-App\-Object\-J\-S\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Rad\-X\-M\-L\-::remove\-App\-Object\-J\-S\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Object} $\ast$}]{object}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_a54e84daa3b0cad8d570f9bcdf20c566d}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_abf9e1e7a563a5c2e300145271bdb44b2}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!remove\-Movable\-J\-S\-Object@{remove\-Movable\-J\-S\-Object}}
+\index{remove\-Movable\-J\-S\-Object@{remove\-Movable\-J\-S\-Object}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{remove\-Movable\-J\-S\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Rad\-X\-M\-L\-::remove\-Movable\-J\-S\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf Movable} $\ast$}]{object}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_abf9e1e7a563a5c2e300145271bdb44b2}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_aebc4d95f1ff43cfbee5ea633b4b3ec94}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!set\-Callback@{set\-Callback}}
+\index{set\-Callback@{set\-Callback}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{set\-Callback}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Rad\-X\-M\-L\-::set\-Callback (
+\begin{DoxyParamCaption}
+\item[{int}]{js\-Event, }
+\item[{{\bf Event\-Callback}}]{event\-Callback}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_aebc4d95f1ff43cfbee5ea633b4b3ec94}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a9b56f0eae142dd1644a79391bc97a6d1}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!set\-Current\-Script\-Directory@{set\-Current\-Script\-Directory}}
+\index{set\-Current\-Script\-Directory@{set\-Current\-Script\-Directory}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{set\-Current\-Script\-Directory}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-Rad\-X\-M\-L\-::set\-Current\-Script\-Directory (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{current}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_rad_x_m_l_a9b56f0eae142dd1644a79391bc97a6d1}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a1f43a3b4d50dbccc286ccdff46d295ba}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!setup\-Javascript@{setup\-Javascript}}
+\index{setup\-Javascript@{setup\-Javascript}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{setup\-Javascript}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Rad\-X\-M\-L\-::setup\-Javascript (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_rad_x_m_l_a1f43a3b4d50dbccc286ccdff46d295ba}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_aeb5bf3a6bf753f894ab28b695ff6e1da}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!unload\-Library@{unload\-Library}}
+\index{unload\-Library@{unload\-Library}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{unload\-Library}]{\setlength{\rightskip}{0pt plus 5cm}bool Rad\-Xml\-::\-Rad\-X\-M\-L\-::unload\-Library (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_rad_x_m_l_aeb5bf3a6bf753f894ab28b695ff6e1da}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_ac34a4e20b50d5d5388215497a4f8b498}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!ary\-Timers@{ary\-Timers}}
+\index{ary\-Timers@{ary\-Timers}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{ary\-Timers}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Timer} $\ast$$>$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::ary\-Timers\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_rad_x_m_l_ac34a4e20b50d5d5388215497a4f8b498}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_ab9b3487c4bf76e836f52c080b3b12665}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!hsh\-Callbacks@{hsh\-Callbacks}}
+\index{hsh\-Callbacks@{hsh\-Callbacks}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{hsh\-Callbacks}]{\setlength{\rightskip}{0pt plus 5cm}{\bf H\-A\-S\-H\-M\-A\-P}$<$int, {\bf Event\-Callback}$>$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::hsh\-Callbacks\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_rad_x_m_l_ab9b3487c4bf76e836f52c080b3b12665}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_af032b79665601e415b911c3d545383e2}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!rx\-Singleton@{rx\-Singleton}}
+\index{rx\-Singleton@{rx\-Singleton}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{rx\-Singleton}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Rad\-X\-M\-L}$\ast$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::rx\-Singleton\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}}\label{class_rad_xml_1_1_rad_x_m_l_af032b79665601e415b911c3d545383e2}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a4fbdf937209a1d2fea48931facbecc0a}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!str\-Current\-Script\-Dir@{str\-Current\-Script\-Dir}}
+\index{str\-Current\-Script\-Dir@{str\-Current\-Script\-Dir}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{str\-Current\-Script\-Dir}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-Rad\-X\-M\-L\-::str\-Current\-Script\-Dir\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_rad_x_m_l_a4fbdf937209a1d2fea48931facbecc0a}
+\hypertarget{class_rad_xml_1_1_rad_x_m_l_a9bac803bf540c58c98901d56d2892ed2}{\index{Rad\-Xml\-::\-Rad\-X\-M\-L@{Rad\-Xml\-::\-Rad\-X\-M\-L}!xml\-Current@{xml\-Current}}
+\index{xml\-Current@{xml\-Current}!RadXml::RadXML@{Rad\-Xml\-::\-Rad\-X\-M\-L}}
+\subsubsection[{xml\-Current}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Xml\-File}$\ast$ Rad\-Xml\-::\-Rad\-X\-M\-L\-::xml\-Current\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_rad_x_m_l_a9bac803bf540c58c98901d56d2892ed2}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/\hyperlink{_rad_xml_8h}{Rad\-Xml.\-h}\end{DoxyCompactItemize}

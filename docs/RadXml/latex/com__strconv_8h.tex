@@ -1,0 +1,235 @@
+\hypertarget{com__strconv_8h}{\section{C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/common/com\-\_\-strconv.h File Reference}
+\label{com__strconv_8h}\index{C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/common/com\-\_\-strconv.\-h@{C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/common/com\-\_\-strconv.\-h}}
+}
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$sstream$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\-::vector$<$ std\-::string $>$ \hyperlink{com__strconv_8h_acd78df4a96d7920f43357a6c47092581}{s13\-String\-Split} (std\-::string str\-String, std\-::string str\-Delim)
+\item 
+std\-::vector$<$ std\-::string $>$ \hyperlink{com__strconv_8h_a7ed20180bf830c6cf82c3aec18595e1f}{s13\-Split\-String} (std\-::string str\-String, std\-::string str\-Delim)
+\item 
+std\-::vector$<$ std\-::string $>$ \hyperlink{com__strconv_8h_a632479f284793bd6e11da409a870131f}{s13\-Split\-String\-\_\-\-With\-Exceptions} (std\-::string str\-String, std\-::string str\-Delim, std\-::vector$<$ int $>$ ary\-Exceptions\-\_\-\-Begin, std\-::vector$<$ int $>$ ary\-Exceptions\-\_\-\-End)
+\item 
+std\-::string \hyperlink{com__strconv_8h_a6d204dfe2f76dfebace90b0932caa6a8}{s13\-Remove\-Whitespaces} (std\-::string str\-String)
+\item 
+std\-::string \hyperlink{com__strconv_8h_a864c7c7cd2234756d58ae61eceedece6}{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower} (std\-::string str\-String)
+\item 
+void \hyperlink{com__strconv_8h_ad8d30145c8b737a4a037b3ead6113bc0}{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower\-Ref} (std\-::string \&str\-String)
+\item 
+std\-::string \hyperlink{com__strconv_8h_af7f2b682fae51c151d3485beb04dfc27}{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper} (std\-::string str\-String)
+\item 
+void \hyperlink{com__strconv_8h_a6f51f1bdd3c65152c1a28eb93a03d6fc}{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper\-Ref} (std\-::string \&str\-String)
+\item 
+int \hyperlink{com__strconv_8h_aae3623c164ea5033c5c9f5cad470c9e7}{s13\-String\-To\-Int} (std\-::string str\-String)
+\item 
+std\-::string \hyperlink{com__strconv_8h_a7a1120a1d9be2593605c7c4ca2e5866b}{s13\-Int\-To\-String} (int i\-Integer)
+\item 
+bool \hyperlink{com__strconv_8h_a0e7e8887d131edf2717bc42745f2452c}{s13\-Is\-Int} (std\-::string str\-String)
+\item 
+long \hyperlink{com__strconv_8h_a229c7c51147d7992be8dda6fbdc7e8ee}{s13\-String\-To\-Long} (std\-::string str\-String)
+\item 
+std\-::string \hyperlink{com__strconv_8h_ae34456e20aa1462f784585a87b96d303}{s13\-Long\-To\-String} (long l\-Integer)
+\item 
+unsigned long \hyperlink{com__strconv_8h_afd3f6d1777a617d2103bae5e037abb0e}{s13\-String\-To\-Unsigned\-Long} (std\-::string str\-String)
+\item 
+std\-::string \hyperlink{com__strconv_8h_a122f3c24323124e8003d983895202082}{s13\-Unsigned\-Long\-To\-String} (unsigned long ul\-Integer)
+\item 
+double \hyperlink{com__strconv_8h_a732cda13b0c549c38a5b37caa226a3c7}{s13\-String\-To\-Double} (std\-::string str\-String)
+\item 
+std\-::string \hyperlink{com__strconv_8h_aba72b76cf28c55964af627f42974d22d}{s13\-Double\-To\-String} (double d\-Double)
+\item 
+bool \hyperlink{com__strconv_8h_afa09b6cca962365aec367b2020d80b34}{s13\-Is\-Double} (std\-::string str\-String)
+\item 
+bool \hyperlink{com__strconv_8h_a6504a45a3f02b9b6d7c133d91d245cd2}{s13\-String\-To\-Bool} (std\-::string str\-String, bool b\-Caps\-Matters=true)
+\item 
+std\-::string \hyperlink{com__strconv_8h_a9cb714743d41ed40faf9e4a6e6dc83e3}{s13\-Bool\-To\-String} (bool b\-Bool)
+\item 
+bool \hyperlink{com__strconv_8h_a83e94d627de72732bedd94828341e507}{s13\-Is\-Bool} (std\-::string str\-String, bool b\-Caps\-Matters=true)
+\item 
+int \hyperlink{com__strconv_8h_a81573035841cdb75df3c2a62a7eca219}{s13\-Hex\-String\-To\-Int} (std\-::string hex\-String)
+\item 
+std\-::string \hyperlink{com__strconv_8h_a61a6df90cca747998b688fe0141ed8b9}{s13\-Int\-To\-Hex\-String} (int i\-Int)
+\item 
+unsigned long \hyperlink{com__strconv_8h_a044955ce29c519314e5d8b65951081b4}{s13\-String\-To\-Hash} (std\-::string stringtohash)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{com__strconv_8h_a864c7c7cd2234756d58ae61eceedece6}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower@{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower}}
+\index{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower@{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a864c7c7cd2234756d58ae61eceedece6}
+\hypertarget{com__strconv_8h_ad8d30145c8b737a4a037b3ead6113bc0}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower\-Ref@{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower\-Ref}}
+\index{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower\-Ref@{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower\-Ref}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower\-Ref}]{\setlength{\rightskip}{0pt plus 5cm}void s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Lower\-Ref (
+\begin{DoxyParamCaption}
+\item[{std\-::string \&}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_ad8d30145c8b737a4a037b3ead6113bc0}
+\hypertarget{com__strconv_8h_af7f2b682fae51c151d3485beb04dfc27}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper@{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper}}
+\index{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper@{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_af7f2b682fae51c151d3485beb04dfc27}
+\hypertarget{com__strconv_8h_a6f51f1bdd3c65152c1a28eb93a03d6fc}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper\-Ref@{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper\-Ref}}
+\index{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper\-Ref@{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper\-Ref}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper\-Ref}]{\setlength{\rightskip}{0pt plus 5cm}void s13\-A\-S\-C\-I\-I\-\_\-\-String\-To\-Upper\-Ref (
+\begin{DoxyParamCaption}
+\item[{std\-::string \&}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a6f51f1bdd3c65152c1a28eb93a03d6fc}
+\hypertarget{com__strconv_8h_a9cb714743d41ed40faf9e4a6e6dc83e3}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Bool\-To\-String@{s13\-Bool\-To\-String}}
+\index{s13\-Bool\-To\-String@{s13\-Bool\-To\-String}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Bool\-To\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string s13\-Bool\-To\-String (
+\begin{DoxyParamCaption}
+\item[{bool}]{b\-Bool}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a9cb714743d41ed40faf9e4a6e6dc83e3}
+\hypertarget{com__strconv_8h_aba72b76cf28c55964af627f42974d22d}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Double\-To\-String@{s13\-Double\-To\-String}}
+\index{s13\-Double\-To\-String@{s13\-Double\-To\-String}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Double\-To\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string s13\-Double\-To\-String (
+\begin{DoxyParamCaption}
+\item[{double}]{d\-Double}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_aba72b76cf28c55964af627f42974d22d}
+\hypertarget{com__strconv_8h_a81573035841cdb75df3c2a62a7eca219}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Hex\-String\-To\-Int@{s13\-Hex\-String\-To\-Int}}
+\index{s13\-Hex\-String\-To\-Int@{s13\-Hex\-String\-To\-Int}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Hex\-String\-To\-Int}]{\setlength{\rightskip}{0pt plus 5cm}int s13\-Hex\-String\-To\-Int (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{hex\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a81573035841cdb75df3c2a62a7eca219}
+\hypertarget{com__strconv_8h_a61a6df90cca747998b688fe0141ed8b9}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Int\-To\-Hex\-String@{s13\-Int\-To\-Hex\-String}}
+\index{s13\-Int\-To\-Hex\-String@{s13\-Int\-To\-Hex\-String}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Int\-To\-Hex\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string s13\-Int\-To\-Hex\-String (
+\begin{DoxyParamCaption}
+\item[{int}]{i\-Int}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a61a6df90cca747998b688fe0141ed8b9}
+\hypertarget{com__strconv_8h_a7a1120a1d9be2593605c7c4ca2e5866b}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Int\-To\-String@{s13\-Int\-To\-String}}
+\index{s13\-Int\-To\-String@{s13\-Int\-To\-String}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Int\-To\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string s13\-Int\-To\-String (
+\begin{DoxyParamCaption}
+\item[{int}]{i\-Integer}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a7a1120a1d9be2593605c7c4ca2e5866b}
+\hypertarget{com__strconv_8h_a83e94d627de72732bedd94828341e507}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Is\-Bool@{s13\-Is\-Bool}}
+\index{s13\-Is\-Bool@{s13\-Is\-Bool}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Is\-Bool}]{\setlength{\rightskip}{0pt plus 5cm}bool s13\-Is\-Bool (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String, }
+\item[{bool}]{b\-Caps\-Matters = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a83e94d627de72732bedd94828341e507}
+\hypertarget{com__strconv_8h_afa09b6cca962365aec367b2020d80b34}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Is\-Double@{s13\-Is\-Double}}
+\index{s13\-Is\-Double@{s13\-Is\-Double}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Is\-Double}]{\setlength{\rightskip}{0pt plus 5cm}bool s13\-Is\-Double (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_afa09b6cca962365aec367b2020d80b34}
+\hypertarget{com__strconv_8h_a0e7e8887d131edf2717bc42745f2452c}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Is\-Int@{s13\-Is\-Int}}
+\index{s13\-Is\-Int@{s13\-Is\-Int}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Is\-Int}]{\setlength{\rightskip}{0pt plus 5cm}bool s13\-Is\-Int (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a0e7e8887d131edf2717bc42745f2452c}
+\hypertarget{com__strconv_8h_ae34456e20aa1462f784585a87b96d303}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Long\-To\-String@{s13\-Long\-To\-String}}
+\index{s13\-Long\-To\-String@{s13\-Long\-To\-String}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Long\-To\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string s13\-Long\-To\-String (
+\begin{DoxyParamCaption}
+\item[{long}]{l\-Integer}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_ae34456e20aa1462f784585a87b96d303}
+\hypertarget{com__strconv_8h_a6d204dfe2f76dfebace90b0932caa6a8}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Remove\-Whitespaces@{s13\-Remove\-Whitespaces}}
+\index{s13\-Remove\-Whitespaces@{s13\-Remove\-Whitespaces}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Remove\-Whitespaces}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string s13\-Remove\-Whitespaces (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a6d204dfe2f76dfebace90b0932caa6a8}
+\hypertarget{com__strconv_8h_a7ed20180bf830c6cf82c3aec18595e1f}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Split\-String@{s13\-Split\-String}}
+\index{s13\-Split\-String@{s13\-Split\-String}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Split\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$std\-::string$>$ s13\-Split\-String (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String, }
+\item[{std\-::string}]{str\-Delim}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a7ed20180bf830c6cf82c3aec18595e1f}
+\hypertarget{com__strconv_8h_a632479f284793bd6e11da409a870131f}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Split\-String\-\_\-\-With\-Exceptions@{s13\-Split\-String\-\_\-\-With\-Exceptions}}
+\index{s13\-Split\-String\-\_\-\-With\-Exceptions@{s13\-Split\-String\-\_\-\-With\-Exceptions}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Split\-String\-\_\-\-With\-Exceptions}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$std\-::string$>$ s13\-Split\-String\-\_\-\-With\-Exceptions (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String, }
+\item[{std\-::string}]{str\-Delim, }
+\item[{std\-::vector$<$ int $>$}]{ary\-Exceptions\-\_\-\-Begin, }
+\item[{std\-::vector$<$ int $>$}]{ary\-Exceptions\-\_\-\-End}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a632479f284793bd6e11da409a870131f}
+\hypertarget{com__strconv_8h_acd78df4a96d7920f43357a6c47092581}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-String\-Split@{s13\-String\-Split}}
+\index{s13\-String\-Split@{s13\-String\-Split}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-String\-Split}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$std\-::string$>$ s13\-String\-Split (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String, }
+\item[{std\-::string}]{str\-Delim}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_acd78df4a96d7920f43357a6c47092581}
+\hypertarget{com__strconv_8h_a6504a45a3f02b9b6d7c133d91d245cd2}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-String\-To\-Bool@{s13\-String\-To\-Bool}}
+\index{s13\-String\-To\-Bool@{s13\-String\-To\-Bool}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-String\-To\-Bool}]{\setlength{\rightskip}{0pt plus 5cm}bool s13\-String\-To\-Bool (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String, }
+\item[{bool}]{b\-Caps\-Matters = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a6504a45a3f02b9b6d7c133d91d245cd2}
+\hypertarget{com__strconv_8h_a732cda13b0c549c38a5b37caa226a3c7}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-String\-To\-Double@{s13\-String\-To\-Double}}
+\index{s13\-String\-To\-Double@{s13\-String\-To\-Double}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-String\-To\-Double}]{\setlength{\rightskip}{0pt plus 5cm}double s13\-String\-To\-Double (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a732cda13b0c549c38a5b37caa226a3c7}
+\hypertarget{com__strconv_8h_a044955ce29c519314e5d8b65951081b4}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-String\-To\-Hash@{s13\-String\-To\-Hash}}
+\index{s13\-String\-To\-Hash@{s13\-String\-To\-Hash}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-String\-To\-Hash}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long s13\-String\-To\-Hash (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{stringtohash}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a044955ce29c519314e5d8b65951081b4}
+\hypertarget{com__strconv_8h_aae3623c164ea5033c5c9f5cad470c9e7}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-String\-To\-Int@{s13\-String\-To\-Int}}
+\index{s13\-String\-To\-Int@{s13\-String\-To\-Int}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-String\-To\-Int}]{\setlength{\rightskip}{0pt plus 5cm}int s13\-String\-To\-Int (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_aae3623c164ea5033c5c9f5cad470c9e7}
+\hypertarget{com__strconv_8h_a229c7c51147d7992be8dda6fbdc7e8ee}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-String\-To\-Long@{s13\-String\-To\-Long}}
+\index{s13\-String\-To\-Long@{s13\-String\-To\-Long}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-String\-To\-Long}]{\setlength{\rightskip}{0pt plus 5cm}long s13\-String\-To\-Long (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a229c7c51147d7992be8dda6fbdc7e8ee}
+\hypertarget{com__strconv_8h_afd3f6d1777a617d2103bae5e037abb0e}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-String\-To\-Unsigned\-Long@{s13\-String\-To\-Unsigned\-Long}}
+\index{s13\-String\-To\-Unsigned\-Long@{s13\-String\-To\-Unsigned\-Long}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-String\-To\-Unsigned\-Long}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long s13\-String\-To\-Unsigned\-Long (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{str\-String}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_afd3f6d1777a617d2103bae5e037abb0e}
+\hypertarget{com__strconv_8h_a122f3c24323124e8003d983895202082}{\index{com\-\_\-strconv.\-h@{com\-\_\-strconv.\-h}!s13\-Unsigned\-Long\-To\-String@{s13\-Unsigned\-Long\-To\-String}}
+\index{s13\-Unsigned\-Long\-To\-String@{s13\-Unsigned\-Long\-To\-String}!com_strconv.h@{com\-\_\-strconv.\-h}}
+\subsubsection[{s13\-Unsigned\-Long\-To\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string s13\-Unsigned\-Long\-To\-String (
+\begin{DoxyParamCaption}
+\item[{unsigned long}]{ul\-Integer}
+\end{DoxyParamCaption}
+)}}\label{com__strconv_8h_a122f3c24323124e8003d983895202082}

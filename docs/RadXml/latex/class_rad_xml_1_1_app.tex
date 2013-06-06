@@ -1,0 +1,198 @@
+\hypertarget{class_rad_xml_1_1_app}{\section{Rad\-Xml\-:\-:App Class Reference}
+\label{class_rad_xml_1_1_app}\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}}
+}
+
+
+{\ttfamily \#include $<$Rad\-Xml\-App.\-h$>$}
+
+Inheritance diagram for Rad\-Xml\-:\-:App\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_rad_xml_1_1_app}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_rad_xml_1_1_app_a0220b0f845ff98c6cb0beeef4f73e337}{App} (std\-::string new\-Name)
+\item 
+\hyperlink{class_rad_xml_1_1_app_add54fea7165ee9c245a169cc841c0a69}{$\sim$\-App} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_app_aa5cf732b0c32d2feb58f1264e3fedd07}{destroy\-All\-App\-Objects} ()
+\item 
+\hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$ \hyperlink{class_rad_xml_1_1_app_a560ad56a8fd00a3f0ff9aff84bc76ae0}{create\-App\-Object} (\hyperlink{class_rad_xml_1_1_app}{App} $\ast$file, int creation\-Type, int type, std\-::string name, \hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$parent=0, \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$element=0)
+\item 
+void \hyperlink{class_rad_xml_1_1_app_aada472e9f684d69d9a8cc0cec25f8c12}{add\-App\-Object} (\hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$new\-App\-Object)
+\item 
+\hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$ \hyperlink{class_rad_xml_1_1_app_a45cd456028920ffc7ac81275ca1873ca}{get\-App\-Object} (std\-::string find\-Name, bool skip\-Error\-Message=false)
+\item 
+\hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$ \hyperlink{class_rad_xml_1_1_app_a02509d6885f8630f70d7a034e25d4fdb}{get\-App\-Object} (unsigned long hash, bool skip\-Error\-Message=false)
+\item 
+void \hyperlink{class_rad_xml_1_1_app_afdbb555361f4b84b8fdac2daa3d9b4d7}{remove\-App\-Object} (std\-::string find\-Name)
+\item 
+void \hyperlink{class_rad_xml_1_1_app_a1316f86bd7cd51aaf20e6a5c47da0100}{remove\-App\-Object} (unsigned long hash)
+\item 
+void \hyperlink{class_rad_xml_1_1_app_a8d3ec62c951346c7108cc219f2cc7202}{set\-Name} (std\-::string new\-Name)
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_app_a2d181752fc4490c4c7cc9d764f5bf1d0}{get\-Name} ()
+\item 
+unsigned long \hyperlink{class_rad_xml_1_1_app_a845ed6d3bae047f254d280511cdd9560}{get\-Hash} ()
+\item 
+void \hyperlink{class_rad_xml_1_1_app_a0117ad7ae6666eeafc14975abce8a73e}{parse} (\hyperlink{class_rad_xml_1_1_xml_file}{Xml\-File} $\ast$file, int type, \hyperlink{class_x_m_l_element}{X\-M\-L\-Element} $\ast$element)
+\item 
+void \hyperlink{class_rad_xml_1_1_app_a68c986220fdd3254b9bd9693625d599b}{add\-App\-Object\-For\-Deletion} (\hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$object)
+\item 
+void \hyperlink{class_rad_xml_1_1_app_a823de2ec9cc48554f196761c23d0abb2}{process\-Delete\-App\-Objects} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::string \hyperlink{class_rad_xml_1_1_app_aa0dbd3bf343f87c865df05146acfc888}{app\-Name}
+\item 
+unsigned long \hyperlink{class_rad_xml_1_1_app_ae55443ee2535fb62c3dff31850e9cc19}{app\-Hash}
+\item 
+std\-::vector$<$ \hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$ $>$ \hyperlink{class_rad_xml_1_1_app_a5bb4564789162da0566759070a5b2512}{ary\-App\-Objects\-To\-Delete}
+\item 
+\hyperlink{_rad_xml_xml_file_8h_a850417c8db77ee8afd12a38071844035}{H\-A\-S\-H\-M\-A\-P}$<$ unsigned long, \\*
+\hyperlink{class_rad_xml_1_1_app_object}{App\-Object} $\ast$ $>$ \hyperlink{class_rad_xml_1_1_app_a9ebc492df32690f71a04ced6973988cd}{hsh\-App\-Objects}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_rad_xml_1_1_app_a0220b0f845ff98c6cb0beeef4f73e337}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!App@{App}}
+\index{App@{App}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{App}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-App\-::\-App (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_a0220b0f845ff98c6cb0beeef4f73e337}
+\hypertarget{class_rad_xml_1_1_app_add54fea7165ee9c245a169cc841c0a69}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!$\sim$\-App@{$\sim$\-App}}
+\index{$\sim$\-App@{$\sim$\-App}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{$\sim$\-App}]{\setlength{\rightskip}{0pt plus 5cm}Rad\-Xml\-::\-App\-::$\sim$\-App (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_add54fea7165ee9c245a169cc841c0a69}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_rad_xml_1_1_app_aada472e9f684d69d9a8cc0cec25f8c12}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!add\-App\-Object@{add\-App\-Object}}
+\index{add\-App\-Object@{add\-App\-Object}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{add\-App\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-App\-::add\-App\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Object} $\ast$}]{new\-App\-Object}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_aada472e9f684d69d9a8cc0cec25f8c12}
+\hypertarget{class_rad_xml_1_1_app_a68c986220fdd3254b9bd9693625d599b}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!add\-App\-Object\-For\-Deletion@{add\-App\-Object\-For\-Deletion}}
+\index{add\-App\-Object\-For\-Deletion@{add\-App\-Object\-For\-Deletion}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{add\-App\-Object\-For\-Deletion}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-App\-::add\-App\-Object\-For\-Deletion (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Object} $\ast$}]{object}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_a68c986220fdd3254b9bd9693625d599b}
+\hypertarget{class_rad_xml_1_1_app_a560ad56a8fd00a3f0ff9aff84bc76ae0}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!create\-App\-Object@{create\-App\-Object}}
+\index{create\-App\-Object@{create\-App\-Object}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{create\-App\-Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf App\-Object}$\ast$ Rad\-Xml\-::\-App\-::create\-App\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf App} $\ast$}]{file, }
+\item[{int}]{creation\-Type, }
+\item[{int}]{type, }
+\item[{std\-::string}]{name, }
+\item[{{\bf App\-Object} $\ast$}]{parent = {\ttfamily 0}, }
+\item[{{\bf X\-M\-L\-Element} $\ast$}]{element = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_a560ad56a8fd00a3f0ff9aff84bc76ae0}
+\hypertarget{class_rad_xml_1_1_app_aa5cf732b0c32d2feb58f1264e3fedd07}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!destroy\-All\-App\-Objects@{destroy\-All\-App\-Objects}}
+\index{destroy\-All\-App\-Objects@{destroy\-All\-App\-Objects}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{destroy\-All\-App\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-App\-::destroy\-All\-App\-Objects (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_aa5cf732b0c32d2feb58f1264e3fedd07}
+\hypertarget{class_rad_xml_1_1_app_a45cd456028920ffc7ac81275ca1873ca}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!get\-App\-Object@{get\-App\-Object}}
+\index{get\-App\-Object@{get\-App\-Object}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{get\-App\-Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf App\-Object}$\ast$ Rad\-Xml\-::\-App\-::get\-App\-Object (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{find\-Name, }
+\item[{bool}]{skip\-Error\-Message = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_a45cd456028920ffc7ac81275ca1873ca}
+\hypertarget{class_rad_xml_1_1_app_a02509d6885f8630f70d7a034e25d4fdb}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!get\-App\-Object@{get\-App\-Object}}
+\index{get\-App\-Object@{get\-App\-Object}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{get\-App\-Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf App\-Object}$\ast$ Rad\-Xml\-::\-App\-::get\-App\-Object (
+\begin{DoxyParamCaption}
+\item[{unsigned long}]{hash, }
+\item[{bool}]{skip\-Error\-Message = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_a02509d6885f8630f70d7a034e25d4fdb}
+\hypertarget{class_rad_xml_1_1_app_a845ed6d3bae047f254d280511cdd9560}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!get\-Hash@{get\-Hash}}
+\index{get\-Hash@{get\-Hash}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{get\-Hash}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Rad\-Xml\-::\-App\-::get\-Hash (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_app_a845ed6d3bae047f254d280511cdd9560}
+\hypertarget{class_rad_xml_1_1_app_a2d181752fc4490c4c7cc9d764f5bf1d0}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!get\-Name@{get\-Name}}
+\index{get\-Name@{get\-Name}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{get\-Name}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-App\-::get\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_rad_xml_1_1_app_a2d181752fc4490c4c7cc9d764f5bf1d0}
+\hypertarget{class_rad_xml_1_1_app_a0117ad7ae6666eeafc14975abce8a73e}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!parse@{parse}}
+\index{parse@{parse}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-App\-::parse (
+\begin{DoxyParamCaption}
+\item[{{\bf Xml\-File} $\ast$}]{file, }
+\item[{int}]{type, }
+\item[{{\bf X\-M\-L\-Element} $\ast$}]{element}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_a0117ad7ae6666eeafc14975abce8a73e}
+\hypertarget{class_rad_xml_1_1_app_a823de2ec9cc48554f196761c23d0abb2}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!process\-Delete\-App\-Objects@{process\-Delete\-App\-Objects}}
+\index{process\-Delete\-App\-Objects@{process\-Delete\-App\-Objects}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{process\-Delete\-App\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-App\-::process\-Delete\-App\-Objects (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_a823de2ec9cc48554f196761c23d0abb2}
+\hypertarget{class_rad_xml_1_1_app_afdbb555361f4b84b8fdac2daa3d9b4d7}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!remove\-App\-Object@{remove\-App\-Object}}
+\index{remove\-App\-Object@{remove\-App\-Object}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{remove\-App\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-App\-::remove\-App\-Object (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{find\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_afdbb555361f4b84b8fdac2daa3d9b4d7}
+\hypertarget{class_rad_xml_1_1_app_a1316f86bd7cd51aaf20e6a5c47da0100}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!remove\-App\-Object@{remove\-App\-Object}}
+\index{remove\-App\-Object@{remove\-App\-Object}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{remove\-App\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-App\-::remove\-App\-Object (
+\begin{DoxyParamCaption}
+\item[{unsigned long}]{hash}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_a1316f86bd7cd51aaf20e6a5c47da0100}
+\hypertarget{class_rad_xml_1_1_app_a8d3ec62c951346c7108cc219f2cc7202}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!set\-Name@{set\-Name}}
+\index{set\-Name@{set\-Name}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{set\-Name}]{\setlength{\rightskip}{0pt plus 5cm}void Rad\-Xml\-::\-App\-::set\-Name (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{new\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_rad_xml_1_1_app_a8d3ec62c951346c7108cc219f2cc7202}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_rad_xml_1_1_app_ae55443ee2535fb62c3dff31850e9cc19}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!app\-Hash@{app\-Hash}}
+\index{app\-Hash@{app\-Hash}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{app\-Hash}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Rad\-Xml\-::\-App\-::app\-Hash\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_app_ae55443ee2535fb62c3dff31850e9cc19}
+\hypertarget{class_rad_xml_1_1_app_aa0dbd3bf343f87c865df05146acfc888}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!app\-Name@{app\-Name}}
+\index{app\-Name@{app\-Name}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{app\-Name}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Rad\-Xml\-::\-App\-::app\-Name\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_app_aa0dbd3bf343f87c865df05146acfc888}
+\hypertarget{class_rad_xml_1_1_app_a5bb4564789162da0566759070a5b2512}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!ary\-App\-Objects\-To\-Delete@{ary\-App\-Objects\-To\-Delete}}
+\index{ary\-App\-Objects\-To\-Delete@{ary\-App\-Objects\-To\-Delete}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{ary\-App\-Objects\-To\-Delete}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf App\-Object} $\ast$$>$ Rad\-Xml\-::\-App\-::ary\-App\-Objects\-To\-Delete\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_app_a5bb4564789162da0566759070a5b2512}
+\hypertarget{class_rad_xml_1_1_app_a9ebc492df32690f71a04ced6973988cd}{\index{Rad\-Xml\-::\-App@{Rad\-Xml\-::\-App}!hsh\-App\-Objects@{hsh\-App\-Objects}}
+\index{hsh\-App\-Objects@{hsh\-App\-Objects}!RadXml::App@{Rad\-Xml\-::\-App}}
+\subsubsection[{hsh\-App\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}{\bf H\-A\-S\-H\-M\-A\-P}$<$unsigned long, {\bf App\-Object} $\ast$$>$ Rad\-Xml\-::\-App\-::hsh\-App\-Objects\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_rad_xml_1_1_app_a9ebc492df32690f71a04ced6973988cd}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/editing/c/projects/radxml/include/\-Rad\-Xml/\hyperlink{_rad_xml_app_8h}{Rad\-Xml\-App.\-h}\end{DoxyCompactItemize}
